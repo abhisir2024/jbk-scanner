@@ -4240,8 +4240,9 @@ def main():
     args = parser.parse_args()
 
     host = os.environ.get("HOST", "0.0.0.0")
-    server = ThreadingHTTPServer((host, args.port), DashboardHandler)
-    print(f"Dashboard v2 running at http://{host}:{args.port}")
+    port = int(os.environ.get("PORT", args.port))
+    server = ThreadingHTTPServer((host, port), DashboardHandler)
+    print(f"Dashboard v2 running at http://{host}:{port}")
     print("Press Ctrl+C to stop")
     # Start live Fyers WebSocket quotes (background thread)
     _ensure_live_quotes()

@@ -15,8 +15,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY . .
 
-# Expose port
+# Expose port (Render uses PORT env var)
 EXPOSE 5001
 
 # Start the dashboard
-CMD ["python", "dashboard.py"]
+CMD python dashboard.py
