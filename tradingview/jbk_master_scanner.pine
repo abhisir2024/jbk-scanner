@@ -1,0 +1,254 @@
+// JBK Master Scanner v2 - All Strategies Combined
+//@version=5
+indicator("JBK Master Scanner v2", overlay=true, max_labels_count=500, max_bars_back=500)
+
+// INPUTS
+grp_strat = "Strategy Toggles"
+use_range_9   = input.bool(true, "Range Breakout 9D",   group=grp_strat)
+use_range_15  = input.bool(true, "Range Breakout 15D",  group=grp_strat)
+use_range_21  = input.bool(true, "Range Breakout 21D",  group=grp_strat)
+use_range_60  = input.bool(true, "Range Breakout 60D",  group=grp_strat)
+use_channel   = input.bool(true, "Channel Consolidation", group=grp_strat)
+use_early     = input.bool(true, "Early Breakout",      group=grp_strat)
+use_52w       = input.bool(true, "52W High Support",    group=grp_strat)
+use_volume    = input.bool(true, "Volume Shocker",      group=grp_strat)
+use_momentum  = input.bool(true, "Momentum Breakout",   group=grp_strat)
+use_retrace   = input.bool(true, "Buy on Retracement",  group=grp_strat)
+use_candle    = input.bool(true, "Candlestick Patterns", group=grp_strat)
+
+grp_filter = "Filters"
+use_ema50_filter = input.bool(true, "EMA50 Trend Filter", group=grp_filter)
+use_rsi_filter   = input.bool(true, "RSI Filter (>40)",   group=grp_filter)
+use_vol_filter   = input.bool(true, "Volume Filter",       group=grp_filter)
+
+grp_sl = "Risk Management"
+atr_mult = input.float(1.5, "ATR SL Multiplier", minval=0.5, maxval=5.0, step=0.1, group=grp_sl)
+rr_ratio = input.float(2.0, "Risk:Reward Ratio", minval=1.0, maxval=5.0, step=0.5, group=grp_sl)
+
+grp_display = "Display"
+show_ema20  = input.bool(true, "Show EMA20",  group=grp_display)
+show_ema50  = input.bool(true, "Show EMA50",  group=grp_display)
+show_bb     = input.bool(false, "Show Bollinger Bands", group=grp_display)
+show_sl_tp  = input.bool(true, "Show SL/Target Lines", group=grp_display)
+show_info   = input.bool(true, "Show Info Table", group=grp_display)
+
+// CALCULATIONS
+ema9   = ta.ema(close, 9)
+ema20  = ta.ema(close, 20)
+ema50  = ta.ema(close, 50)
+ema200 = ta.ema(close, 200)
+atr_val = ta.atr(14)
+rsi_val = ta.rsi(close, 14)
+
+[macd_line, signal_line, hist] = ta.macd(close, 12, 26, 9)
+
+vol_avg  = ta.sma(volume, 20)
+vol_ratio = volume / vol_avg
+
+bb_basis = ta.sma(close, 20)
+bb_dev   = 2.0 * ta.stdev(close, 20)
+bb_upper = bb_basis + bb_dev
+bb_lower = bb_basis - bb_dev
+bb_width = (bb_upper - bb_lower) / bb_basis
+
+ema50_slope = (ema50 - ema50[5]) / ema50[5] * 100
+
+trend_ok = use_ema50_filter ? (ema50_slope > 0) : true
+rsi_ok   = use_rsi_filter ? (rsi_val > 40) : true
+vol_ok   = use_vol_filter ? (vol_ratio > 0.8) : true
+filters  = trend_ok and rsi_ok and vol_ok
+
+// STRATEGY 1: RANGE BREAKOUT
+rh9 = ta.highest(high, 9)
+rl9 = ta.lowest(low, 9)
+rh15 = ta.highest(high, 15)
+rl15 = ta.lowest(low, 15)
+rh21 = ta.highest(high, 21)
+rl21 = ta.lowest(low, 21)
+rh60 = ta.highest(high, 60)
+rl60 = ta.lowest(low, 60)
+
+range_buy_9  = use_range_9 and close > rh9[1] and close[1] <= rh9[2] and filters
+range_buy_15 = use_range_15 and close > rh15[1] and close[1] <= rh15[2] and filters
+range_buy_21 = use_range_21 and close > rh21[1] and close[1] <= rh21[2] and filters
+range_buy_60 = use_range_60 and close > rh60[1] and close[1] <= rh60[2] and filters
+
+range_sell_9  = use_range_9 and close < rl9[1] and close[1] >= rl9[2] and filters
+range_sell_15 = use_range_15 and close < rl15[1] and close[1] >= rl15[2] and filters
+range_sell_21 = use_range_21 and close < rl21[1] and close[1] >= rl21[2] and filters
+range_sell_60 = use_range_60 and close < rl60[1] and close[1] >= rl60[2] and filters
+
+any_range_buy  = range_buy_9 or range_buy_15 or range_buy_21 or range_buy_60
+any_range_sell = range_sell_9 or range_sell_15 or range_sell_21 or range_sell_60
+
+// STRATEGY 2: 52W HIGH SUPPORT
+high_52w = ta.highest(high, 252)
+dist_52w = (high_52w - close) / high_52w * 100
+at_ema20 = math.abs(low - ema20) / ema20 * 100 < 1.0
+at_ema50 = math.abs(low - ema50) / ema50 * 100 < 1.0
+
+low_1 = ta.lowest(low, 10)
+low_2 = ta.lowest(low[5], 10)
+low_3 = ta.lowest(low[10], 10)
+higher_lows = low_1 > low_2 and low_2 > low_3
+
+high_52w_buy = use_52w and dist_52w <= 5 and (at_ema20 or at_ema50) and ema50_slope > 0 and hist > 0 and rsi_val > 45 and vol_ratio > 0.8 and higher_lows
+
+// STRATEGY 3: CHANNEL BREAKOUT
+squeeze_thresh = 0.03
+is_squeezing = bb_width < squeeze_thresh
+squeeze_count = 0
+if is_squeezing
+    squeeze_count := nz(squeeze_count[1]) + 1
+else
+    squeeze_count := 0
+
+was_squeezing = squeeze_count[1] >= 5
+channel_buy  = use_channel and was_squeezing and close > bb_upper and rsi_val > 50
+channel_sell = use_channel and was_squeezing and close < bb_lower and rsi_val < 50
+
+// STRATEGY 4: EARLY BREAKOUT
+range_high_20 = ta.highest(high, 20)
+dist_early = (range_high_20 - close) / close * 100
+higher_closes = close > close[1] and close[1] > close[2]
+early_buy = use_early and dist_early <= 2 and vol_ratio > 1.0 and trend_ok and rsi_ok and higher_closes and close > ema20
+
+// STRATEGY 5: VOLUME SHOCKER
+vol_shocker = use_volume and vol_ratio > 2.0 and close > close[1] and close > ema20 and trend_ok
+
+// STRATEGY 6: MOMENTUM BREAKOUT
+momentum_buy = use_momentum and close > ema9 and ema9 > ema20 and ema20 > ema50 and hist > 0 and hist > hist[1] and vol_ratio > 1.0
+
+// STRATEGY 7: RETRACEMENT BUY
+swing_low  = ta.lowest(low, 10)
+swing_high = ta.highest(high, 10)
+retrace_50 = swing_low + (swing_high - swing_low) * 0.5
+at_retrace = math.abs(close - retrace_50) / close * 100 < 2
+retrace_buy = use_retrace and at_retrace and trend_ok and rsi_val > 40 and rsi_val < 60 and vol_ratio > 0.8
+
+// STRATEGY 8: CANDLESTICK PATTERNS
+body = math.abs(close - open)
+upper_wick = high - math.max(close, open)
+lower_wick = math.min(close, open) - low
+candle_range = high - low
+
+is_hammer = use_candle and lower_wick > body * 2 and upper_wick < body * 0.5 and close > open and candle_range > 0
+bull_engulf = use_candle and close > open and close[1] < open[1] and close > open[1] and open < close[1]
+
+prev_body = math.abs(close[1] - open[1])
+prev_range = high[1] - low[1]
+prev2_body = close[2] - open[2]
+morning_star = use_candle and prev2_body < 0 and prev_body < prev_range * 0.3 and close > open and close > (open[2] + close[2]) / 2
+
+candle_buy = is_hammer or bull_engulf or morning_star
+
+// COMBINE ALL
+any_buy  = any_range_buy or high_52w_buy or channel_buy or early_buy or vol_shocker or momentum_buy or retrace_buy or candle_buy
+any_sell = any_range_sell or channel_sell
+
+// Strategy name
+strat_name = ""
+if any_range_buy
+    if range_buy_9
+        strat_name := "Range 9D"
+    else if range_buy_15
+        strat_name := "Range 15D"
+    else if range_buy_21
+        strat_name := "Range 21D"
+    else
+        strat_name := "Range 60D"
+else if high_52w_buy
+    strat_name := "52W High"
+else if channel_buy
+    strat_name := "Channel"
+else if early_buy
+    strat_name := "Early"
+else if vol_shocker
+    strat_name := "Volume"
+else if momentum_buy
+    strat_name := "Momentum"
+else if retrace_buy
+    strat_name := "Retrace"
+else if candle_buy
+    strat_name := "Candle"
+
+strat_count = 0
+if any_range_buy
+    strat_count := strat_count + 1
+if high_52w_buy
+    strat_count := strat_count + 1
+if channel_buy
+    strat_count := strat_count + 1
+if early_buy
+    strat_count := strat_count + 1
+if vol_shocker
+    strat_count := strat_count + 1
+if momentum_buy
+    strat_count := strat_count + 1
+if retrace_buy
+    strat_count := strat_count + 1
+if candle_buy
+    strat_count := strat_count + 1
+
+// STOP LOSS & TARGET
+buy_sl  = any_buy ? close - atr_val * atr_mult : na
+buy_tgt = any_buy ? close + atr_val * atr_mult * rr_ratio : na
+sell_sl  = any_sell ? close + atr_val * atr_mult : na
+sell_tgt = any_sell ? close - atr_val * atr_mult * rr_ratio : na
+
+// PLOTTING
+plot(show_ema20 ? ema20 : na, "EMA20", color=color.new(color.yellow, 50), linewidth=1)
+plot(show_ema50 ? ema50 : na, "EMA50", color=color.new(color.white, 50), linewidth=1)
+
+p_u = plot(show_bb ? bb_upper : na, "BB Upper", color=color.new(color.teal, 70))
+p_l = plot(show_bb ? bb_lower : na, "BB Lower", color=color.new(color.teal, 70))
+fill(p_u, p_l, color=show_bb ? color.new(color.teal, 95) : na)
+
+plot(high_52w, "52W High", color=color.new(color.green, 70), linewidth=1, style=plot.style_stepline)
+
+plotshape(any_buy and strat_count == 1, "Buy 1", shape.triangleup, location.belowbar, color.green, size=size.small)
+plotshape(any_buy and strat_count >= 2, "Buy 2+", shape.triangleup, location.belowbar, color.lime, size=size.normal)
+plotshape(any_sell, "Sell", shape.triangledown, location.abovebar, color.red, size=size.normal)
+
+plot(show_sl_tp ? buy_sl : na, "Buy SL", color=color.red, style=plot.style_linebr, linewidth=1)
+plot(show_sl_tp ? buy_tgt : na, "Buy Target", color=color.green, style=plot.style_linebr, linewidth=1)
+plot(show_sl_tp ? sell_sl : na, "Sell SL", color=color.red, style=plot.style_linebr, linewidth=1)
+plot(show_sl_tp ? sell_tgt : na, "Sell Target", color=color.green, style=plot.style_linebr, linewidth=1)
+
+bgcolor(any_buy and strat_count >= 2 ? color.new(color.green, 80) : any_buy ? color.new(color.green, 90) : any_sell ? color.new(color.red, 90) : na)
+
+if any_buy
+    label.new(bar_index, low, strat_name + "\n" + (strat_count >= 2 ? "STRONG" : ""), color=strat_count >= 2 ? color.lime : color.green, textcolor=strat_count >= 2 ? color.black : color.white, style=label.style_label_up, size=strat_count >= 2 ? size.normal : size.small)
+
+if any_sell
+    label.new(bar_index, high, "SELL", color=color.red, textcolor=color.white, style=label.style_label_down, size=size.small)
+
+// INFO TABLE
+var table info = table.new(position.top_right, 2, 8, bgcolor=color.new(color.black, 80))
+if barstate.islast and show_info
+    table.cell(info, 0, 0, "RSI", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 0, str.tostring(rsi_val, "#.#"), text_color=rsi_val > 50 ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 1, "EMA50 Slope", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 1, str.tostring(ema50_slope, "#.##") + "%", text_color=ema50_slope > 0 ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 2, "MACD Hist", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 2, str.tostring(hist, "#.##"), text_color=hist > 0 ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 3, "Vol Ratio", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 3, str.tostring(vol_ratio, "#.#") + "x", text_color=vol_ratio > 1.5 ? color.green : color.orange, text_size=size.small)
+    table.cell(info, 0, 4, "52W Dist", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 4, str.tostring(dist_52w, "#.#") + "%", text_color=dist_52w < 5 ? color.green : color.white, text_size=size.small)
+    table.cell(info, 0, 5, "BB Width", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 5, str.tostring(bb_width * 100, "#.##") + "%", text_color=bb_width < 0.03 ? color.orange : color.white, text_size=size.small)
+    table.cell(info, 0, 6, "ATR", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 6, str.tostring(atr_val, "#.##"), text_color=color.white, text_size=size.small)
+    table.cell(info, 0, 7, "Strategies", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 7, str.tostring(strat_count), text_color=strat_count >= 2 ? color.lime : color.white, text_size=size.small)
+
+// ALERTS
+alertcondition(any_buy, "Any Buy Signal", "BUY: {{ticker}} @ {{close}}")
+alertcondition(any_sell, "Any Sell Signal", "SELL: {{ticker}} @ {{close}}")
+alertcondition(any_buy and strat_count >= 2, "Strong Buy (2+ strategies)", "STRONG BUY: {{ticker}} @ {{close}}")
+alertcondition(any_range_buy, "Range Breakout", "RANGE BREAKOUT: {{ticker}} @ {{close}}")
+alertcondition(high_52w_buy, "52W High Support", "52W HIGH SUPPORT: {{ticker}} @ {{close}}")
+alertcondition(channel_buy, "Channel Breakout", "CHANNEL BREAKOUT: {{ticker}} @ {{close}}")
+alertcondition(early_buy, "Early Breakout", "EARLY BREAKOUT: {{ticker}} @ {{close}}")
+alertcondition(vol_shocker, "Volume Shocker", "VOLUME SHOCKER: {{ticker}} @ {{close}}")

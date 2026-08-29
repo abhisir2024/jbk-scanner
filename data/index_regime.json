@@ -1,0 +1,175 @@
+{
+  "generated": "2026-08-22T21:48:26.244782",
+  "indices": [
+    {
+      "symbol": "NSE:NIFTY50-INDEX",
+      "name": "NIFTY",
+      "spot": 24252.0,
+      "regime": "RANGE",
+      "confidence": 53.8,
+      "drivers": {
+        "ema20": 24299.79,
+        "ema50": 24191.3,
+        "ema200": 24252.0,
+        "ema50_slope_pct": 0.01,
+        "rsi": 49.1,
+        "adx": 12.8,
+        "pos_in_range_pct": 40.8,
+        "bb_width_pct": 7.1,
+        "atr_pct": 0.72,
+        "close": 24252.0,
+        "scores": {
+          "BULLISH": 30,
+          "BEARISH": 30,
+          "RANGE": 70
+        }
+      },
+      "plan": {
+        "trade": "NO DIRECTIONAL TRADE / SELL STRANGLE",
+        "instrument": "Short Strangle (OTM CE+PE) OR buy near range edges",
+        "entry": 24252.0,
+        "stop": "range high + buffer (CE) / range low - buffer (PE)",
+        "target": "collect premium decay",
+        "hold": "until range breakout / expiry",
+        "reason": "Chopping sideways \u2014 no trend, sell premium or wait."
+      },
+      "timestamp": "2026-08-22T21:48:25.738712"
+    },
+    {
+      "symbol": "NSE:NIFTYBANK-INDEX",
+      "name": "BANKNIFTY",
+      "spot": 57761.95,
+      "regime": "BULLISH",
+      "confidence": 54.5,
+      "drivers": {
+        "ema20": 57529.92,
+        "ema50": 57224.21,
+        "ema200": 57761.95,
+        "ema50_slope_pct": 0.09,
+        "rsi": 53.7,
+        "adx": 8.1,
+        "pos_in_range_pct": 69.2,
+        "bb_width_pct": 4.95,
+        "atr_pct": 0.93,
+        "close": 57761.95,
+        "scores": {
+          "BULLISH": 60,
+          "BEARISH": 0,
+          "RANGE": 50
+        }
+      },
+      "plan": {
+        "trade": "WAIT / NO TRADE",
+        "instrument": "\u2014",
+        "entry": 57761.95,
+        "stop": "\u2014",
+        "target": "\u2014",
+        "hold": "\u2014",
+        "reason": "Conflicting signals (confidence too low)."
+      },
+      "timestamp": "2026-08-22T21:48:25.841797"
+    },
+    {
+      "symbol": "NSE:NIFTYMIDCAP100-INDEX",
+      "name": "MIDCAP100",
+      "spot": 63735.75,
+      "regime": "BULLISH",
+      "confidence": 60.0,
+      "drivers": {
+        "ema20": 63409.55,
+        "ema50": 62637.52,
+        "ema200": 63735.75,
+        "ema50_slope_pct": 0.35,
+        "rsi": 57.6,
+        "adx": 9.7,
+        "pos_in_range_pct": 80.1,
+        "bb_width_pct": 6.54,
+        "atr_pct": 0.76,
+        "close": 63735.75,
+        "scores": {
+          "BULLISH": 75,
+          "BEARISH": 0,
+          "RANGE": 50
+        }
+      },
+      "plan": {
+        "trade": "BUY CALL",
+        "instrument": "ATM / ITM CALL",
+        "entry": 63735.75,
+        "stop": 63009.16,
+        "target": 64946.73,
+        "hold": "while index close > EMA20",
+        "reason": "Trending up \u2014 buyers in control."
+      },
+      "timestamp": "2026-08-22T21:48:25.943647"
+    },
+    {
+      "symbol": "NSE:FINNIFTY-INDEX",
+      "name": "FINNIFTY",
+      "spot": 26261.0,
+      "regime": "RANGE",
+      "confidence": 45.5,
+      "drivers": {
+        "ema20": 26349.02,
+        "ema50": 26327.65,
+        "ema200": 26261.0,
+        "ema50_slope_pct": -0.14,
+        "rsi": 47.2,
+        "adx": 16.5,
+        "pos_in_range_pct": 31.0,
+        "bb_width_pct": 8.66,
+        "atr_pct": 0.96,
+        "close": 26261.0,
+        "scores": {
+          "BULLISH": 20,
+          "BEARISH": 40,
+          "RANGE": 50
+        }
+      },
+      "plan": {
+        "trade": "WAIT / NO TRADE",
+        "instrument": "\u2014",
+        "entry": 26261.0,
+        "stop": "\u2014",
+        "target": "\u2014",
+        "hold": "\u2014",
+        "reason": "Conflicting signals (confidence too low)."
+      },
+      "timestamp": "2026-08-22T21:48:26.046589"
+    },
+    {
+      "symbol": "NSE:NIFTYIT-INDEX",
+      "name": "NIFTYIT",
+      "spot": 30532.25,
+      "regime": "RANGE",
+      "confidence": 60.9,
+      "drivers": {
+        "ema20": 30611.84,
+        "ema50": 29915.39,
+        "ema200": 30532.25,
+        "ema50_slope_pct": 0.46,
+        "rsi": 51.7,
+        "adx": 14.8,
+        "pos_in_range_pct": 50.7,
+        "bb_width_pct": 15.16,
+        "atr_pct": 1.97,
+        "close": 30532.25,
+        "scores": {
+          "BULLISH": 30,
+          "BEARISH": 15,
+          "RANGE": 70
+        }
+      },
+      "plan": {
+        "trade": "NO DIRECTIONAL TRADE / SELL STRANGLE",
+        "instrument": "Short Strangle (OTM CE+PE) OR buy near range edges",
+        "entry": 30532.25,
+        "stop": "range high + buffer (CE) / range low - buffer (PE)",
+        "target": "collect premium decay",
+        "hold": "until range breakout / expiry",
+        "reason": "Chopping sideways \u2014 no trend, sell premium or wait."
+      },
+      "timestamp": "2026-08-22T21:48:26.145371"
+    }
+  ]
+}

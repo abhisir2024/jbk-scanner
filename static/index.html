@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JBK Scanner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-left">
+    <div>
+      <div class="logo">JBK Scanner</div>
+      <div class="logo-sub">Stock &amp; Index Options Dashboard</div>
+    </div>
+  </div>
+  <div class="controls">
+    <button class="btn btn-outline active" onclick="setTimeframe('D')" id="tf-daily">Daily</button>
+    <button class="btn btn-outline" onclick="setTimeframe('15min')" id="tf-15">15 Min</button>
+    <button class="btn btn-outline" onclick="setTimeframe('5min')" id="tf-5">5 Min</button>
+    <div class="filter-divider"></div>
+    <button class="btn btn-primary" onclick="triggerScan()" id="scan-btn">🔍 Scan Now</button>
+    <button class="btn btn-success" onclick="toggleAuto()" id="auto-btn">▶ Auto</button>
+    <button class="btn btn-ghost" onclick="exportCSV()" title="Export CSV">📥</button>
+    <button class="btn btn-outline" onclick="toggleWatchlist()" id="wl-btn">⭐ Watchlist (<span id="wl-count">0</span>)</button>
+    <button class="btn btn-ghost" onclick="cycleTheme()" id="theme-btn" title="Change background / theme">🎨</button>
+    <button class="btn btn-ghost" onclick="testTelegram()" id="tg-btn" title="Test Telegram Alerts">📱</button>
+  </div>
+</div>
+
+<!-- Market Status -->
+<div class="market-bar">
+  <span class="market-status">
+    <span class="pulse-dot green" id="status-dot"></span>
+    <span id="status-text">Ready</span>
+  </span>
+  <span class="stat">Last scan: <strong id="last-scan">Never</strong></span>
+  <span class="stat">Signals: <strong id="signal-count">0</strong></span>
+  <span class="stat" id="market-clock"></span>
+</div>
+
+<!-- Progress Bar -->
+<div class="progress-bar" id="progress-bar"></div>
+
+<!-- Tabs: Stocks vs Indices vs Movers -->
+<div class="tabs-bar">
+  <button class="tab-btn active" id="tab-stocks-btn" onclick="switchTab('stocks')">📈 Stocks</button>
+  <button class="tab-btn" id="tab-indices-btn" onclick="switchTab('indices')">📉 Indices</button>
+  <button class="tab-btn" id="tab-movers-btn" onclick="switchTab('movers')">🎯 F&O Movers</button>
+  <button class="tab-btn" id="tab-backtest-btn" onclick="switchTab('backtest')">🧪 Backtest</button>
+  <button class="tab-btn" id="tab-sectors-btn" onclick="switchTab('sectors')">🏭 Sectors</button>
+</div>
+<div id="stocks-tab">
+
+<!-- Summary Cards -->
+<div class="summary-cards" id="summary-cards">
+  <div class="summary-card card-total">
+    <div class="card-label">Total Signals</div>
+    <div class="card-value" id="card-total">0</div>
+    <div class="card-sub">Across all strategies</div>
+  </div>
+  <div class="summary-card card-buy">
+    <div class="card-label">Buy Signals</div>
+    <div class="card-value" id="card-buy">0</div>
+    <div class="card-sub" id="card-buy-sub">Normal + Strong</div>
+  </div>
+  <div class="summary-card card-sell">
+    <div class="card-label">Sell Signals</div>
+    <div class="card-value" id="card-sell">0</div>
+    <div class="card-sub" id="card-sell-sub">Normal + Strong</div>
+  </div>
+  <div class="summary-card card-strong">
+    <div class="card-label">Very Strong</div>
+    <div class="card-value" id="card-strong">0</div>
+    <div class="card-sub">3+ strategies agree</div>
+  </div>
+  <div class="summary-card card-range">
+    <div class="card-label">Breakout</div>
+    <div class="card-value" id="card-range">0</div>
+    <div class="card-sub">Range + Channel break</div>
+  </div>
+  <div class="summary-card card-early">
+    <div class="card-label">Early + 52W</div>
+    <div class="card-value" id="card-early">0</div>
+    <div class="card-sub">Pre-breakout + support</div>
+  </div>
+  <div class="summary-card card-retrace">
+    <div class="card-label">Retracement</div>
+    <div class="card-value" id="card-retrace">0</div>
+    <div class="card-sub">Buy the dip</div>
+  </div>
+</div>
+
+<!-- Toolbar -->
+<div class="toolbar">
+  <div class="search-box">
+    <span class="search-icon">🔎</span>
+    <input type="text" id="search-input" placeholder="Search stock name or symbol..." oninput="debouncedApplyFilters()" autocomplete="off">
+  </div>
+  <div class="filter-divider"></div>
+  <div class="filter-group">
+    <button class="filter-btn active" onclick="filterType('all')" id="f-all" title="Show both buy and sell signals">All</button>
+    <button class="filter-btn" onclick="filterType('BUY')" id="f-buy" title="Only BUY signals — bullish setups">🟢 Buy</button>
+    <button class="filter-btn" onclick="filterType('SELL')" id="f-sell" title="Only SELL signals — bearish setups">🔴 Sell</button>
+  </div>
+  <div class="filter-divider"></div>
+  <div class="filter-group" id="strategy-filters">
+    <button class="filter-btn active" onclick="filterStrategy('all')" id="fs-all" title="Show signals from every strategy">All Strategies</button>
+    <button class="filter-btn" onclick="filterStrategy('range')" id="fs-range" title="Breakout above 9/15/21/60-day range high">📊 Range Breakout</button>
+    <button class="filter-btn" onclick="filterStrategy('Channel Consolidation Breakout')" id="fs-ch" title="Bollinger squeeze + breakout">🔲 Channel</button>
+    <button class="filter-btn" onclick="filterStrategy('Early Breakout')" id="fs-early" title="Early entry before the breakout">⚡ Early</button>
+    <button class="filter-btn" onclick="filterStrategy('52W High Support Buy')" id="fs-high" title="Buy pullback to support near 52-week high">🏔️ 52W</button>
+    <button class="filter-btn" onclick="filterStrategy('Candlestick Pattern')" id="fs-candle" title="Reversal candles (Engulfing, Hammer, etc.)">🕯️ Candle</button>
+    <button class="filter-btn" onclick="filterStrategy('Volume Shocker')" id="fs-vol" title="Volume ≥ 2x average with strong candle">🔊 Volume</button>
+    <button class="filter-btn" onclick="filterStrategy('Med Channel Breakout')" id="fs-medch" title="30-day channel + squeeze + candle confirm">📐 Med CH</button>
+    <button class="filter-btn" onclick="filterStrategy('Watchlist Range Breakout')" id="fs-wl" title="Fresh breakout above 15-day high, SL at support">⭐ Watchlist</button>
+    <button class="filter-btn" onclick="filterStrategy('Buy on Retracement')" id="fs-retrace" title="Buy the dip in an uptrend at EMA20 support">🔁 Retracement</button>
+    <button class="filter-btn" onclick="filterStrategy('Trendline Channel Breakout')" id="fs-chbrk" title="Ascending / descending / horizontal channel breakout">📈 Ch Brk</button>
+    <button class="filter-btn" onclick="filterStrategy('Momentum Breakout')" id="fs-momentum" title="Trend + consolidation + volume breakout + VWAP, ATM option strike">🚀 Momentum</button>
+    <button class="filter-btn" onclick="toggleConfirmed()" id="fs-confirmed" title="Only signals passing volume gate + hold + pullback confirmation">✅ Confirmed</button>
+    <button class="filter-btn bigmoney-toggle" onclick="toggleBigMoney()" id="bm-toggle">💎 F&O Big Money</button>
+  </div>
+  <div class="toolbar-right">
+    <span class="result-count" id="result-count"></span>
+  </div>
+</div>
+
+<!-- Active filter explanation -->
+<div class="filter-info" id="filter-info" style="display:none">
+  <span class="filter-info-title" id="filter-info-title"></span>
+  <span class="filter-info-text" id="filter-info-text"></span>
+  <button class="filter-info-close" onclick="closeFilterInfo()" title="Dismiss">✕</button>
+</div>
+
+<!-- Main Table -->
+<div class="main">
+  <div class="table-container" id="signals-table-container">
+    <table id="signals-table">
+      <thead>
+        <tr>
+          <th onclick="sortBy('symbol_name')" id="th-symbol">Symbol <span class="sort-arrow">↕</span></th>
+          <th onclick="sortBy('strategy_count')" id="th-strength">Strength <span class="sort-arrow">↕</span></th>
+          <th>Strategies</th>
+          <th onclick="sortBy('quality_score')" id="th-quality" style="cursor:pointer">Quality <span class="sort-arrow">↕</span></th>
+          <th onclick="sortBy('price')" id="th-price">Price <span class="sort-arrow">↕</span></th>
+          <th>Stop Loss</th>
+          <th>Target</th>
+          <th onclick="sortBy('confidence')" id="th-conf">Confidence <span class="sort-arrow">↕</span></th>
+          <th>R:R</th>
+          <th>Reason</th>
+        </tr>
+      </thead>
+      <tbody id="signals-body"></tbody>
+    </table>
+    <div class="empty-state" id="empty-state">
+      <div class="icon">📡</div>
+      <h3>No signals yet</h3>
+      <p>Click <strong>Scan Now</strong> or press <kbd>S</kbd> to start scanning 208+ F&O stocks</p>
+    </div>
+  </div>
+
+  <!-- Index Signals Section (separate column — index-only strategies) -->
+  <div class="index-section" id="index-section" style="margin-top:24px;display:none">
+    <h3 class="section-title" style="font-size:15px;font-weight:700;color:var(--text-secondary);margin-bottom:12px">
+      📈 Index Signals <span id="index-count" style="color:var(--text-muted);font-weight:500;font-size:12px"></span>
+    </h3>
+    <div class="toolbar" style="margin-bottom:12px;flex-wrap:wrap">
+      <div class="filter-group">
+        <span class="filter-label" style="font-size:11px;color:var(--text-muted);font-weight:700;margin-right:6px">Strategy:</span>
+        <button class="filter-btn active" onclick="filterIndexSignals('all')" id="ifs-all">All</button>
+        <button class="filter-btn" onclick="filterIndexSignals('Trendline Channel Breakout')" id="ifs-chbrk" title="Ascending / descending / horizontal channel breakout">📈 Ch Brk</button>
+        <button class="filter-btn" onclick="filterIndexSignals('Index Range Breakout')" id="ifs-irb" title="15-min consolidation breakout">📊 Index RB</button>
+        <button class="filter-btn" onclick="filterIndexSignals('Index Support/Resistance')" id="ifs-isr" title="Choppy market support/resistance">🎯 Index S/R</button>
+        <button class="filter-btn" onclick="filterIndexSignals('Momentum Breakout')" id="ifs-momentumbreakout" title="Trend + consolidation + volume breakout + VWAP, ATM option strike">🚀 Momentum</button>
+      </div>
+    </div>
+    <div class="table-container">
+      <table id="index-table">
+        <thead>
+          <tr>
+            <th>Symbol</th>
+            <th>Strength</th>
+            <th>Strategies</th>
+            <th>Price</th>
+            <th>Stop Loss</th>
+            <th>Target</th>
+            <th>Confidence</th>
+            <th>R:R</th>
+          </tr>
+        </thead>
+        <tbody id="index-body"></tbody>
+      </table>
+      <div class="empty-state" id="index-empty">
+        <div class="icon">📊</div>
+        <h3>No index signals</h3>
+        <p>Indices use breakout strategies only (Range / Channel / Early)</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Index Chart Strategy Section -->
+  <div class="index-section" id="chartstrategy-section" style="margin-top:24px;display:none">
+    <h3 class="section-title" style="font-size:15px;font-weight:700;color:var(--text-secondary);margin-bottom:12px">
+      📈 Index Strategy <span id="chartstrategy-count" style="color:var(--text-muted);font-weight:500;font-size:12px"></span>
+    </h3>
+    <div class="toolbar" id="chartstrategy-filters" style="margin-bottom:12px;flex-wrap:wrap">
+      <div class="filter-group">
+        <span class="filter-label" style="font-size:11px;color:var(--text-muted);font-weight:700;margin-right:6px">Regime:</span>
+        <button class="filter-btn active" onclick="filterIcs('regime','all')" id="icf-r-all">All</button>
+        <button class="filter-btn" onclick="filterIcs('regime','BULLISH')" id="icf-r-BULLISH" title="Only BULLISH — CALL setups">🟢 BULLISH</button>
+        <button class="filter-btn" onclick="filterIcs('regime','BEARISH')" id="icf-r-BEARISH" title="Only BEARISH — PUT setups">🔴 BEARISH</button>
+        <button class="filter-btn" onclick="filterIcs('regime','RANGE')" id="icf-r-RANGE" title="Only RANGE — no directional">🟡 RANGE</button>
+      </div>
+      <div class="filter-divider"></div>
+      <div class="filter-group">
+        <span class="filter-label" style="font-size:11px;color:var(--text-muted);font-weight:700;margin-right:6px">Entry:</span>
+        <button class="filter-btn active" onclick="filterIcs('entry','all')" id="icf-e-all">All</button>
+        <button class="filter-btn" onclick="filterIcs('entry','BREAKOUT')" id="icf-e-BREAKOUT" title="Breakout above range high">🚀 Breakout</button>
+        <button class="filter-btn" onclick="filterIcs('entry','PULLBACK')" id="icf-e-PULLBACK" title="Pullback to EMA20">🔻 Pullback</button>
+        <button class="filter-btn" onclick="filterIcs('entry','CANDLE')" id="icf-e-CANDLE" title="Candle confirmation">🕯️ Candle</button>
+        <button class="filter-btn" onclick="filterIcs('entry','WAIT')" id="icf-e-WAIT" title="No qualifying entry">⏸ Wait</button>
+      </div>
+    </div>
+    <div class="table-container">
+      <table id="chartstrategy-table">
+        <thead>
+          <tr>
+            <th>Index</th>
+            <th>Regime</th>
+            <th>Conf</th>
+            <th>ADX</th>
+            <th>RSI</th>
+            <th>Position</th>
+            <th>Entry</th>
+            <th>Score</th>
+            <th>Trade</th>
+          </tr>
+        </thead>
+        <tbody id="chartstrategy-body"></tbody>
+      </table>
+      <div class="empty-state" id="chartstrategy-empty" style="display:none">
+        <div class="icon">📊</div>
+        <h3>No strategy data</h3>
+        <p>Run <code>python -m scanner.index_chart_strategy</code> to generate</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Big Money Section (unusual stock options activity) -->
+  <div class="index-section" id="bigmoney-section" style="margin-top:24px;display:none">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+      <h3 class="section-title" style="font-size:15px;font-weight:700;color:var(--text-secondary);margin:0">
+        💎 Big Money — Unusual Stock Options <span id="bigmoney-count" style="color:var(--text-muted);font-weight:500;font-size:12px"></span>
+      </h3>
+      <button onclick="triggerBigMoneyScan()" id="bm-scan-btn" style="background:var(--accent);color:white;border:none;padding:6px 12px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600">🔍 Scan Now</button>
+    </div>
+    <div class="table-container">
+      <table id="bigmoney-table">
+        <thead>
+          <tr>
+            <th>Stock</th>
+            <th>Signal</th>
+            <th>Activity</th>
+            <th>Score</th>
+            <th>Mode</th>
+            <th>Nearby Strikes</th>
+          </tr>
+        </thead>
+        <tbody id="bigmoney-body"></tbody>
+      </table>
+      <div class="empty-state" id="bigmoney-empty">
+        <div class="icon">💎</div>
+        <h3>No big-money activity</h3>
+        <p>Run <code>python -m scanner.big_money --scan</code> to scan stock options (indices excluded)</p>
+      </div>
+    </div>
+    <!-- Recent Punches (near-term persistent tracker) -->
+    <div id="bigmoney-history" style="margin-top:16px">
+      <h4 style="font-size:14px;font-weight:700;color:var(--text-secondary);margin-bottom:8px">
+        📋 Recent Punches — persistent tracker <span id="bmh-count" style="color:var(--text-muted);font-weight:500;font-size:11px"></span>
+      </h4>
+      <div class="table-container" style="max-height:420px;overflow:auto">
+        <table id="bmh-table">
+          <thead><tr>
+            <th>Time</th><th>Stock</th><th>Strike</th><th>Type</th><th>Dir</th><th>Lots</th><th>SinglePrint</th><th>Moneyness</th><th>Prem%</th>
+          </tr></thead>
+          <tbody id="bmh-body"></tbody>
+        </table>
+      </div>
+      <div id="bmh-empty" style="text-align:center;padding:20px;color:var(--text-muted);font-size:12px">No punches tracked yet</div>
+    </div>
+  </div>
+</div>
+</div><!-- end stocks-tab -->
+
+<!-- Indices Tab -->
+<div id="indices-tab" style="display:none"></div>
+
+<!-- F&O Movers Tab -->
+<div id="movers-tab" style="display:none">
+  <div class="container" style="padding:24px 28px">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px;flex-wrap:wrap;gap:8px">
+      <h3 style="font-size:20px;font-weight:800;background:linear-gradient(135deg,#3b82f6,#06b6d4);-webkit-background-clip:text;-webkit-text-fill-color:transparent">
+        🎯 F&O Movers — Top Gainers &amp; Losers
+      </h3>
+      <span id="movers-status" style="color:var(--text-muted);font-weight:500;font-size:12px"></span>
+    </div>
+    <div style="font-size:11px;color:var(--text-muted);margin-bottom:16px;line-height:1.6">
+      TRACKING MODE: opened &ge;2% vs prev close — highlighted while price holds above the open &nbsp;|&nbsp;
+      Signal closes when price drops below the open &nbsp;|&nbsp;
+      Stages: EARLY 1.1% &rarr; BUY 1.5% &rarr; STRONG 2% (goal 5%+) &nbsp;|&nbsp;
+      Double-click a row for share strength &amp; technical analysis
+    </div>
+    <div class="movers-cards" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">
+      <div class="movers-card" style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;overflow:hidden">
+        <div style="padding:10px 14px;font-size:13px;font-weight:700;color:#4ade80;background:rgba(34,197,94,0.10);border-bottom:1px solid var(--border)">
+          🟢 TOP 10 GAINERS <span id="movers-gain-count" style="font-size:11px;color:var(--text-muted);font-weight:600"></span>
+        </div>
+        <div class="table-container" style="max-height:calc(100vh - 240px);overflow:auto">
+          <table id="movers-gain-table" class="movers-table" style="font-size:12.5px">
+            <thead><tr>
+              <th>Stock</th><th>LTP</th><th>% Chg</th><th>From Open</th><th>High</th><th>Low</th><th>Eff</th><th>Vol</th><th>Signal</th>
+            </tr></thead>
+            <tbody id="movers-gain-body"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="movers-card" style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;overflow:hidden">
+        <div style="padding:10px 14px;font-size:13px;font-weight:700;color:#f87171;background:rgba(239,68,68,0.10);border-bottom:1px solid var(--border)">
+          🔴 TOP 10 LOSERS <span id="movers-lose-count" style="font-size:11px;color:var(--text-muted);font-weight:600"></span>
+        </div>
+        <div class="table-container" style="max-height:calc(100vh - 240px);overflow:auto">
+          <table id="movers-lose-table" class="movers-table" style="font-size:12.5px">
+            <thead><tr>
+              <th>Stock</th><th>LTP</th><th>% Chg</th><th>From Open</th><th>High</th><th>Low</th><th>Eff</th><th>Vol</th><th>Signal</th>
+            </tr></thead>
+            <tbody id="movers-lose-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Movers Analysis Modal -->
+<div class="watchlist-overlay" id="movers-modal-overlay" style="display:none;z-index:300" onclick="if(event.target===this)closeMoversModal()"></div>
+<div id="movers-modal" style="display:none;position:fixed;inset:0;z-index:301;align-items:center;justify-content:center;padding:20px;pointer-events:none">
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:14px;width:100%;max-width:680px;max-height:90vh;overflow:auto;pointer-events:auto;padding:0">
+    <div style="padding:14px 18px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;background:linear-gradient(135deg,#111827,#1a1f35);position:sticky;top:0;border-radius:14px 14px 0 0">
+      <h3 id="movers-modal-title" style="font-size:16px">—</h3>
+      <button onclick="closeMoversModal()" style="cursor:pointer;background:none;border:none;color:var(--text-muted);font-size:22px">✕</button>
+    </div>
+    <div id="movers-modal-body" style="padding:16px 18px"></div>
+  </div>
+</div>
+
+<!-- ==================== BACKTEST TAB ==================== -->
+<div id="backtest-tab" style="display:none">
+  <div class="container" style="padding:24px 28px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:8px">
+      <h3 style="font-size:20px;font-weight:800;background:linear-gradient(135deg,#a855f7,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent">🧪 Strategy Backtest</h3>
+      <div style="display:flex;gap:8px;align-items:center">
+        <select id="bt-max-symbols" style="background:var(--bg-secondary);color:var(--text-primary);border:1px solid var(--border);border-radius:8px;padding:6px 12px;font-size:12px">
+          <option value="20">20 stocks</option>
+          <option value="30" selected>30 stocks</option>
+          <option value="50">50 stocks</option>
+          <option value="100">100 stocks</option>
+        </select>
+        <select id="bt-hold-days" style="background:var(--bg-secondary);color:var(--text-primary);border:1px solid var(--border);border-radius:8px;padding:6px 12px;font-size:12px">
+          <option value="5">5 day hold</option>
+          <option value="10" selected>10 day hold</option>
+          <option value="15">15 day hold</option>
+          <option value="20">20 day hold</option>
+        </select>
+        <button id="bt-run-btn" onclick="runBacktest()" style="background:linear-gradient(135deg,#a855f7,#ec4899);color:white;border:none;border-radius:8px;padding:8px 16px;font-size:13px;font-weight:700;cursor:pointer">▶ Run Backtest</button>
+      </div>
+    </div>
+    <div id="bt-status" style="margin-bottom:12px;color:var(--text-muted);font-size:12px"></div>
+    <div id="bt-summary" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:20px"></div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:14px;overflow:hidden">
+      <table style="width:100%;border-collapse:collapse">
+        <thead><tr style="background:var(--thead-bg)">
+          <th style="padding:12px 16px;text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-muted)">Strategy</th>
+          <th style="padding:12px 12px;text-align:center;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-muted)">Grade</th>
+          <th style="padding:12px 12px;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-muted)">Trades</th>
+          <th style="padding:12px 12px;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-muted)">Win Rate</th>
+          <th style="padding:12px 12px;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-muted)">PF</th>
+          <th style="padding:12px 12px;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-muted)">Expectancy</th>
+          <th style="padding:12px 12px;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-muted)">Avg P&L</th>
+          <th style="padding:12px 12px;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-muted)">Total P&L</th>
+          <th style="padding:12px 12px;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-muted)">Max DD</th>
+          <th style="padding:12px 12px;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-muted)">Sharpe</th>
+          <th style="padding:12px 12px;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-muted)">Avg Win</th>
+          <th style="padding:12px 12px;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-muted)">Avg Loss</th>
+        </tr></thead>
+        <tbody id="bt-body"></tbody>
+      </table>
+    </div>
+    <div id="bt-empty" style="text-align:center;padding:60px 20px;color:var(--text-muted)">
+      <div style="font-size:48px;margin-bottom:12px">🧪</div>
+      <div style="font-size:16px;font-weight:600;margin-bottom:4px">No backtest results yet</div>
+      <div style="font-size:13px">Click "Run Backtest" to evaluate all strategies on historical data</div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== SECTORS TAB ==================== -->
+<div id="sectors-tab" style="display:none">
+  <div class="container" style="padding:24px 28px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+      <h3 style="font-size:20px;font-weight:800;background:linear-gradient(135deg,#f59e0b,#f97316);-webkit-background-clip:text;-webkit-text-fill-color:transparent">🏭 Sector Analysis</h3>
+      <span id="sectors-status" style="color:var(--text-muted);font-size:12px"></span>
+    </div>
+    <div id="sectors-summary" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px"></div>
+    <div id="sectors-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px"></div>
+    <div id="sectors-empty" style="text-align:center;padding:60px 20px;color:var(--text-muted)">
+      <div style="font-size:48px;margin-bottom:12px">🏭</div>
+      <div style="font-size:16px;font-weight:600;margin-bottom:4px">No sector data</div>
+      <div style="font-size:13px">Run a scan first, then switch to Sectors tab</div>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<!-- Watchlist Overlay -->
+<div class="watchlist-overlay" id="wl-overlay" onclick="toggleWatchlist()"></div>
+
+<!-- Watchlist Panel -->
+<div class="watchlist-panel" id="wl-panel">
+  <div class="wl-header">
+    <h3>⭐ My Watchlist</h3>
+    <button class="wl-close" onclick="toggleWatchlist()">✕</button>
+  </div>
+  <div class="wl-add-section">
+    <div style="flex:1">
+      <input type="text" class="wl-add-input" id="wl-add-symbol" placeholder="Add stock (e.g. TCS, RELIANCE)" onkeypress="if(event.key==='Enter')addToWatchlist()">
+      <input type="text" class="wl-notes-input" id="wl-add-notes" placeholder="Notes (optional)">
+    </div>
+    <button class="wl-add-btn" onclick="addToWatchlist()">+ Add</button>
+  </div>
+  <div class="wl-list" id="wl-list"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Shortcuts -->
+<div class="shortcuts-hint">
+  <span><kbd>S</kbd> Scan</span>
+  <span><kbd>/</kbd> Search</span>
+  <span><kbd>Esc</kbd> Close</span>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

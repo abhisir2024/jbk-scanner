@@ -1,0 +1,17 @@
+__pycache__
+*.pyc
+*.pyo
+.git
+.gitignore
+.freebuff
+*.log
+*.json
+!data/*.json
+!auth/*.json
+scripts/
+audit/
+docs/
+tradingview/
+deploy/
+*.md
+!README.md

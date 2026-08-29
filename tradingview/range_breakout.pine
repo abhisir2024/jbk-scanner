@@ -1,0 +1,100 @@
+// ══════════════════════════════════════════════════════════════════════════════
+// JBK RANGE BREAKOUT — Standalone Strategy
+// Detects breakout from consolidation ranges (9D, 15D, 21D, 60D)
+// ══════════════════════════════════════════════════════════════════════════════
+
+//@version=5
+indicator("JBK Range Breakout", overlay=true, max_labels_count=500)
+
+// ─── Inputs ───
+grp_range = "Range Settings"
+lookback_9  = input.int(9,   "9D Lookback",  minval=5,  maxval=50, group=grp_range)
+lookback_15 = input.int(15,  "15D Lookback", minval=10, maxval=100, group=grp_range)
+lookback_21 = input.int(21,  "21D Lookback", minval=15, maxval=150, group=grp_range)
+lookback_60 = input.int(60,  "60D Lookback", minval=30, maxval=250, group=grp_range)
+vol_mult    = input.float(0.5, "Min Volume Ratio", minval=0.3, maxval=2.0, step=0.1, group=grp_range)
+
+grp_filter = "Filters"
+use_vol_filter   = input.bool(true,  "Volume Filter", group=grp_filter)
+use_trend_filter = input.bool(true,  "EMA50 Trend Filter", group=grp_filter)
+
+grp_sl = "Stop Loss & Target"
+atr_mult = input.float(1.5, "ATR Multiplier for SL", minval=0.5, maxval=5.0, step=0.1, group=grp_sl)
+rr_ratio = input.float(2.0, "Risk:Reward Ratio", minval=1.0, maxval=5.0, step=0.5, group=grp_sl)
+
+// ─── Calculations ───
+range_high_9  = ta.highest(high, lookback_9)
+range_low_9   = ta.lowest(low, lookback_9)
+range_high_15 = ta.highest(high, lookback_15)
+range_low_15  = ta.lowest(low, lookback_15)
+range_high_21 = ta.highest(high, lookback_21)
+range_low_21  = ta.lowest(low, lookback_21)
+range_high_60 = ta.highest(high, lookback_60)
+range_low_60  = ta.lowest(low, lookback_60)
+
+atr_val = ta.atr(14)
+vol_avg = ta.sma(volume, 20)
+vol_ok = use_vol_filter ? (volume > vol_avg * vol_mult) : true
+
+ema50 = ta.ema(close, 50)
+ema50_slope = (ema50 - ema50[5]) / ema50[5] * 100
+trend_ok = use_trend_filter ? (ema50_slope > 0) : true
+
+filters_ok = vol_ok and trend_ok
+
+// ─── Breakout Detection ───
+breakout_9_up   = close > range_high_9[1] and close[1] <= range_high_9[2] and filters_ok
+breakout_9_down = close < range_low_9[1]  and close[1] >= range_low_9[2]  and filters_ok
+breakout_15_up   = close > range_high_15[1] and close[1] <= range_high_15[2] and filters_ok
+breakout_15_down = close < range_low_15[1]  and close[1] >= range_low_15[2]  and filters_ok
+breakout_21_up   = close > range_high_21[1] and close[1] <= range_high_21[2] and filters_ok
+breakout_21_down = close < range_low_21[1]  and close[1] >= range_low_21[2]  and filters_ok
+breakout_60_up   = close > range_high_60[1] and close[1] <= range_high_60[2] and filters_ok
+breakout_60_down = close < range_low_60[1]  and close[1] >= range_low_60[2]  and filters_ok
+
+any_buy  = breakout_9_up or breakout_15_up or breakout_21_up or breakout_60_up
+any_sell = breakout_9_down or breakout_15_down or breakout_21_down or breakout_60_down
+
+// ─── Stop Loss & Target ───
+buy_sl  = any_buy  ? close - atr_val * atr_mult : na
+buy_tgt = any_buy  ? close + atr_val * atr_mult * rr_ratio : na
+sell_sl = any_sell ? close + atr_val * atr_mult : na
+sell_tgt = any_sell ? close - atr_val * atr_mult * rr_ratio : na
+
+// ─── Plotting ───
+plot(range_high_9,  "9D High",  color=color.new(color.blue, 70),   linewidth=1)
+plot(range_low_9,   "9D Low",   color=color.new(color.blue, 70),   linewidth=1)
+plot(range_high_15, "15D High", color=color.new(color.orange, 70), linewidth=1)
+plot(range_low_15,  "15D Low",  color=color.new(color.orange, 70), linewidth=1)
+plot(range_high_21, "21D High", color=color.new(color.purple, 70), linewidth=1)
+plot(range_low_21,  "21D Low",  color=color.new(color.purple, 70), linewidth=1)
+plot(range_high_60, "60D High", color=color.new(color.red, 70),    linewidth=2)
+plot(range_low_60,  "60D Low",  color=color.new(color.red, 70),    linewidth=2)
+
+plot(ema50, "EMA50", color=color.new(color.white, 50), linewidth=1)
+
+plotshape(any_buy,  "Buy Signal",  shape.triangleup,   location.belowbar, color.green, size=size.small)
+plotshape(any_sell, "Sell Signal", shape.triangledown, location.abovebar, color.red,   size=size.small)
+
+plot(buy_sl,  "Buy SL",  color=color.red,   style=plot.style_linebr, linewidth=1)
+plot(buy_tgt, "Buy Target", color=color.green, style=plot.style_linebr, linewidth=1)
+plot(sell_sl, "Sell SL", color=color.red,   style=plot.style_linebr, linewidth=1)
+plot(sell_tgt, "Sell Target", color=color.green, style=plot.style_linebr, linewidth=1)
+
+bgcolor(any_buy ? color.new(color.green, 90) : any_sell ? color.new(color.red, 90) : na)
+
+if any_buy
+    label.new(bar_index, low, "BUY\n" + (breakout_9_up ? "9D" : breakout_15_up ? "15D" : breakout_21_up ? "21D" : "60D"), 
+              color=color.green, textcolor=color.white, style=label.style_label_up, size=size.small)
+
+if any_sell
+    label.new(bar_index, high, "SELL\n" + (breakout_9_down ? "9D" : breakout_15_down ? "15D" : breakout_21_down ? "21D" : "60D"), 
+              color=color.red, textcolor=color.white, style=label.style_label_down, size=size.small)
+
+// ─── Alerts ───
+alertcondition(any_buy, "Any Range Breakout BUY", "BUY: {{ticker}} range breakout @ {{close}}")
+alertcondition(any_sell, "Any Range Breakout SELL", "SELL: {{ticker}} range breakdown @ {{close}}")
+alertcondition(breakout_9_up or breakout_9_down, "9D Breakout", "9D: {{ticker}} @ {{close}}")
+alertcondition(breakout_15_up or breakout_15_down, "15D Breakout", "15D: {{ticker}} @ {{close}}")
+alertcondition(breakout_21_up or breakout_21_down, "21D Breakout", "21D: {{ticker}} @ {{close}}")
+alertcondition(breakout_60_up or breakout_60_down, "60D Breakout", "60D: {{ticker}} @ {{close}}")

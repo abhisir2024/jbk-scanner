@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  scanner:
+    build: .
+    container_name: jbk-scanner
+    ports:
+      - "5001:5001"
+    volumes:
+      # Mount auth files for token persistence
+      - ./auth:/app/auth
+      # Mount data files for persistence
+      - ./data:/app/data
+      # Mount audit logs
+      - ./audit:/app/audit
+    environment:
+      - TZ=Asia/Kolkata
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5001/api/status"]
+      interval: 60s
+      timeout: 10s
+      retries: 3

@@ -1,0 +1,96 @@
+// ══════════════════════════════════════════════════════════════════════════════
+// JBK CHANNEL CONSOLIDATION BREAKOUT — Standalone Strategy
+// Detects breakout from tight consolidation channels (Bollinger Band squeeze)
+// ══════════════════════════════════════════════════════════════════════════════
+
+//@version=5
+indicator("JBK Channel Breakout", overlay=true, max_labels_count=500)
+
+// ─── Inputs ───
+grp_channel = "Channel Settings"
+bb_length    = input.int(20,    "BB Length", minval=10, maxval=50, group=grp_channel)
+bb_mult      = input.float(2.0, "BB Multiplier", minval=1.0, maxval=3.0, step=0.1, group=grp_channel)
+squeeze_thresh = input.float(0.03, "Squeeze Threshold (BB width %)", minval=0.01, maxval=0.10, step=0.005, group=grp_channel)
+min_squeeze_days = input.int(5, "Min Squeeze Duration (days)", minval=3, maxval=20, group=grp_channel)
+
+grp_filter = "Filters"
+use_vol_filter   = input.bool(true, "Volume Filter", group=grp_filter)
+
+grp_sl = "Stop Loss & Target"
+atr_mult = input.float(1.5, "ATR Multiplier for SL", minval=0.5, maxval=5.0, step=0.1, group=grp_sl)
+rr_ratio = input.float(2.0, "Risk:Reward Ratio", minval=1.0, maxval=5.0, step=0.5, group=grp_sl)
+
+// ─── Bollinger Bands ───
+bb_basis = ta.sma(close, bb_length)
+bb_dev   = bb_mult * ta.stdev(close, bb_length)
+bb_upper = bb_basis + bb_dev
+bb_lower = bb_basis - bb_dev
+bb_width = (bb_upper - bb_lower) / bb_basis
+
+// ─── Squeeze Detection ───
+is_squeezing = bb_width < squeeze_thresh
+squeeze_count = 0
+if is_squeezing
+    squeeze_count := nz(squeeze_count[1]) + 1
+else
+    squeeze_count := 0
+
+was_squeezing = squeeze_count[1] >= min_squeeze_days
+
+// ─── Filters ───
+vol_avg = ta.sma(volume, 20)
+vol_ok = use_vol_filter ? (volume > vol_avg * 1.0) : true
+
+rsi_val = ta.rsi(close, 14)
+
+// ─── Breakout Detection ───
+bull_breakout = was_squeezing and close > bb_upper and rsi_val > 50 and vol_ok
+bear_breakdown = was_squeezing and close < bb_lower and rsi_val < 50 and vol_ok
+
+// ─── Stop Loss & Target ───
+atr_val = ta.atr(14)
+bull_sl  = bull_breakout ? close - atr_val * atr_mult : na
+bull_tgt = bull_breakout ? close + atr_val * atr_mult * rr_ratio : na
+bear_sl  = bear_breakdown ? close + atr_val * atr_mult : na
+bear_tgt = bear_breakdown ? close - atr_val * atr_mult * rr_ratio : na
+
+// ─── Plotting ───
+p_upper = plot(bb_upper, "BB Upper", color=color.new(color.teal, 30), linewidth=1)
+p_lower = plot(bb_lower, "BB Lower", color=color.new(color.teal, 30), linewidth=1)
+fill(p_upper, p_lower, color=was_squeezing ? color.new(color.orange, 90) : color.new(color.teal, 95))
+plot(bb_basis, "BB Basis", color=color.new(color.white, 50), linewidth=1)
+
+plotshape(bull_breakout, "Bull Breakout", shape.triangleup,   location.belowbar, color.green, size=size.normal)
+plotshape(bear_breakdown, "Bear Breakdown", shape.triangledown, location.abovebar, color.red,   size=size.normal)
+
+plot(bull_sl,  "Bull SL",  color=color.red,   style=plot.style_linebr, linewidth=1)
+plot(bull_tgt, "Bull Target", color=color.green, style=plot.style_linebr, linewidth=1)
+plot(bear_sl,  "Bear SL",  color=color.red,   style=plot.style_linebr, linewidth=1)
+plot(bear_tgt, "Bear Target", color=color.green, style=plot.style_linebr, linewidth=1)
+
+bgcolor(bull_breakout ? color.new(color.green, 85) : bear_breakdown ? color.new(color.red, 85) : na)
+bgcolor(is_squeezing ? color.new(color.orange, 95) : na)
+
+if bull_breakout
+    label.new(bar_index, low, "CHANNEL\nBREAKOUT", 
+              color=color.green, textcolor=color.white, style=label.style_label_up, size=size.normal)
+
+if bear_breakdown
+    label.new(bar_index, high, "CHANNEL\nBREAKDOWN", 
+              color=color.red, textcolor=color.white, style=label.style_label_down, size=size.normal)
+
+// ─── Info Table ───
+var table info = table.new(position.top_right, 2, 4, bgcolor=color.new(color.black, 80))
+if barstate.islast
+    table.cell(info, 0, 0, "BB Width", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 0, str.tostring(bb_width * 100, "#.##") + "%", text_color=bb_width < squeeze_thresh ? color.orange : color.white, text_size=size.small)
+    table.cell(info, 0, 1, "Squeeze", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 1, is_squeezing ? "YES (" + str.tostring(squeeze_count) + "d)" : "NO", text_color=is_squeezing ? color.orange : color.white, text_size=size.small)
+    table.cell(info, 0, 2, "RSI", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 2, str.tostring(rsi_val, "#.#"), text_color=rsi_val > 50 ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 3, "Vol Ratio", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 3, str.tostring(volume / vol_avg, "#.#") + "x", text_color=volume > vol_avg ? color.green : color.orange, text_size=size.small)
+
+// ─── Alerts ───
+alertcondition(bull_breakout, "Channel Breakout BUY", "BUY: {{ticker}} channel breakout @ {{close}}")
+alertcondition(bear_breakdown, "Channel Breakdown SELL", "SELL: {{ticker}} channel breakdown @ {{close}}")

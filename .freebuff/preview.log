@@ -1,0 +1,267 @@
+Found saved token (age: 5.2h)
+Token is valid
+  [INFO] Resuming from checkpoint: 50/222
+  [INFO] Resuming from symbol 51/222
+
+Scanning 222 symbols (daily)...
+  Rate limit: 50/min, burst: 10/s
+
+  [51/222] CIPLA... no signal
+  [52/222] COALINDIA... no signal
+  [53/222] COCHINSHIP... -> 3 signal(s)
+  [54/222] COFORGE... no signal
+  [55/222] COLPAL... no signal
+  [56/222] CAMS... no signal
+  [57/222] CONCOR... -> 1 signal(s)
+  [58/222] CROMPTON... no signal
+  [59/222] CUMMINSIND... -> 1 signal(s)
+  [60/222] DLF... -> 2 signal(s)
+  [61/222] DABUR... -> 1 signal(s)
+  [62/222] DALBHARAT... no signal
+  [63/222] DELHIVERY... -> 2 signal(s)
+  [64/222] DIVISLAB... no signal
+  [65/222] DIXON... no signal
+  [66/222] DRREDDY... no signal
+  [67/222] ETERNAL... -> 1 signal(s)
+  [68/222] EICHERMOT... no signal
+  [69/222] FORCEMOT... -> 1 signal(s)
+  [70/222] NYKAA... no signal
+  [71/222] FORTIS... no signal
+  [72/222] GAIL... no signal
+  [73/222] GVTANDD... no signal
+  [74/222] GMRAIRPORT... -> 6 signal(s)
+  [75/222] GLENMARK... -> 5 signal(s)
+  [76/222] GODFRYPHLP... no signal
+  [77/222] GODREJCP... -> 1 signal(s)
+  [78/222] GODREJPROP... -> 1 signal(s)
+  [79/222] GRASIM... no signal
+  [80/222] HCLTECH... -> 1 signal(s)
+  [81/222] HDFCAMC... no signal
+  [82/222] HDFCBANK... no signal
+  [83/222] HDFCLIFE... no signal
+  [84/222] HAVELLS...     [TREND FILTER] Candlestick Pattern SELL — Filtered: SELL in uptrend (EMA50 slope: +0.43%)
+no signal
+  [85/222] HEROMOTOCO... no signal
+  [86/222] HINDALCO... -> 1 signal(s)
+  [87/222] HAL... no signal
+  [88/222] HINDPETRO... no signal
+  [89/222] HINDUNILVR... no signal
+  [90/222] HINDZINC... -> 3 signal(s)
+  [91/222] POWERINDIA... no signal
+  [92/222] HYUNDAI... no signal
+  [93/222] ICICIBANK...     [TREND FILTER] Candlestick Pattern SELL — Filtered: SELL in uptrend (EMA50 slope: +0.14%)
+no signal
+  [94/222] ICICIGI... no signal
+  [95/222] ICICIPRULI...   [WAIT] Rate limit: waiting 42.0s...
+no signal
+  [96/222] IDFCFIRSTB...   [WAIT] Rate limit: waiting 0.0s...
+    [TREND FILTER] Candlestick Pattern SELL — Filtered: SELL in uptrend (EMA50 slope: +0.90%)
+no signal
+  [97/222] ITC... no signal
+  [98/222] INDIANB... no signal
+  [99/222] IEX... -> 1 signal(s)
+  [100/222] IOC... no signal
+  [INFO] Checkpoint saved (100/222) | 50 calls/min | 0 retries
+  [101/222] IRFC...   [WAIT] Rate limit: waiting 13.1s...
+-> 1 signal(s)
+  [102/222] IREDA...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [103/222] INDUSTOWER...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [104/222] INDUSINDBK... -> 3 signal(s)
+  [105/222] NAUKRI...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [106/222] INFY... -> 1 signal(s)
+  [107/222] INOXWIND... no signal
+  [108/222] INDIGO... -> 1 signal(s)
+  [109/222] JINDALSTEL... -> 1 signal(s)
+  [110/222] JSWENERGY... no signal
+  [111/222] JSWSTEEL...   [WAIT] Rate limit: waiting 0.3s...
+no signal
+  [112/222] JIOFIN... no signal
+  [113/222] JUBLFOOD... no signal
+  [114/222] KEI... no signal
+  [115/222] KPITTECH... -> 1 signal(s)
+  [116/222] KALYANKJIL... no signal
+  [117/222] KAYNES... no signal
+  [118/222] KFINTECH...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [119/222] KOTAKBANK... no signal
+  [120/222] LTF...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [121/222] LICHSGFIN...   [WAIT] Rate limit: waiting 0.2s...
+-> 6 signal(s)
+  [122/222] LT...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [123/222] LAURUSLABS... -> 1 signal(s)
+  [124/222] LICI... -> 1 signal(s)
+  [125/222] LODHA... -> 3 signal(s)
+  [126/222] LUPIN... -> 1 signal(s)
+  [127/222] M&M... no signal
+  [128/222] MANAPPURAM... -> 3 signal(s)
+  [129/222] MANKIND... no signal
+  [130/222] MARICO... no signal
+  [131/222] MARUTI...   [WAIT] Rate limit: waiting 0.3s...
+no signal
+  [132/222] MFSL...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [133/222] MAXHEALTH...   [WAIT] Rate limit: waiting 0.1s...
+no signal
+  [134/222] MAZDOCK... no signal
+  [135/222] MOTILALOFS... -> 2 signal(s)
+  [136/222] MPHASIS... no signal
+  [137/222] MCX... -> 2 signal(s)
+  [138/222] MUTHOOTFIN...   [WAIT] Rate limit: waiting 0.0s...
+-> 4 signal(s)
+  [139/222] NBCC...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [140/222] NHPC...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [141/222] NMDC...   [WAIT] Rate limit: waiting 0.2s...
+-> 2 signal(s)
+  [142/222] NTPC...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [143/222] NATIONALUM...   [WAIT] Rate limit: waiting 0.1s...
+-> 1 signal(s)
+  [144/222] NESTLEIND...   [WAIT] Rate limit: waiting 0.0s...
+    [TREND FILTER] Candlestick Pattern SELL — Filtered: SELL in uptrend (EMA50 slope: +0.05%)
+no signal
+  [145/222] NAM-INDIA...   [WAIT] Rate limit: waiting 42.0s...
+-> 1 signal(s)
+  [146/222] OBEROIRLTY...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [147/222] ONGC...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [148/222] OIL... -> 1 signal(s)
+  [149/222] PAYTM... no signal
+  [150/222] OFSS...   [WAIT] Rate limit: waiting 13.1s...
+no signal
+  [INFO] Checkpoint saved (150/222) | 50 calls/min | 0 retries
+  [151/222] POLICYBZR...   [WAIT] Rate limit: waiting 0.1s...
+  [WAIT] Rate limit: waiting 0.1s...
+no signal
+  [152/222] PGEL...   [WAIT] Rate limit: waiting 0.1s...
+  [WAIT] Rate limit: waiting 0.1s...
+no signal
+  [153/222] PIIND...   [WAIT] Rate limit: waiting 0.1s...
+  [WAIT] Rate limit: waiting 0.1s...
+-> 1 signal(s)
+  [154/222] PNBHOUSING...   [WAIT] Rate limit: waiting 0.1s...
+  [WAIT] Rate limit: waiting 0.1s...
+no signal
+  [155/222] PAGEIND...   [WAIT] Rate limit: waiting 0.0s...
+  [WAIT] Rate limit: waiting 0.4s...
+-> 1 signal(s)
+  [156/222] PATANJALI...   [WAIT] Rate limit: waiting 0.1s...
+-> 1 signal(s)
+  [157/222] PERSISTENT... no signal
+  [158/222] PETRONET...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [159/222] PIDILITIND...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [160/222] POLYCAB... no signal
+  [161/222] PFC... no signal
+  [162/222] POWERGRID...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [163/222] PREMIERENE... no signal
+  [164/222] PRESTIGE... no signal
+  [165/222] PNB...   [WAIT] Rate limit: waiting 0.3s...
+no signal
+  [166/222] RBLBANK...   [WAIT] Rate limit: waiting 0.1s...
+no signal
+  [167/222] RECLTD...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [168/222] RADICO...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [169/222] RVNL...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [170/222] RELIANCE...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [171/222] SBICARD...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [172/222] SBILIFE...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [173/222] SHREECEM...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [174/222] SRF...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [175/222] MOTHERSON...   [WAIT] Rate limit: waiting 0.3s...
+no signal
+  [176/222] SHRIRAMFIN...   [WAIT] Rate limit: waiting 0.1s...
+no signal
+  [177/222] SIEMENS...   [WAIT] Rate limit: waiting 0.1s...
+-> 2 signal(s)
+  [178/222] SOLARINDS...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [179/222] SONACOMS... no signal
+  [180/222] SBIN... -> 2 signal(s)
+  [181/222] SAIL... -> 1 signal(s)
+  [182/222] SUNPHARMA...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [183/222] SUPREMEIND...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [184/222] SUZLON... no signal
+  [185/222] SWIGGY...   [WAIT] Rate limit: waiting 0.2s...
+-> 1 signal(s)
+  [186/222] TATACONSUM...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [187/222] TVSMOTOR...   [WAIT] Rate limit: waiting 0.1s...
+    [TREND FILTER] Candlestick Pattern SELL — Filtered: SELL in uptrend (EMA50 slope: +1.61%)
+no signal
+  [188/222] TCS...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [189/222] TATAELXSI...   [WAIT] Rate limit: waiting 42.0s...
+no signal
+  [190/222] TMPV...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [191/222] TATAPOWER...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [192/222] TATASTEEL... no signal
+  [193/222] TECHM...   [WAIT] Rate limit: waiting 0.0s...
+    [TREND FILTER] Early Breakout SELL — Filtered: SELL in uptrend (EMA50 slope: +0.32%)
+    [TREND FILTER] Candlestick Pattern SELL — Filtered: SELL in uptrend (EMA50 slope: +0.32%)
+no signal
+  [194/222] FEDERALBNK... no signal
+  [195/222] INDHOTEL...   [WAIT] Rate limit: waiting 12.8s...
+    [TREND FILTER] Early Breakout SELL — Filtered: SELL in uptrend (EMA50 slope: +0.24%)
+no signal
+  [196/222] PHOENIXLTD...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [197/222] TITAN... no signal
+  [198/222] TORNTPHARM...     [TREND FILTER] Candlestick Pattern SELL — Filtered: SELL in uptrend (EMA50 slope: +0.45%)
+no signal
+  [199/222] TRENT...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [200/222] TIINDIA... no signal
+  [INFO] Checkpoint saved (200/222) | 50 calls/min | 0 retries
+  [201/222] UNOMINDA...   [WAIT] Rate limit: waiting 0.0s...
+no signal
+  [202/222] UPL...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [203/222] ULTRACEMCO... -> 1 signal(s)
+  [204/222] UNIONBANK... no signal
+  [205/222] UNITDSPR...   [WAIT] Rate limit: waiting 0.3s...
+no signal
+  [206/222] VBL... -> 2 signal(s)
+  [207/222] VEDL... no signal
+  [208/222] VMM... -> 2 signal(s)
+  [209/222] IDEA... no signal
+  [210/222] VOLTAS... no signal
+  [211/222] WAAREEENER... -> 1 signal(s)
+  [212/222] WIPRO... no signal
+  [213/222] YESBANK... -> 1 signal(s)
+  [214/222] ZYDUSLIFE... no signal
+  [215/222] TATAMOTORS...   [WAIT] Rate limit: waiting 0.2s...
+no signal
+  [216/222] WABAG...   [WAIT] Rate limit: waiting 0.0s...
+-> 2 signal(s)
+  [217/222] SOBHA...   [WAIT] Rate limit: waiting 0.0s...
+-> 1 signal(s)
+  [218/222] TRIDENT... no signal
+  [219/222] WHIRLPOOL... -> 1 signal(s)
+  [220/222] ZEEL... no signal
+  [221/222] ACC... -> 1 signal(s)
+  [222/222] BRIGADE... -> 3 signal(s)
+
+[OK] Scan complete! 184 API calls in 196.3s
+Telegram: 64 new signal alert(s) sent.

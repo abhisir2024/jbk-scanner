@@ -1,0 +1,101 @@
+// ══════════════════════════════════════════════════════════════════════════════
+// JBK 52W HIGH SUPPORT BUY — Standalone Strategy
+// Buy near 52-week high when at support with trend confirmation
+// Filters: EMA50 slope + MACD + RSI + Higher Lows + Volume
+// ══════════════════════════════════════════════════════════════════════════════
+
+//@version=5
+indicator("JBK 52W High Support Buy", overlay=true, max_labels_count=500)
+
+// ─── Inputs ───
+grp_high = "52W High Settings"
+proximity_pct = input.float(5.0, "Max Distance from 52W High (%)", minval=1.0, maxval=15.0, step=0.5, group=grp_high)
+lookback_52w  = input.int(252, "52W Lookback (trading days)", minval=200, maxval=300, group=grp_high)
+
+grp_filter = "Filters"
+use_ema50_slope = input.bool(true,  "EMA50 Slope Filter (rising)", group=grp_filter)
+use_macd_filter = input.bool(true,  "MACD Histogram Positive", group=grp_filter)
+use_rsi_filter  = input.bool(true,  "RSI > 45", group=grp_filter)
+use_vol_filter  = input.bool(true,  "Volume > 0.8x Average", group=grp_filter)
+use_higher_lows = input.bool(true,  "Higher Lows Pattern (3 in 10 days)", group=grp_filter)
+
+grp_sl = "Stop Loss & Target"
+atr_mult = input.float(1.5, "ATR Multiplier for SL", minval=0.5, maxval=5.0, step=0.1, group=grp_sl)
+rr_ratio = input.float(2.0, "Risk:Reward Ratio", minval=1.0, maxval=5.0, step=0.5, group=grp_sl)
+
+// ─── Calculations ───
+high_52w = ta.highest(high, lookback_52w)
+low_52w  = ta.lowest(low, lookback_52w)
+dist_from_high = (high_52w - close) / high_52w * 100
+
+ema50 = ta.ema(close, 50)
+ema50_slope = (ema50 - ema50[5]) / ema50[5] * 100
+ema50_rising = use_ema50_slope ? (ema50_slope > 0) : true
+
+ema20 = ta.ema(close, 20)
+
+[macd_line, signal_line, hist] = ta.macd(close, 12, 26, 9)
+macd_positive = use_macd_filter ? (hist > 0) : true
+
+rsi_val = ta.rsi(close, 14)
+rsi_ok = use_rsi_filter ? (rsi_val > 45) : true
+
+vol_avg = ta.sma(volume, 20)
+vol_ok = use_vol_filter ? (volume > vol_avg * 0.8) : true
+
+// Higher lows pattern
+low_1 = ta.lowest(low, 10)
+low_2 = ta.lowest(low[5], 10)
+low_3 = ta.lowest(low[10], 10)
+higher_lows = use_higher_lows ? (low_1 > low_2 and low_2 > low_3) : true
+
+// Support detection
+at_ema20 = math.abs(low - ema20) / ema20 * 100 < 1.0
+at_ema50 = math.abs(low - ema50) / ema50 * 100 < 1.0
+at_support = at_ema20 or at_ema50
+
+// Near 52W high
+near_high = dist_from_high <= proximity_pct
+
+// Combined signal
+buy_signal = near_high and at_support and ema50_rising and macd_positive and rsi_ok and vol_ok and higher_lows
+
+// ─── Stop Loss & Target ───
+atr_val = ta.atr(14)
+buy_sl  = buy_signal ? close - atr_val * atr_mult : na
+buy_tgt = buy_signal ? close + atr_val * atr_mult * rr_ratio : na
+
+// ─── Plotting ───
+plot(high_52w, "52W High", color=color.new(color.green, 30), linewidth=2, style=plot.style_stepline)
+plot(low_52w,  "52W Low",  color=color.new(color.red, 30),   linewidth=2, style=plot.style_stepline)
+plot(ema20, "EMA20", color=color.new(color.yellow, 50), linewidth=1)
+plot(ema50, "EMA50", color=color.new(color.white, 50),  linewidth=1)
+
+plotshape(buy_signal, "Buy Signal", shape.triangleup, location.belowbar, color.green, size=size.normal)
+plot(buy_sl,  "SL",  color=color.red,   style=plot.style_linebr, linewidth=1)
+plot(buy_tgt, "Target", color=color.green, style=plot.style_linebr, linewidth=1)
+
+bgcolor(buy_signal ? color.new(color.green, 85) : na)
+
+if buy_signal
+    label.new(bar_index, low, "BUY\n52W High\n" + str.tostring(dist_from_high, "#.#") + "% away", 
+              color=color.green, textcolor=color.white, style=label.style_label_up, size=size.normal)
+
+// ─── Info Table ───
+var table info = table.new(position.top_right, 2, 6, bgcolor=color.new(color.black, 80))
+if barstate.islast
+    table.cell(info, 0, 0, "52W High", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 0, str.tostring(high_52w, "#.##"), text_color=color.green, text_size=size.small)
+    table.cell(info, 0, 1, "Distance", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 1, str.tostring(dist_from_high, "#.#") + "%", text_color=dist_from_high < 5 ? color.green : color.orange, text_size=size.small)
+    table.cell(info, 0, 2, "RSI", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 2, str.tostring(rsi_val, "#.#"), text_color=rsi_val > 50 ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 3, "EMA50 Slope", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 3, str.tostring(ema50_slope, "#.##") + "%", text_color=ema50_slope > 0 ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 4, "MACD Hist", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 4, str.tostring(hist, "#.##"), text_color=hist > 0 ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 5, "Vol Ratio", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 5, str.tostring(volume / vol_avg, "#.#") + "x", text_color=volume > vol_avg ? color.green : color.orange, text_size=size.small)
+
+// ─── Alerts ───
+alertcondition(buy_signal, "52W High Support BUY", "BUY: {{ticker}} near 52W high with support @ {{close}} | SL: " + str.tostring(buy_sl) + " | Target: " + str.tostring(buy_tgt))

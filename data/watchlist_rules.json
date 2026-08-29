@@ -1,0 +1,8 @@
+{
+  "NSE:CDSL-EQ": {
+    "name": "CDSL",
+    "lookback": 15,
+    "support_mode": "combo",
+    "notes": "Buy on fresh breakout above recent 15-day high. Support = max(9 DMA, 21 DMA, swing low). Ignore if close below it. Set 'support' to a number for manual override."
+  }
+}

@@ -1,0 +1,213 @@
+// ══════════════════════════════════════════════════════════════════════════════
+// JBK INDEX OPTIONS STRATEGY — Regime + Chart Entry
+// 2-Layer System: Daily Regime (Direction) + Entry (Timing)
+// ══════════════════════════════════════════════════════════════════════════════
+// Layer 1 (Daily): BULLISH/BEARISH/RANGE classification
+// Layer 2 (15-min): Pullback/Breakout/Candle entry timing
+// Trade: CALL in BULLISH, PUT in BEARISH, No trade in RANGE
+// ══════════════════════════════════════════════════════════════════════════════
+
+//@version=5
+indicator("JBK Index Options", overlay=true, max_labels_count=500)
+
+// ─── Inputs ───
+grp_regime = "Regime Settings"
+adx_threshold = input.int(22, "ADX Threshold (trending)", minval=15, maxval=35, group=grp_regime)
+rsi_bull = input.int(55, "RSI Bull Threshold", minval=45, maxval=65, group=grp_regime)
+rsi_bear = input.int(45, "RSI Bear Threshold", minval=35, maxval=55, group=grp_regime)
+
+grp_entry = "Entry Settings"
+entry_type = input.string("All", "Entry Type", options=["All", "Pullback Only", "Breakout Only", "Candle Only"], group=grp_entry)
+use_vwap_filter = input.bool(true, "VWAP Filter", group=grp_entry)
+
+grp_sl = "Risk Management"
+sl_atr_mult = input.float(0.35, "SL ATR Multiplier", minval=0.2, maxval=1.0, step=0.05, group=grp_sl)
+tgt_atr_mult = input.float(0.75, "Target ATR Multiplier", minval=0.5, maxval=2.0, step=0.1, group=grp_sl)
+
+grp_display = "Display"
+show_ema20  = input.bool(true, "Show EMA20", group=grp_display)
+show_ema50  = input.bool(true, "Show EMA50", group=grp_display)
+show_vwap   = input.bool(true, "Show VWAP", group=grp_display)
+show_info   = input.bool(true, "Show Info Table", group=grp_display)
+
+// ─── Calculations ───
+ema20 = ta.ema(close, 20)
+ema50 = ta.ema(close, 50)
+atr_val = ta.atr(14)
+rsi_val = ta.rsi(close, 14)
+
+// ADX calculation
+[di_plus, di_minus, adx_val] = ta.dmi(14, 14)
+
+// VWAP (approximation for daily)
+vwap_val = ta.vwap(close)
+
+// MACD
+[macd_line, signal_line, hist] = ta.macd(close, 12, 26, 9)
+
+// EMA50 slope
+ema50_slope = (ema50 - ema50[5]) / ema50[5] * 100
+
+// ─── Layer 1: Regime Classification ───
+// BULLISH score
+bull_score = 0
+bull_score += ema20 > ema50 ? 20 : 0
+bull_score += close > ema20 ? 15 : 0
+bull_score += rsi_val > rsi_bull ? 15 : 0
+bull_score += adx_val >= adx_threshold ? 15 : 0
+bull_score += ema50_slope > 0 ? 10 : 0
+
+// BEARISH score
+bear_score = 0
+bear_score += ema20 < ema50 ? 20 : 0
+bear_score += close < ema20 ? 15 : 0
+bear_score += rsi_val < rsi_bear ? 15 : 0
+bear_score += adx_val >= adx_threshold ? 15 : 0
+bear_score += ema50_slope < 0 ? 10 : 0
+
+// RANGE score (low ADX = ranging)
+range_score = 0
+range_score += adx_val < 20 ? 30 : 0
+range_score += rsi_val > 40 and rsi_val < 60 ? 20 : 0
+
+// Determine regime
+regime = "UNKNOWN"
+if bull_score > bear_score and bull_score > range_score and bull_score >= 55
+    regime := "BULLISH"
+else if bear_score > bull_score and bear_score > range_score and bear_score >= 55
+    regime := "BEARISH"
+else if range_score >= 40
+    regime := "RANGE"
+
+// ─── Layer 2: Entry Detection ───
+// VWAP position
+above_vwap = close > vwap_val
+below_vwap = close < vwap_val
+
+// Swing levels
+swing_high = ta.highest(high, 21)
+swing_low = ta.lowest(low, 21)
+
+// Candle type
+body = close - open
+candle_range = high - low
+body_ratio = candle_range > 0 ? math.abs(body) / candle_range : 0
+
+candle = "NEUTRAL"
+if body > 0 and body_ratio > 0.7
+    candle := "MARUBOZU_BULL"
+else if body < 0 and body_ratio > 0.7
+    candle := "MARUBOZU_BEAR"
+else if body > 0 and (close - low) > candle_range * 0.6
+    candle := "HAMMER"
+else if body < 0 and (high - close) > candle_range * 0.6
+    candle := "SHOOTING_STAR"
+
+// Entry detection
+entry_type_result = ""
+entry_quality = 0.0
+instrument = ""
+
+if regime == "BULLISH"
+    // Pullback to EMA20
+    pullback = ema50_slope > 0 and close > ema50 and above_vwap and 
+               math.abs(close - ema20) / ema20 < 0.004 and body > 0 and rsi_val > 45
+    // Breakout above swing high
+    breakout = close > swing_high and above_vwap and body > 0
+    // Strong candle
+    candle_ok = (candle == "MARUBOZU_BULL" or candle == "HAMMER") and above_vwap and close > ema20
+    
+    if breakout and (entry_type == "All" or entry_type == "Breakout Only")
+        entry_type_result := "BREAKOUT"
+        entry_quality := 0.9
+        instrument := "CALL"
+    else if pullback and (entry_type == "All" or entry_type == "Pullback Only")
+        entry_type_result := "PULLBACK"
+        entry_quality := 0.85
+        instrument := "CALL"
+    else if candle_ok and (entry_type == "All" or entry_type == "Candle Only")
+        entry_type_result := "CANDLE"
+        entry_quality := 0.75
+        instrument := "CALL"
+
+else if regime == "BEARISH"
+    // Pullback to EMA20
+    pullback = ema50_slope < 0 and close < ema50 and below_vwap and 
+               math.abs(close - ema20) / ema20 < 0.004 and body < 0 and rsi_val < 55
+    // Breakdown below swing low
+    breakdown = close < swing_low and below_vwap and body < 0
+    // Strong bearish candle
+    candle_ok = (candle == "MARUBOZU_BEAR" or candle == "SHOOTING_STAR") and below_vwap and close < ema20
+    
+    if breakdown and (entry_type == "All" or entry_type == "Breakout Only")
+        entry_type_result := "BREAKDOWN"
+        entry_quality := 0.9
+        instrument := "PUT"
+    else if pullback and (entry_type == "All" or entry_type == "Pullback Only")
+        entry_type_result := "PULLBACK"
+        entry_quality := 0.85
+        instrument := "PUT"
+    else if candle_ok and (entry_type == "All" or entry_type == "Candle Only")
+        entry_type_result := "CANDLE"
+        entry_quality := 0.75
+        instrument := "PUT"
+
+has_entry = entry_type_result != ""
+any_signal = has_entry and regime != "RANGE"
+
+// ─── Trade Plan ───
+trade_entry = any_signal ? close : na
+trade_sl = any_signal ? (instrument == "CALL" ? close - atr_val * sl_atr_mult : close + atr_val * sl_atr_mult) : na
+trade_tgt = any_signal ? (instrument == "CALL" ? close + atr_val * tgt_atr_mult : close - atr_val * tgt_atr_mult) : na
+
+// Signal score
+signal_score = any_signal ? (0.5 * (regime == "BULLISH" ? bull_score : bear_score) / 100 * 100 + 0.5 * entry_quality * 100) : 0
+
+// ─── Plotting ───
+plot(show_ema20 ? ema20 : na, "EMA20", color=color.new(color.yellow, 50), linewidth=1)
+plot(show_ema50 ? ema50 : na, "EMA50", color=color.new(color.white, 50), linewidth=1)
+plot(show_vwap ? vwap_val : na, "VWAP", color=color.new(color.purple, 50), linewidth=1)
+
+// Regime background
+bgcolor(regime == "BULLISH" ? color.new(color.green, 92) : regime == "BEARISH" ? color.new(color.red, 92) : na)
+
+// Signals
+plotshape(any_signal and instrument == "CALL", "CALL Entry", shape.triangleup, location.belowbar, 
+          instrument == "CALL" ? color.green : color.red, size=size.normal)
+plotshape(any_signal and instrument == "PUT", "PUT Entry", shape.triangledown, location.abovebar, 
+          color.red, size=size.normal)
+
+// Trade levels
+plot(trade_sl,  "SL",  color=color.red,   style=plot.style_linebr, linewidth=1)
+plot(trade_tgt, "Target", color=color.green, style=plot.style_linebr, linewidth=1)
+
+// Labels
+if any_signal
+    label.new(bar_index, low, instrument + "\n" + entry_type_result + "\nScore: " + str.tostring(signal_score, "#.#"), 
+              color=instrument == "CALL" ? color.green : color.red, 
+              textcolor=color.white, style=label.style_label_up, size=size.normal)
+
+// ─── Info Table ───
+var table info = table.new(position.top_right, 2, 7, bgcolor=color.new(color.black, 80))
+if barstate.islast and show_info
+    table.cell(info, 0, 0, "Regime", text_color=color.white, text_size=size.small)
+    regime_color = regime == "BULLISH" ? color.green : regime == "BEARISH" ? color.red : color.orange
+    table.cell(info, 1, 0, regime, text_color=regime_color, text_size=size.small)
+    table.cell(info, 0, 1, "ADX", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 1, str.tostring(adx_val, "#.#"), text_color=adx_val > 22 ? color.green : color.orange, text_size=size.small)
+    table.cell(info, 0, 2, "RSI", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 2, str.tostring(rsi_val, "#.#"), text_color=rsi_val > 50 ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 3, "EMA50 Slope", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 3, str.tostring(ema50_slope, "#.##") + "%", text_color=ema50_slope > 0 ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 4, "VWAP", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 4, above_vwap ? "ABOVE" : "BELOW", text_color=above_vwap ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 5, "Entry", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 5, has_entry ? entry_type_result : "NONE", text_color=has_entry ? color.green : color.white, text_size=size.small)
+    table.cell(info, 0, 6, "Score", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 6, str.tostring(signal_score, "#.#"), text_color=signal_score > 70 ? color.green : color.orange, text_size=size.small)
+
+// ─── Alerts ───
+alertcondition(any_signal and instrument == "CALL", "CALL Entry", "BUY CALL: {{ticker}} @ {{close}} | Entry: " + entry_type_result + " | Score: " + str.tostring(signal_score, "#.#"))
+alertcondition(any_signal and instrument == "PUT", "PUT Entry", "BUY PUT: {{ticker}} @ {{close}} | Entry: " + entry_type_result + " | Score: " + str.tostring(signal_score, "#.#"))
+alertcondition(regime == "BULLISH", "Regime BULLISH", "BULLISH regime detected on {{ticker}}")
+alertcondition(regime == "BEARISH", "Regime BEARISH", "BEARISH regime detected on {{ticker}}")

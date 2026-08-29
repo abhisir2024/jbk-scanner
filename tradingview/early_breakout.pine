@@ -1,0 +1,72 @@
+// Early Breakout Strategy — JBK Scanner
+// Detects early signs of breakout before it happens
+// Converted from Python scanner to Pine Script v5
+
+//@version=5
+indicator("JBK Early Breakout", overlay=true, max_labels_count=500)
+
+// ─── Inputs ───
+grp_early = "Early Breakout Settings"
+lookback     = input.int(20,    "Lookback Period", minval=10, maxval=50, group=grp_early)
+vol_spike    = input.float(1.5, "Volume Spike Threshold", minval=1.0, maxval=3.0, step=0.1, group=grp_early)
+price_near_pct = input.float(2.0, "Price Near High (%)", minval=0.5, maxval=5.0, step=0.5, group=grp_early)
+
+grp_filter = "Filters"
+use_trend_filter = input.bool(true, "EMA50 Trend Filter", group=grp_filter)
+use_rsi_filter   = input.bool(true, "RSI Filter (>45)", group=grp_filter)
+
+grp_sl = "Stop Loss & Target"
+atr_mult = input.float(1.5, "ATR Multiplier for SL", minval=0.5, maxval=5.0, step=0.1, group=grp_sl)
+rr_ratio = input.float(2.0, "Risk:Reward Ratio", minval=1.0, maxval=5.0, step=0.5, group=grp_sl)
+
+// ─── Calculations ───
+// Range high/low
+range_high = ta.highest(high, lookback)
+range_low  = ta.lowest(low, lookback)
+
+// Price near range high
+dist_to_high = (range_high - close) / close * 100
+near_high = dist_to_high <= price_near_pct
+
+// Volume spike
+vol_avg = ta.sma(volume, 20)
+vol_spike_detected = volume > vol_avg * vol_spike
+
+// EMA50 trend
+ema50 = ta.ema(close, 50)
+ema50_slope = (ema50 - ema50[5]) / ema50[5] * 100
+trend_ok = use_trend_filter ? (ema50_slope > 0) : true
+
+// RSI
+rsi_val = ta.rsi(close, 14)
+rsi_ok = use_rsi_filter ? (rsi_val > 45) : true
+
+// Higher closes pattern
+higher_closes = close > close[1] and close[1] > close[2]
+
+// Early breakout signal
+early_buy = near_high and vol_spike_detected and trend_ok and rsi_ok and higher_closes and close > ema20
+
+// ─── Stop Loss & Target ───
+atr_val = ta.atr(14)
+buy_sl  = early_buy ? close - atr_val * atr_mult : na
+buy_tgt = early_buy ? close + atr_val * atr_mult * rr_ratio : na
+
+// ─── Plotting ───
+plot(range_high, "Range High", color=color.new(color.blue, 50), linewidth=1, style=plot.style_stepline)
+plot(range_low,  "Range Low",  color=color.new(color.blue, 50), linewidth=1, style=plot.style_stepline)
+plot(ema50, "EMA50", color=color.new(color.white, 50), linewidth=1)
+
+plotshape(early_buy, "Early Breakout", shape.diamond, location.belowbar, color.lime, size=size.normal)
+
+plot(buy_sl,  "SL",  color=color.red,   style=plot.style_linebr, linewidth=1)
+plot(buy_tgt, "Target", color=color.green, style=plot.style_linebr, linewidth=1)
+
+bgcolor(early_buy ? color.new(color.lime, 85) : na)
+
+if early_buy
+    label.new(bar_index, low, "EARLY\nBREAKOUT", 
+              color=color.lime, textcolor=color.black, style=label.style_label_up, size=size.normal)
+
+// ─── Alerts ───
+alertcondition(early_buy, "Early Breakout BUY", "BUY: {{ticker}} early breakout detected @ {{close}}")

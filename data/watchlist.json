@@ -1,0 +1,21 @@
+{
+  "watchlist": [
+    "NSE:NIFTY50-INDEX",
+    "NSE:BANKNIFTY-INDEX",
+    "NSE:FINNIFTY-INDEX",
+    "NSE:SBIN-EQ",
+    "NSE:RELIANCE-EQ",
+    "NSE:TCS-EQ",
+    "NSE:HDFCBANK-EQ",
+    "NSE:INFY-EQ",
+    "NSE:TATAMOTORS-EQ",
+    "NSE:ADANIENT-EQ",
+    "NSE:BAJFINANCE-EQ",
+    "NSE:ICICIBANK-EQ",
+    "NSE:ITC-EQ",
+    "NSE:AXISBANK-EQ",
+    "NSE:KOTAKBANK-EQ"
+  ],
+  "litemode": true,
+  "depth_symbols": []
+}

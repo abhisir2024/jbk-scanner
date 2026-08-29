@@ -1,0 +1,21 @@
+[2026-08-26 22:08:17] Market closed. Skipping scan.
+[2026-08-26 22:12:05] Market closed. Skipping scan.
+[2026-08-26 22:17:05] Market closed. Skipping scan.
+[2026-08-26 22:22:07] Market closed. Skipping scan.
+[2026-08-26 22:27:07] Market closed. Skipping scan.
+[2026-08-26 22:32:07] Market closed. Skipping scan.
+[2026-08-26 22:37:08] Market closed. Skipping scan.
+[2026-08-26 22:42:08] Market closed. Skipping scan.
+[2026-08-26 22:47:08] Market closed. Skipping scan.
+[2026-08-26 22:52:10] Market closed. Skipping scan.
+[2026-08-26 22:57:11] Market closed. Skipping scan.
+[2026-08-26 23:02:11] Market closed. Skipping scan.
+[2026-08-26 23:07:11] Market closed. Skipping scan.
+[2026-08-26 23:12:12] Market closed. Skipping scan.
+[2026-08-26 23:17:12] Market closed. Skipping scan.
+[2026-08-26 23:22:13] Market closed. Skipping scan.
+[2026-08-26 23:27:13] Market closed. Skipping scan.
+[2026-08-29 11:24:38] Starting auto scan...
+[2026-08-29 11:25:57] Starting auto scan...
+[2026-08-29 11:28:33] Scan error: [Errno 13] Permission denied: 'C:\\windows\\system32\\fyersApi.log'
+[2026-08-29 11:28:33] Starting big money scan...

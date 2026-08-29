@@ -1,0 +1,112 @@
+// ══════════════════════════════════════════════════════════════════════════════
+// JBK VOLUME & MOMENTUM — Standalone Strategy
+// Combines: Volume Shocker + Momentum Breakout + Buy on Retracement
+// ══════════════════════════════════════════════════════════════════════════════
+
+//@version=5
+indicator("JBK Volume & Momentum", overlay=true, max_labels_count=500)
+
+// ─── Inputs ───
+grp_vol = "Volume Settings"
+vol_mult = input.float(2.0, "Volume Shock Threshold", minval=1.5, maxval=5.0, step=0.1, group=grp_vol)
+
+grp_mom = "Momentum Settings"
+use_ema_stack = input.bool(true, "EMA Stack (9>20>50)", group=grp_mom)
+use_macd_rise = input.bool(true, "MACD Rising Histogram", group=grp_mom)
+
+grp_retrace = "Retracement Settings"
+use_retrace = input.bool(true, "Buy on Retracement", group=grp_retrace)
+retrace_pct = input.float(2.0, "Max Distance from 50% Retrace (%)", minval=0.5, maxval=5.0, step=0.5, group=grp_retrace)
+
+grp_filter = "Filters"
+use_ema50_filter = input.bool(true, "EMA50 Trend Filter", group=grp_filter)
+
+grp_sl = "Risk Management"
+atr_mult = input.float(1.5, "ATR SL Multiplier", minval=0.5, maxval=5.0, step=0.1, group=grp_sl)
+rr_ratio = input.float(2.0, "Risk:Reward Ratio", minval=1.0, maxval=5.0, step=0.5, group=grp_sl)
+
+// ─── Calculations ───
+ema9  = ta.ema(close, 9)
+ema20 = ta.ema(close, 20)
+ema50 = ta.ema(close, 50)
+
+atr_val = ta.atr(14)
+rsi_val = ta.rsi(close, 14)
+
+[macd_line, signal_line, hist] = ta.macd(close, 12, 26, 9)
+
+vol_avg  = ta.sma(volume, 20)
+vol_ratio = volume / vol_avg
+
+ema50_slope = (ema50 - ema50[5]) / ema50[5] * 100
+trend_ok = use_ema50_filter ? (ema50_slope > 0) : true
+
+// ─── Volume Shocker ───
+vol_shocker = vol_ratio > vol_mult and close > close[1] and close > ema20 and trend_ok
+
+// ─── Momentum Breakout ───
+ema_stack = use_ema_stack ? (ema9 > ema20 and ema20 > ema50) : true
+macd_rising = use_macd_rise ? (hist > 0 and hist > hist[1]) : true
+momentum_buy = close > ema9 and ema_stack and macd_rising and vol_ratio > 1.0
+
+// ─── Buy on Retracement ───
+swing_low  = ta.lowest(low, 10)
+swing_high = ta.highest(high, 10)
+retrace_50 = swing_low + (swing_high - swing_low) * 0.5
+at_retrace = use_retrace and math.abs(close - retrace_50) / close * 100 < retrace_pct
+retrace_buy = at_retrace and trend_ok and rsi_val > 40 and rsi_val < 60 and vol_ratio > 0.8
+
+// ─── Combined ───
+any_buy = vol_shocker or momentum_buy or retrace_buy
+
+get_strategy() =>
+    vol_shocker ? "Volume Shocker" :
+    momentum_buy ? "Momentum" :
+    retrace_buy ? "Retracement" : ""
+
+strat_count = (vol_shocker ? 1 : 0) + (momentum_buy ? 1 : 0) + (retrace_buy ? 1 : 0)
+
+// ─── Stop Loss & Target ───
+buy_sl  = any_buy ? close - atr_val * atr_mult : na
+buy_tgt = any_buy ? close + atr_val * atr_mult * rr_ratio : na
+
+// ─── Plotting ───
+plot(ema9,  "EMA9",  color=color.new(color.cyan, 50), linewidth=1)
+plot(ema20, "EMA20", color=color.new(color.yellow, 50), linewidth=1)
+plot(ema50, "EMA50", color=color.new(color.white, 50), linewidth=1)
+
+plotshape(vol_shocker and not momentum_buy and not retrace_buy, "Volume Shocker", shape.diamond, location.belowbar, color.orange, size=size.normal)
+plotshape(momentum_buy and not vol_shocker, "Momentum", shape.triangleup, location.belowbar, color.lime, size=size.normal)
+plotshape(retrace_buy and not vol_shocker and not momentum_buy, "Retracement", shape.circle, location.belowbar, color.aqua, size=size.normal)
+plotshape(any_buy and strat_count >= 2, "Strong Buy", shape.triangleup, location.belowbar, color.green, size=size.large)
+
+plot(buy_sl,  "SL",  color=color.red,   style=plot.style_linebr, linewidth=1)
+plot(buy_tgt, "Target", color=color.green, style=plot.style_linebr, linewidth=1)
+
+bgcolor(any_buy ? color.new(color.green, 85) : na)
+
+if any_buy
+    label.new(bar_index, low, get_strategy() + (strat_count >= 2 ? "\nSTRONG" : ""), 
+              color=strat_count >= 2 ? color.lime : color.green, 
+              textcolor=strat_count >= 2 ? color.black : color.white, 
+              style=label.style_label_up, size=strat_count >= 2 ? size.normal : size.small)
+
+// ─── Info Table ───
+var table info = table.new(position.top_right, 2, 5, bgcolor=color.new(color.black, 80))
+if barstate.islast
+    table.cell(info, 0, 0, "Vol Ratio", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 0, str.tostring(vol_ratio, "#.#") + "x", text_color=vol_ratio > 2 ? color.green : color.orange, text_size=size.small)
+    table.cell(info, 0, 1, "RSI", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 1, str.tostring(rsi_val, "#.#"), text_color=rsi_val > 50 ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 2, "MACD Hist", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 2, str.tostring(hist, "#.##"), text_color=hist > 0 ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 3, "EMA Stack", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 3, ema9 > ema20 and ema20 > ema50 ? "YES" : "NO", text_color=ema9 > ema20 and ema20 > ema50 ? color.green : color.red, text_size=size.small)
+    table.cell(info, 0, 4, "Trend", text_color=color.white, text_size=size.small)
+    table.cell(info, 1, 4, ema50_slope > 0 ? "UP " + str.tostring(ema50_slope, "#.##") + "%" : "DOWN " + str.tostring(ema50_slope, "#.##") + "%", text_color=ema50_slope > 0 ? color.green : color.red, text_size=size.small)
+
+// ─── Alerts ───
+alertcondition(vol_shocker, "Volume Shocker", "VOLUME SHOCKER: {{ticker}} @ {{close}} | Vol " + str.tostring(vol_ratio, "#.#") + "x avg")
+alertcondition(momentum_buy, "Momentum Breakout", "MOMENTUM: {{ticker}} @ {{close}}")
+alertcondition(retrace_buy, "Retracement Buy", "RETRACE BUY: {{ticker}} @ {{close}}")
+alertcondition(any_buy, "Any Buy Signal", "BUY: {{ticker}} @ {{close}} | SL: " + str.tostring(buy_sl) + " | Target: " + str.tostring(buy_tgt))

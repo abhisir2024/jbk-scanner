@@ -1,0 +1,2378 @@
+[2026-08-20 23:25:07] Market closed. Skipping scan.
+[2026-08-20 23:25:38] Market closed. Skipping scan.
+[2026-08-20 23:26:34] Market closed. Skipping scan.
+[2026-08-20 23:30:38] Market closed. Skipping scan.
+[2026-08-20 23:31:34] Market closed. Skipping scan.
+[2026-08-21 09:05:04] Market closed. Skipping scan.
+[2026-08-21 09:05:16] Market closed. Skipping scan.
+[2026-08-21 09:07:18] Market closed. Skipping scan.
+[2026-08-21 09:07:22] Market closed. Skipping scan.
+[2026-08-21 09:08:13] Market closed. Skipping scan.
+[2026-08-21 09:14:21] Market closed. Skipping scan.
+[2026-08-21 09:32:55] Starting auto scan...
+[2026-08-21 09:33:16] Found 13 stock(s) with signals! Sending alerts...
+[2026-08-21 09:33:17] Telegram alerts sent.
+[2026-08-21 09:33:21] Email alerts sent.
+[2026-08-21 09:33:21]   BUY ICICIBANK @ 1414.0 | 1 strategies | Conf: 0.9
+[2026-08-21 09:33:21]   BUY FEDERALBNK @ 356.1 | 1 strategies | Conf: 0.9
+[2026-08-21 09:33:21]   BUY NIFTY50 @ 24220.6 | 1 strategies | Conf: 0.8
+[2026-08-21 09:33:21]   BUY APOLLOHOSP @ 8663.0 | 1 strategies | Conf: 0.8
+[2026-08-21 09:33:21]   BUY GRASIM @ 3265.5 | 1 strategies | Conf: 0.8
+[2026-08-21 09:33:21]   BUY JSWSTEEL @ 1290.4 | 1 strategies | Conf: 0.8
+[2026-08-21 09:33:21]   BUY FINNIFTY @ 26238.05 | 1 strategies | Conf: 0.7
+[2026-08-21 09:33:21]   BUY ADANIENT @ 2990.0 | 1 strategies | Conf: 0.6
+[2026-08-21 09:33:21]   BUY BAJFINANCE @ 1096.0 | 1 strategies | Conf: 0.6
+[2026-08-21 09:33:21]   BUY SUNPHARMA @ 1902.6 | 1 strategies | Conf: 0.6
+[2026-08-21 09:33:21]   BUY NESTLEIND @ 1454.3 | 1 strategies | Conf: 0.6
+[2026-08-21 09:33:21]   BUY BAJAJFINSV @ 2015.1 | 1 strategies | Conf: 0.6
+[2026-08-21 09:33:21]   BUY INDUSINDBK @ 1000.1 | 1 strategies | Conf: 0.6
+[2026-08-21 09:33:21] Scan complete.
+
+[2026-08-21 09:38:21] Starting auto scan...
+[2026-08-21 09:38:42] Found 14 stock(s) with signals! Sending alerts...
+[2026-08-21 09:38:43] Telegram alerts sent.
+[2026-08-21 09:38:47] Email alerts sent.
+[2026-08-21 09:38:47]   BUY ICICIBANK @ 1414.2 | 1 strategies | Conf: 0.9
+[2026-08-21 09:38:47]   BUY FEDERALBNK @ 356.1 | 1 strategies | Conf: 0.9
+[2026-08-21 09:38:47]   BUY NIFTY50 @ 24217.95 | 1 strategies | Conf: 0.8
+[2026-08-21 09:38:47]   BUY TITAN @ 5023.0 | 1 strategies | Conf: 0.8
+[2026-08-21 09:38:47]   BUY APOLLOHOSP @ 8659.5 | 1 strategies | Conf: 0.8
+[2026-08-21 09:38:47]   BUY GRASIM @ 3265.8 | 1 strategies | Conf: 0.8
+[2026-08-21 09:38:47]   BUY JSWSTEEL @ 1291.0 | 1 strategies | Conf: 0.8
+[2026-08-21 09:38:47]   BUY FINNIFTY @ 26249.85 | 1 strategies | Conf: 0.7
+[2026-08-21 09:38:47]   BUY ADANIENT @ 2986.9 | 1 strategies | Conf: 0.6
+[2026-08-21 09:38:47]   BUY BAJFINANCE @ 1096.5 | 1 strategies | Conf: 0.6
+[2026-08-21 09:38:47]   BUY SUNPHARMA @ 1898.6 | 1 strategies | Conf: 0.6
+[2026-08-21 09:38:47]   BUY NESTLEIND @ 1455.3 | 1 strategies | Conf: 0.6
+[2026-08-21 09:38:47]   BUY BAJAJFINSV @ 2016.5 | 1 strategies | Conf: 0.6
+[2026-08-21 09:38:47]   BUY INDUSINDBK @ 997.9 | 1 strategies | Conf: 0.6
+[2026-08-21 09:38:47] Scan complete.
+
+[2026-08-21 09:43:47] Starting auto scan...
+[2026-08-21 09:44:09] Found 15 stock(s) with signals! Sending alerts...
+[2026-08-21 09:44:10] Telegram alerts sent.
+[2026-08-21 09:44:14] Email alerts sent.
+[2026-08-21 09:44:14]   BUY ICICIBANK @ 1415.4 | 1 strategies | Conf: 0.9
+[2026-08-21 09:44:14]   BUY GRASIM @ 3271.1 | 1 strategies | Conf: 0.9
+[2026-08-21 09:44:14]   BUY FEDERALBNK @ 356.05 | 1 strategies | Conf: 0.9
+[2026-08-21 09:44:14]   BUY NIFTY50 @ 24244.8 | 1 strategies | Conf: 0.8
+[2026-08-21 09:44:14]   BUY TITAN @ 5022.0 | 1 strategies | Conf: 0.8
+[2026-08-21 09:44:14]   BUY APOLLOHOSP @ 8656.0 | 1 strategies | Conf: 0.8
+[2026-08-21 09:44:14]   BUY JSWSTEEL @ 1294.8 | 1 strategies | Conf: 0.8
+[2026-08-21 09:44:14]   BUY FINNIFTY @ 26311.15 | 1 strategies | Conf: 0.7
+[2026-08-21 09:44:14]   BUY ADANIENT @ 2990.4 | 1 strategies | Conf: 0.6
+[2026-08-21 09:44:14]   BUY BAJFINANCE @ 1099.0 | 1 strategies | Conf: 0.6
+[2026-08-21 09:44:14]   BUY SUNPHARMA @ 1898.9 | 1 strategies | Conf: 0.6
+[2026-08-21 09:44:14]   BUY LT @ 4068.0 | 1 strategies | Conf: 0.6
+[2026-08-21 09:44:14]   BUY NESTLEIND @ 1457.3 | 1 strategies | Conf: 0.6
+[2026-08-21 09:44:14]   BUY BAJAJFINSV @ 2022.0 | 1 strategies | Conf: 0.6
+[2026-08-21 09:44:14]   BUY INDUSINDBK @ 998.5 | 1 strategies | Conf: 0.6
+[2026-08-21 09:44:14] Scan complete.
+
+[2026-08-21 09:49:15] Starting auto scan...
+[2026-08-21 09:49:37] Found 15 stock(s) with signals! Sending alerts...
+[2026-08-21 09:49:38] Telegram alerts sent.
+[2026-08-21 09:49:42] Email alerts sent.
+[2026-08-21 09:49:42]   BUY ICICIBANK @ 1417.5 | 1 strategies | Conf: 0.9
+[2026-08-21 09:49:42]   BUY GRASIM @ 3261.7 | 1 strategies | Conf: 0.9
+[2026-08-21 09:49:42]   BUY FEDERALBNK @ 355.75 | 1 strategies | Conf: 0.9
+[2026-08-21 09:49:42]   BUY NIFTY50 @ 24245.45 | 1 strategies | Conf: 0.8
+[2026-08-21 09:49:42]   BUY TITAN @ 5027.0 | 1 strategies | Conf: 0.8
+[2026-08-21 09:49:42]   BUY APOLLOHOSP @ 8663.5 | 1 strategies | Conf: 0.8
+[2026-08-21 09:49:42]   BUY JSWSTEEL @ 1292.9 | 1 strategies | Conf: 0.8
+[2026-08-21 09:49:42]   BUY FINNIFTY @ 26309.9 | 1 strategies | Conf: 0.7
+[2026-08-21 09:49:42]   BUY ADANIENT @ 2983.9 | 1 strategies | Conf: 0.6
+[2026-08-21 09:49:42]   BUY BAJFINANCE @ 1098.0 | 1 strategies | Conf: 0.6
+[2026-08-21 09:49:42]   BUY SUNPHARMA @ 1899.1 | 1 strategies | Conf: 0.6
+[2026-08-21 09:49:42]   BUY LT @ 4068.8 | 1 strategies | Conf: 0.6
+[2026-08-21 09:49:42]   BUY NESTLEIND @ 1457.8 | 1 strategies | Conf: 0.6
+[2026-08-21 09:49:42]   BUY BAJAJFINSV @ 2021.8 | 1 strategies | Conf: 0.6
+[2026-08-21 09:49:42]   BUY INDUSINDBK @ 998.3 | 1 strategies | Conf: 0.6
+[2026-08-21 09:49:42] Scan complete.
+
+[2026-08-21 09:54:42] Starting auto scan...
+[2026-08-21 09:55:05] Found 15 stock(s) with signals! Sending alerts...
+[2026-08-21 09:55:06] Telegram alerts sent.
+[2026-08-21 09:55:10] Email alerts sent.
+[2026-08-21 09:55:10]   BUY ICICIBANK @ 1417.5 | 1 strategies | Conf: 0.9
+[2026-08-21 09:55:10]   BUY GRASIM @ 3260.0 | 1 strategies | Conf: 0.9
+[2026-08-21 09:55:10]   BUY FEDERALBNK @ 356.8 | 1 strategies | Conf: 0.9
+[2026-08-21 09:55:10]   BUY NIFTY50 @ 24253.5 | 1 strategies | Conf: 0.8
+[2026-08-21 09:55:10]   BUY TITAN @ 5023.6 | 1 strategies | Conf: 0.8
+[2026-08-21 09:55:10]   BUY APOLLOHOSP @ 8670.0 | 1 strategies | Conf: 0.8
+[2026-08-21 09:55:10]   BUY JSWSTEEL @ 1292.2 | 1 strategies | Conf: 0.8
+[2026-08-21 09:55:10]   BUY FINNIFTY @ 26303.4 | 1 strategies | Conf: 0.7
+[2026-08-21 09:55:10]   BUY ADANIENT @ 2984.8 | 1 strategies | Conf: 0.6
+[2026-08-21 09:55:10]   BUY BAJFINANCE @ 1099.0 | 1 strategies | Conf: 0.6
+[2026-08-21 09:55:10]   BUY SUNPHARMA @ 1898.5 | 1 strategies | Conf: 0.6
+[2026-08-21 09:55:10]   BUY LT @ 4066.0 | 1 strategies | Conf: 0.6
+[2026-08-21 09:55:10]   BUY NESTLEIND @ 1458.6 | 1 strategies | Conf: 0.6
+[2026-08-21 09:55:10]   BUY BAJAJFINSV @ 2020.6 | 1 strategies | Conf: 0.6
+[2026-08-21 09:55:10]   BUY INDUSINDBK @ 1000.5 | 1 strategies | Conf: 0.6
+[2026-08-21 09:55:10] Scan complete.
+
+[2026-08-21 10:00:12] Starting auto scan...
+[2026-08-21 10:00:34] Found 16 stock(s) with signals! Sending alerts...
+[2026-08-21 10:00:34] Telegram alerts sent.
+[2026-08-21 10:00:38] Email alerts sent.
+[2026-08-21 10:00:38]   BUY ICICIBANK @ 1416.4 | 1 strategies | Conf: 0.9
+[2026-08-21 10:00:38]   BUY GRASIM @ 3283.0 | 1 strategies | Conf: 0.9
+[2026-08-21 10:00:38]   BUY FEDERALBNK @ 357.1 | 1 strategies | Conf: 0.9
+[2026-08-21 10:00:38]   BUY NIFTY50 @ 24252.2 | 1 strategies | Conf: 0.8
+[2026-08-21 10:00:38]   BUY TITAN @ 5023.4 | 1 strategies | Conf: 0.8
+[2026-08-21 10:00:38]   BUY APOLLOHOSP @ 8668.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:00:38]   BUY JSWSTEEL @ 1293.7 | 1 strategies | Conf: 0.8
+[2026-08-21 10:00:38]   BUY NAM-INDIA @ 1249.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:00:38]   BUY FINNIFTY @ 26289.4 | 1 strategies | Conf: 0.7
+[2026-08-21 10:00:38]   BUY ADANIENT @ 2987.0 | 1 strategies | Conf: 0.6
+[2026-08-21 10:00:38]   BUY BAJFINANCE @ 1100.1 | 1 strategies | Conf: 0.6
+[2026-08-21 10:00:38]   BUY SUNPHARMA @ 1899.9 | 1 strategies | Conf: 0.6
+[2026-08-21 10:00:38]   BUY LT @ 4069.6 | 1 strategies | Conf: 0.6
+[2026-08-21 10:00:38]   BUY NESTLEIND @ 1460.7 | 1 strategies | Conf: 0.6
+[2026-08-21 10:00:38]   BUY BAJAJFINSV @ 2020.6 | 1 strategies | Conf: 0.6
+[2026-08-21 10:00:38]   BUY INDUSINDBK @ 1003.8 | 1 strategies | Conf: 0.6
+[2026-08-21 10:00:38] Scan complete.
+
+[2026-08-21 10:05:39] Starting auto scan...
+[2026-08-21 10:06:01] Found 17 stock(s) with signals! Sending alerts...
+[2026-08-21 10:06:02] Telegram alerts sent.
+[2026-08-21 10:06:06] Email alerts sent.
+[2026-08-21 10:06:06]   STRONG BUY PREMIERENE @ 1061.8 | 2 strategies | Conf: 0.6
+[2026-08-21 10:06:06]   BUY ICICIBANK @ 1414.7 | 1 strategies | Conf: 0.9
+[2026-08-21 10:06:06]   BUY GRASIM @ 3281.3 | 1 strategies | Conf: 0.9
+[2026-08-21 10:06:06]   BUY FEDERALBNK @ 357.65 | 1 strategies | Conf: 0.9
+[2026-08-21 10:06:06]   BUY NIFTY50 @ 24239.8 | 1 strategies | Conf: 0.8
+[2026-08-21 10:06:06]   BUY TITAN @ 5025.2 | 1 strategies | Conf: 0.8
+[2026-08-21 10:06:06]   BUY APOLLOHOSP @ 8672.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:06:06]   BUY JSWSTEEL @ 1294.6 | 1 strategies | Conf: 0.8
+[2026-08-21 10:06:06]   BUY NAM-INDIA @ 1252.4 | 1 strategies | Conf: 0.8
+[2026-08-21 10:06:06]   BUY FINNIFTY @ 26267.6 | 1 strategies | Conf: 0.7
+[2026-08-21 10:06:06]   BUY ADANIENT @ 2995.0 | 1 strategies | Conf: 0.6
+[2026-08-21 10:06:06]   BUY BAJFINANCE @ 1099.8 | 1 strategies | Conf: 0.6
+[2026-08-21 10:06:06]   BUY SUNPHARMA @ 1895.8 | 1 strategies | Conf: 0.6
+[2026-08-21 10:06:06]   BUY LT @ 4066.9 | 1 strategies | Conf: 0.6
+[2026-08-21 10:06:06]   BUY NESTLEIND @ 1459.4 | 1 strategies | Conf: 0.6
+[2026-08-21 10:06:06]   BUY BAJAJFINSV @ 2021.4 | 1 strategies | Conf: 0.6
+[2026-08-21 10:06:06]   BUY INDUSINDBK @ 1001.6 | 1 strategies | Conf: 0.6
+[2026-08-21 10:06:06] Scan complete.
+
+[2026-08-21 10:11:06] Starting auto scan...
+[2026-08-21 10:11:26] Found 18 stock(s) with signals! Sending alerts...
+[2026-08-21 10:11:27] Telegram alerts sent.
+[2026-08-21 10:11:30] Email alerts sent.
+[2026-08-21 10:11:30]   BUY ICICIBANK @ 1415.6 | 1 strategies | Conf: 0.9
+[2026-08-21 10:11:30]   BUY GRASIM @ 3282.5 | 1 strategies | Conf: 0.9
+[2026-08-21 10:11:30]   BUY FEDERALBNK @ 358.2 | 1 strategies | Conf: 0.9
+[2026-08-21 10:11:30]   BUY NIFTY50 @ 24229.3 | 1 strategies | Conf: 0.8
+[2026-08-21 10:11:30]   BUY TITAN @ 5021.4 | 1 strategies | Conf: 0.8
+[2026-08-21 10:11:30]   BUY APOLLOHOSP @ 8676.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:11:30]   BUY EICHERMOT @ 8016.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:11:30]   BUY JSWSTEEL @ 1292.4 | 1 strategies | Conf: 0.8
+[2026-08-21 10:11:30]   BUY NAM-INDIA @ 1245.9 | 1 strategies | Conf: 0.8
+[2026-08-21 10:11:30]   BUY FINNIFTY @ 26257.05 | 1 strategies | Conf: 0.7
+[2026-08-21 10:11:30]   BUY PREMIERENE @ 1057.2 | 1 strategies | Conf: 0.68
+[2026-08-21 10:11:30]   BUY ADANIENT @ 2991.5 | 1 strategies | Conf: 0.6
+[2026-08-21 10:11:30]   BUY BAJFINANCE @ 1098.8 | 1 strategies | Conf: 0.6
+[2026-08-21 10:11:30]   BUY SUNPHARMA @ 1895.6 | 1 strategies | Conf: 0.6
+[2026-08-21 10:11:30]   BUY LT @ 4068.1 | 1 strategies | Conf: 0.6
+[2026-08-21 10:11:30]   BUY NESTLEIND @ 1452.1 | 1 strategies | Conf: 0.6
+[2026-08-21 10:11:30]   BUY BAJAJFINSV @ 2026.7 | 1 strategies | Conf: 0.6
+[2026-08-21 10:11:30]   BUY INDUSINDBK @ 1000.2 | 1 strategies | Conf: 0.6
+[2026-08-21 10:11:30] Scan complete.
+
+[2026-08-21 10:16:30] Starting auto scan...
+[2026-08-21 10:16:50] Found 18 stock(s) with signals! Sending alerts...
+[2026-08-21 10:16:51] Telegram alerts sent.
+[2026-08-21 10:16:55] Email alerts sent.
+[2026-08-21 10:16:55]   BUY ICICIBANK @ 1415.0 | 1 strategies | Conf: 0.9
+[2026-08-21 10:16:55]   BUY GRASIM @ 3288.7 | 1 strategies | Conf: 0.9
+[2026-08-21 10:16:55]   BUY FEDERALBNK @ 358.8 | 1 strategies | Conf: 0.9
+[2026-08-21 10:16:55]   BUY NIFTY50 @ 24235.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:16:55]   BUY TITAN @ 5022.1 | 1 strategies | Conf: 0.8
+[2026-08-21 10:16:55]   BUY APOLLOHOSP @ 8684.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:16:55]   BUY EICHERMOT @ 8022.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:16:55]   BUY JSWSTEEL @ 1292.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:16:55]   BUY NAM-INDIA @ 1247.8 | 1 strategies | Conf: 0.8
+[2026-08-21 10:16:55]   BUY FINNIFTY @ 26253.3 | 1 strategies | Conf: 0.7
+[2026-08-21 10:16:55]   BUY PREMIERENE @ 1055.3 | 1 strategies | Conf: 0.69
+[2026-08-21 10:16:55]   BUY ADANIENT @ 2991.0 | 1 strategies | Conf: 0.6
+[2026-08-21 10:16:55]   BUY BAJFINANCE @ 1097.2 | 1 strategies | Conf: 0.6
+[2026-08-21 10:16:55]   BUY SUNPHARMA @ 1896.4 | 1 strategies | Conf: 0.6
+[2026-08-21 10:16:55]   BUY LT @ 4071.4 | 1 strategies | Conf: 0.6
+[2026-08-21 10:16:55]   BUY NESTLEIND @ 1452.8 | 1 strategies | Conf: 0.6
+[2026-08-21 10:16:55]   BUY BAJAJFINSV @ 2023.5 | 1 strategies | Conf: 0.6
+[2026-08-21 10:16:55]   BUY INDUSINDBK @ 1000.4 | 1 strategies | Conf: 0.6
+[2026-08-21 10:16:55] Scan complete.
+
+[2026-08-21 10:21:55] Starting auto scan...
+[2026-08-21 10:22:16] Found 22 stock(s) with signals! Sending alerts...
+[2026-08-21 10:22:44] Telegram alerts sent.
+[2026-08-21 10:22:47] Email alerts sent.
+[2026-08-21 10:22:47]   STRONG BUY NAM-INDIA @ 1251.0 | 2 strategies | Conf: 0.77
+[2026-08-21 10:22:47]   BUY ICICIBANK @ 1415.3 | 1 strategies | Conf: 0.9
+[2026-08-21 10:22:47]   BUY GRASIM @ 3292.4 | 1 strategies | Conf: 0.9
+[2026-08-21 10:22:47]   BUY FEDERALBNK @ 358.0 | 1 strategies | Conf: 0.9
+[2026-08-21 10:22:47]   BUY NIFTY50 @ 24234.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:22:47]   BUY TITAN @ 5027.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:22:47]   BUY APOLLOHOSP @ 8683.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:22:47]   BUY EICHERMOT @ 8018.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:22:47]   BUY JSWSTEEL @ 1293.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:22:47]   BUY DLF @ 681.15 | 1 strategies | Conf: 0.73
+[2026-08-21 10:22:47]   BUY JINDALSTEL @ 1124.8 | 1 strategies | Conf: 0.73
+[2026-08-21 10:22:47]   BUY IDFCFIRSTB @ 86.0 | 1 strategies | Conf: 0.72
+[2026-08-21 10:22:47]   BUY PNBHOUSING @ 1184.1 | 1 strategies | Conf: 0.71
+[2026-08-21 10:22:47]   BUY FINNIFTY @ 26251.45 | 1 strategies | Conf: 0.7
+[2026-08-21 10:22:47]   BUY PREMIERENE @ 1057.4 | 1 strategies | Conf: 0.69
+[2026-08-21 10:22:47]   BUY ADANIENT @ 2988.9 | 1 strategies | Conf: 0.6
+[2026-08-21 10:22:47]   BUY BAJFINANCE @ 1096.5 | 1 strategies | Conf: 0.6
+[2026-08-21 10:22:47]   BUY SUNPHARMA @ 1895.2 | 1 strategies | Conf: 0.6
+[2026-08-21 10:22:47]   BUY LT @ 4071.2 | 1 strategies | Conf: 0.6
+[2026-08-21 10:22:47]   BUY NESTLEIND @ 1453.6 | 1 strategies | Conf: 0.6
+[2026-08-21 10:22:47]   BUY BAJAJFINSV @ 2024.2 | 1 strategies | Conf: 0.6
+[2026-08-21 10:22:47]   BUY INDUSINDBK @ 1000.0 | 1 strategies | Conf: 0.6
+[2026-08-21 10:22:47] Scan complete.
+
+[2026-08-21 10:27:47] Starting auto scan...
+[2026-08-21 10:28:09] Found 22 stock(s) with signals! Sending alerts...
+[2026-08-21 10:28:36] Telegram alerts sent.
+[2026-08-21 10:28:40] Email alerts sent.
+[2026-08-21 10:28:40]   STRONG BUY NAM-INDIA @ 1251.6 | 2 strategies | Conf: 0.77
+[2026-08-21 10:28:40]   BUY ICICIBANK @ 1416.4 | 1 strategies | Conf: 0.9
+[2026-08-21 10:28:40]   BUY GRASIM @ 3293.4 | 1 strategies | Conf: 0.9
+[2026-08-21 10:28:40]   BUY FEDERALBNK @ 357.7 | 1 strategies | Conf: 0.9
+[2026-08-21 10:28:40]   BUY NIFTY50 @ 24246.85 | 1 strategies | Conf: 0.8
+[2026-08-21 10:28:40]   BUY TITAN @ 5027.3 | 1 strategies | Conf: 0.8
+[2026-08-21 10:28:40]   BUY APOLLOHOSP @ 8677.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:28:40]   BUY EICHERMOT @ 8008.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:28:40]   BUY JSWSTEEL @ 1291.7 | 1 strategies | Conf: 0.8
+[2026-08-21 10:28:40]   BUY JINDALSTEL @ 1124.5 | 1 strategies | Conf: 0.74
+[2026-08-21 10:28:40]   BUY DLF @ 681.05 | 1 strategies | Conf: 0.73
+[2026-08-21 10:28:40]   BUY IDFCFIRSTB @ 86.2 | 1 strategies | Conf: 0.72
+[2026-08-21 10:28:40]   BUY PNBHOUSING @ 1184.7 | 1 strategies | Conf: 0.71
+[2026-08-21 10:28:40]   BUY FINNIFTY @ 26263.7 | 1 strategies | Conf: 0.7
+[2026-08-21 10:28:40]   BUY PREMIERENE @ 1058.1 | 1 strategies | Conf: 0.69
+[2026-08-21 10:28:40]   BUY ADANIENT @ 2987.2 | 1 strategies | Conf: 0.6
+[2026-08-21 10:28:40]   BUY BAJFINANCE @ 1095.9 | 1 strategies | Conf: 0.6
+[2026-08-21 10:28:40]   BUY SUNPHARMA @ 1895.4 | 1 strategies | Conf: 0.6
+[2026-08-21 10:28:40]   BUY LT @ 4072.5 | 1 strategies | Conf: 0.6
+[2026-08-21 10:28:40]   BUY NESTLEIND @ 1453.5 | 1 strategies | Conf: 0.6
+[2026-08-21 10:28:40]   BUY BAJAJFINSV @ 2023.4 | 1 strategies | Conf: 0.6
+[2026-08-21 10:28:40]   BUY INDUSINDBK @ 1000.0 | 1 strategies | Conf: 0.6
+[2026-08-21 10:28:40] Scan complete.
+
+[2026-08-21 10:33:41] Starting auto scan...
+[2026-08-21 10:34:02] Found 22 stock(s) with signals! Sending alerts...
+[2026-08-21 10:34:21] Telegram alerts sent.
+[2026-08-21 10:34:25] Email alerts sent.
+[2026-08-21 10:34:25]   STRONG BUY NAM-INDIA @ 1250.1 | 2 strategies | Conf: 0.77
+[2026-08-21 10:34:25]   STRONG BUY PREMIERENE @ 1059.1 | 2 strategies | Conf: 0.61
+[2026-08-21 10:34:25]   BUY ICICIBANK @ 1416.1 | 1 strategies | Conf: 0.9
+[2026-08-21 10:34:25]   BUY GRASIM @ 3296.5 | 1 strategies | Conf: 0.9
+[2026-08-21 10:34:25]   BUY FEDERALBNK @ 358.45 | 1 strategies | Conf: 0.9
+[2026-08-21 10:34:25]   BUY NIFTY50 @ 24251.25 | 1 strategies | Conf: 0.8
+[2026-08-21 10:34:25]   BUY TITAN @ 5031.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:34:25]   BUY APOLLOHOSP @ 8680.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:34:25]   BUY EICHERMOT @ 8008.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:34:25]   BUY JSWSTEEL @ 1289.9 | 1 strategies | Conf: 0.8
+[2026-08-21 10:34:25]   BUY JINDALSTEL @ 1125.0 | 1 strategies | Conf: 0.74
+[2026-08-21 10:34:25]   BUY DLF @ 681.0 | 1 strategies | Conf: 0.73
+[2026-08-21 10:34:25]   BUY IDFCFIRSTB @ 86.15 | 1 strategies | Conf: 0.72
+[2026-08-21 10:34:25]   BUY PNBHOUSING @ 1185.8 | 1 strategies | Conf: 0.71
+[2026-08-21 10:34:25]   BUY FINNIFTY @ 26261.85 | 1 strategies | Conf: 0.7
+[2026-08-21 10:34:25]   BUY ADANIENT @ 2986.3 | 1 strategies | Conf: 0.6
+[2026-08-21 10:34:25]   BUY BAJFINANCE @ 1095.9 | 1 strategies | Conf: 0.6
+[2026-08-21 10:34:25]   BUY SUNPHARMA @ 1895.2 | 1 strategies | Conf: 0.6
+[2026-08-21 10:34:25]   BUY LT @ 4075.0 | 1 strategies | Conf: 0.6
+[2026-08-21 10:34:25]   BUY NESTLEIND @ 1453.9 | 1 strategies | Conf: 0.6
+[2026-08-21 10:34:25]   BUY BAJAJFINSV @ 2019.1 | 1 strategies | Conf: 0.6
+[2026-08-21 10:34:25]   BUY INDUSINDBK @ 1000.0 | 1 strategies | Conf: 0.6
+[2026-08-21 10:34:25] Scan complete.
+
+[2026-08-21 10:39:25] Starting auto scan...
+[2026-08-21 10:39:45] Found 21 stock(s) with signals! Sending alerts...
+[2026-08-21 10:40:33] Telegram alerts sent.
+[2026-08-21 10:40:37] Email alerts sent.
+[2026-08-21 10:40:37]   STRONG BUY NAM-INDIA @ 1250.4 | 2 strategies | Conf: 0.77
+[2026-08-21 10:40:37]   STRONG BUY PREMIERENE @ 1059.2 | 2 strategies | Conf: 0.62
+[2026-08-21 10:40:37]   BUY ICICIBANK @ 1415.6 | 1 strategies | Conf: 0.9
+[2026-08-21 10:40:37]   BUY GRASIM @ 3295.4 | 1 strategies | Conf: 0.9
+[2026-08-21 10:40:37]   BUY FEDERALBNK @ 359.15 | 1 strategies | Conf: 0.9
+[2026-08-21 10:40:37]   BUY NIFTY50 @ 24247.4 | 1 strategies | Conf: 0.8
+[2026-08-21 10:40:37]   BUY TITAN @ 5021.9 | 1 strategies | Conf: 0.8
+[2026-08-21 10:40:37]   BUY APOLLOHOSP @ 8674.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:40:37]   BUY EICHERMOT @ 8002.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:40:37]   BUY JSWSTEEL @ 1289.8 | 1 strategies | Conf: 0.8
+[2026-08-21 10:40:37]   BUY JINDALSTEL @ 1124.2 | 1 strategies | Conf: 0.74
+[2026-08-21 10:40:37]   BUY DLF @ 681.4 | 1 strategies | Conf: 0.73
+[2026-08-21 10:40:37]   BUY IDFCFIRSTB @ 86.11 | 1 strategies | Conf: 0.72
+[2026-08-21 10:40:37]   BUY FINNIFTY @ 26268.6 | 1 strategies | Conf: 0.7
+[2026-08-21 10:40:37]   BUY ADANIENT @ 2984.0 | 1 strategies | Conf: 0.6
+[2026-08-21 10:40:37]   BUY BAJFINANCE @ 1096.3 | 1 strategies | Conf: 0.6
+[2026-08-21 10:40:37]   BUY SUNPHARMA @ 1895.2 | 1 strategies | Conf: 0.6
+[2026-08-21 10:40:37]   BUY LT @ 4070.0 | 1 strategies | Conf: 0.6
+[2026-08-21 10:40:37]   BUY NESTLEIND @ 1454.8 | 1 strategies | Conf: 0.6
+[2026-08-21 10:40:37]   BUY BAJAJFINSV @ 2017.9 | 1 strategies | Conf: 0.6
+[2026-08-21 10:40:37]   BUY INDUSINDBK @ 999.6 | 1 strategies | Conf: 0.6
+[2026-08-21 10:40:37] Scan complete.
+
+[2026-08-21 10:45:37] Starting auto scan...
+[2026-08-21 10:45:59] Found 25 stock(s) with signals! Sending alerts...
+[2026-08-21 10:46:50] Telegram alerts sent.
+[2026-08-21 10:46:54] Email alerts sent.
+[2026-08-21 10:46:54]   VERY STRONG BUY CDSL @ 1372.5 | 3 strategies | Conf: 0.65
+[2026-08-21 10:46:54]   STRONG BUY NAM-INDIA @ 1251.6 | 2 strategies | Conf: 0.77
+[2026-08-21 10:46:54]   STRONG BUY PREMIERENE @ 1061.1 | 2 strategies | Conf: 0.62
+[2026-08-21 10:46:54]   STRONG BUY KOTAKBANK @ 403.3 | 2 strategies | Conf: 0.6
+[2026-08-21 10:46:54]   STRONG BUY MCX @ 3199.4 | 2 strategies | Conf: 0.41
+[2026-08-21 10:46:54]   BUY ICICIBANK @ 1416.4 | 1 strategies | Conf: 0.9
+[2026-08-21 10:46:54]   BUY GRASIM @ 3292.6 | 1 strategies | Conf: 0.9
+[2026-08-21 10:46:54]   BUY FEDERALBNK @ 358.55 | 1 strategies | Conf: 0.9
+[2026-08-21 10:46:54]   BUY NIFTY50 @ 24255.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:46:54]   BUY TITAN @ 5020.6 | 1 strategies | Conf: 0.8
+[2026-08-21 10:46:54]   BUY APOLLOHOSP @ 8672.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:46:54]   BUY EICHERMOT @ 8006.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:46:54]   BUY JSWSTEEL @ 1290.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:46:54]   BUY JINDALSTEL @ 1125.7 | 1 strategies | Conf: 0.74
+[2026-08-21 10:46:54]   BUY IDFCFIRSTB @ 86.17 | 1 strategies | Conf: 0.73
+[2026-08-21 10:46:54]   BUY DLF @ 681.8 | 1 strategies | Conf: 0.73
+[2026-08-21 10:46:54]   BUY FINNIFTY @ 26280.2 | 1 strategies | Conf: 0.7
+[2026-08-21 10:46:54]   SELL BRITANNIA @ 5365.0 | 1 strategies | Conf: 0.62
+[2026-08-21 10:46:54]   BUY ADANIENT @ 2984.5 | 1 strategies | Conf: 0.6
+[2026-08-21 10:46:54]   BUY BAJFINANCE @ 1094.2 | 1 strategies | Conf: 0.6
+[2026-08-21 10:46:54]   BUY SUNPHARMA @ 1894.8 | 1 strategies | Conf: 0.6
+[2026-08-21 10:46:54]   BUY LT @ 4069.3 | 1 strategies | Conf: 0.6
+[2026-08-21 10:46:54]   BUY NESTLEIND @ 1458.9 | 1 strategies | Conf: 0.6
+[2026-08-21 10:46:54]   BUY BAJAJFINSV @ 2020.5 | 1 strategies | Conf: 0.6
+[2026-08-21 10:46:54]   BUY INDUSINDBK @ 1003.9 | 1 strategies | Conf: 0.6
+[2026-08-21 10:46:54] Scan complete.
+
+[2026-08-21 10:51:54] Starting auto scan...
+[2026-08-21 10:52:14] Found 26 stock(s) with signals! Sending alerts...
+[2026-08-21 10:52:55] Telegram alerts sent.
+[2026-08-21 10:52:59] Email alerts sent.
+[2026-08-21 10:52:59]   VERY STRONG BUY CDSL @ 1368.4 | 4 strategies | Conf: 0.74
+[2026-08-21 10:52:59]   VERY STRONG BUY MCX @ 3197.5 | 3 strategies | Conf: 0.41
+[2026-08-21 10:52:59]   STRONG BUY NAM-INDIA @ 1256.1 | 2 strategies | Conf: 0.77
+[2026-08-21 10:52:59]   STRONG BUY PREMIERENE @ 1060.1 | 2 strategies | Conf: 0.62
+[2026-08-21 10:52:59]   STRONG BUY KOTAKBANK @ 403.0 | 2 strategies | Conf: 0.6
+[2026-08-21 10:52:59]   STRONG SELL BRITANNIA @ 5359.5 | 2 strategies | Conf: 0.51
+[2026-08-21 10:52:59]   BUY ICICIBANK @ 1416.1 | 1 strategies | Conf: 0.9
+[2026-08-21 10:52:59]   BUY GRASIM @ 3294.6 | 1 strategies | Conf: 0.9
+[2026-08-21 10:52:59]   BUY FEDERALBNK @ 358.5 | 1 strategies | Conf: 0.9
+[2026-08-21 10:52:59]   BUY NIFTY50 @ 24255.05 | 1 strategies | Conf: 0.8
+[2026-08-21 10:52:59]   BUY TITAN @ 5026.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:52:59]   BUY APOLLOHOSP @ 8679.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:52:59]   BUY EICHERMOT @ 8014.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:52:59]   BUY JSWSTEEL @ 1291.4 | 1 strategies | Conf: 0.8
+[2026-08-21 10:52:59]   BUY JINDALSTEL @ 1126.7 | 1 strategies | Conf: 0.74
+[2026-08-21 10:52:59]   BUY IDFCFIRSTB @ 86.15 | 1 strategies | Conf: 0.73
+[2026-08-21 10:52:59]   BUY DLF @ 681.6 | 1 strategies | Conf: 0.73
+[2026-08-21 10:52:59]   BUY FINNIFTY @ 26283.15 | 1 strategies | Conf: 0.7
+[2026-08-21 10:52:59]   BUY POWERGRID @ 273.95 | 1 strategies | Conf: 0.62
+[2026-08-21 10:52:59]   BUY ADANIENT @ 2993.7 | 1 strategies | Conf: 0.6
+[2026-08-21 10:52:59]   BUY BAJFINANCE @ 1095.1 | 1 strategies | Conf: 0.6
+[2026-08-21 10:52:59]   BUY SUNPHARMA @ 1894.9 | 1 strategies | Conf: 0.6
+[2026-08-21 10:52:59]   BUY LT @ 4072.0 | 1 strategies | Conf: 0.6
+[2026-08-21 10:52:59]   BUY NESTLEIND @ 1456.3 | 1 strategies | Conf: 0.6
+[2026-08-21 10:52:59]   BUY BAJAJFINSV @ 2021.1 | 1 strategies | Conf: 0.6
+[2026-08-21 10:52:59]   BUY INDUSINDBK @ 1002.7 | 1 strategies | Conf: 0.6
+[2026-08-21 10:52:59] Scan complete.
+
+[2026-08-21 10:57:59] Starting auto scan...
+[2026-08-21 10:58:20] Found 25 stock(s) with signals! Sending alerts...
+[2026-08-21 10:59:11] Telegram alerts sent.
+[2026-08-21 10:59:15] Email alerts sent.
+[2026-08-21 10:59:15]   VERY STRONG BUY CDSL @ 1373.6 | 4 strategies | Conf: 0.75
+[2026-08-21 10:59:15]   VERY STRONG BUY MCX @ 3200.3 | 3 strategies | Conf: 0.41
+[2026-08-21 10:59:15]   STRONG BUY NAM-INDIA @ 1256.3 | 2 strategies | Conf: 0.77
+[2026-08-21 10:59:15]   STRONG BUY PREMIERENE @ 1060.0 | 2 strategies | Conf: 0.62
+[2026-08-21 10:59:15]   STRONG BUY KOTAKBANK @ 402.85 | 2 strategies | Conf: 0.6
+[2026-08-21 10:59:15]   BUY ICICIBANK @ 1415.5 | 1 strategies | Conf: 0.9
+[2026-08-21 10:59:15]   BUY GRASIM @ 3292.9 | 1 strategies | Conf: 0.9
+[2026-08-21 10:59:15]   BUY FEDERALBNK @ 358.65 | 1 strategies | Conf: 0.9
+[2026-08-21 10:59:15]   BUY TITAN @ 5023.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:59:15]   BUY APOLLOHOSP @ 8678.5 | 1 strategies | Conf: 0.8
+[2026-08-21 10:59:15]   BUY EICHERMOT @ 8012.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:59:15]   BUY JSWSTEEL @ 1293.0 | 1 strategies | Conf: 0.8
+[2026-08-21 10:59:15]   BUY JINDALSTEL @ 1129.4 | 1 strategies | Conf: 0.74
+[2026-08-21 10:59:15]   BUY IDFCFIRSTB @ 86.24 | 1 strategies | Conf: 0.73
+[2026-08-21 10:59:15]   BUY DLF @ 681.3 | 1 strategies | Conf: 0.73
+[2026-08-21 10:59:15]   BUY POWERGRID @ 275.2 | 1 strategies | Conf: 0.63
+[2026-08-21 10:59:15]   SELL BRITANNIA @ 5366.5 | 1 strategies | Conf: 0.63
+[2026-08-21 10:59:15]   BUY ADANIENT @ 2987.4 | 1 strategies | Conf: 0.6
+[2026-08-21 10:59:15]   BUY BAJFINANCE @ 1092.0 | 1 strategies | Conf: 0.6
+[2026-08-21 10:59:15]   BUY SUNPHARMA @ 1893.6 | 1 strategies | Conf: 0.6
+[2026-08-21 10:59:15]   BUY LT @ 4075.0 | 1 strategies | Conf: 0.6
+[2026-08-21 10:59:15]   BUY NESTLEIND @ 1457.1 | 1 strategies | Conf: 0.6
+[2026-08-21 10:59:15]   BUY BAJAJFINSV @ 2017.3 | 1 strategies | Conf: 0.6
+[2026-08-21 10:59:15]   BUY INDUSINDBK @ 1003.2 | 1 strategies | Conf: 0.6
+[2026-08-21 10:59:15]   BUY NIFTYMIDCAP100 @ 63677.65 | 1 strategies | Conf: 0.55
+[2026-08-21 10:59:15] Scan complete.
+
+[2026-08-21 11:04:15] Starting auto scan...
+[2026-08-21 11:04:38] Found 26 stock(s) with signals! Sending alerts...
+[2026-08-21 11:05:39] Telegram alerts sent.
+[2026-08-21 11:05:43] Email alerts sent.
+[2026-08-21 11:05:43]   VERY STRONG BUY CDSL @ 1377.2 | 4 strategies | Conf: 0.76
+[2026-08-21 11:05:43]   VERY STRONG BUY MCX @ 3197.0 | 3 strategies | Conf: 0.41
+[2026-08-21 11:05:43]   STRONG BUY NAM-INDIA @ 1255.8 | 2 strategies | Conf: 0.77
+[2026-08-21 11:05:43]   STRONG BUY KOTAKBANK @ 403.0 | 2 strategies | Conf: 0.6
+[2026-08-21 11:05:43]   STRONG SELL BRITANNIA @ 5360.0 | 2 strategies | Conf: 0.52
+[2026-08-21 11:05:43]   BUY ICICIBANK @ 1417.6 | 1 strategies | Conf: 0.9
+[2026-08-21 11:05:43]   BUY GRASIM @ 3296.1 | 1 strategies | Conf: 0.9
+[2026-08-21 11:05:43]   BUY FEDERALBNK @ 358.45 | 1 strategies | Conf: 0.9
+[2026-08-21 11:05:43]   BUY TITAN @ 5025.9 | 1 strategies | Conf: 0.8
+[2026-08-21 11:05:43]   BUY APOLLOHOSP @ 8679.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:05:43]   BUY EICHERMOT @ 8012.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:05:43]   BUY JSWSTEEL @ 1292.1 | 1 strategies | Conf: 0.8
+[2026-08-21 11:05:43]   BUY JINDALSTEL @ 1127.4 | 1 strategies | Conf: 0.75
+[2026-08-21 11:05:43]   BUY IDFCFIRSTB @ 86.25 | 1 strategies | Conf: 0.73
+[2026-08-21 11:05:43]   BUY DLF @ 681.95 | 1 strategies | Conf: 0.73
+[2026-08-21 11:05:43]   BUY PREMIERENE @ 1057.6 | 1 strategies | Conf: 0.71
+[2026-08-21 11:05:43]   BUY POWERGRID @ 275.25 | 1 strategies | Conf: 0.64
+[2026-08-21 11:05:43]   BUY ADANIENT @ 2986.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:05:43]   BUY BAJFINANCE @ 1093.4 | 1 strategies | Conf: 0.6
+[2026-08-21 11:05:43]   BUY SUNPHARMA @ 1895.2 | 1 strategies | Conf: 0.6
+[2026-08-21 11:05:43]   BUY LT @ 4075.9 | 1 strategies | Conf: 0.6
+[2026-08-21 11:05:43]   BUY NESTLEIND @ 1458.4 | 1 strategies | Conf: 0.6
+[2026-08-21 11:05:43]   BUY BAJAJFINSV @ 2015.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:05:43]   BUY INDUSINDBK @ 1004.2 | 1 strategies | Conf: 0.6
+[2026-08-21 11:05:43]   BUY RELIANCE @ 1313.3 | 1 strategies | Conf: 0.56
+[2026-08-21 11:05:43]   BUY NIFTYMIDCAP100 @ 63694.5 | 1 strategies | Conf: 0.55
+[2026-08-21 11:05:43] Scan complete.
+
+[2026-08-21 11:10:44] Starting auto scan...
+[2026-08-21 11:11:04] Found 25 stock(s) with signals! Sending alerts...
+[2026-08-21 11:11:35] Telegram alerts sent.
+[2026-08-21 11:11:39] Email alerts sent.
+[2026-08-21 11:11:39]   VERY STRONG BUY CDSL @ 1378.9 | 4 strategies | Conf: 0.77
+[2026-08-21 11:11:39]   VERY STRONG BUY MCX @ 3197.8 | 3 strategies | Conf: 0.41
+[2026-08-21 11:11:39]   STRONG BUY NAM-INDIA @ 1260.6 | 2 strategies | Conf: 0.78
+[2026-08-21 11:11:39]   STRONG BUY KOTAKBANK @ 402.45 | 2 strategies | Conf: 0.61
+[2026-08-21 11:11:39]   STRONG SELL BRITANNIA @ 5360.0 | 2 strategies | Conf: 0.52
+[2026-08-21 11:11:39]   BUY ICICIBANK @ 1418.6 | 1 strategies | Conf: 0.9
+[2026-08-21 11:11:39]   BUY GRASIM @ 3299.8 | 1 strategies | Conf: 0.9
+[2026-08-21 11:11:39]   BUY FEDERALBNK @ 358.4 | 1 strategies | Conf: 0.9
+[2026-08-21 11:11:39]   BUY TITAN @ 5030.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:11:39]   BUY APOLLOHOSP @ 8675.5 | 1 strategies | Conf: 0.8
+[2026-08-21 11:11:39]   BUY EICHERMOT @ 8022.5 | 1 strategies | Conf: 0.8
+[2026-08-21 11:11:39]   BUY JSWSTEEL @ 1292.3 | 1 strategies | Conf: 0.8
+[2026-08-21 11:11:39]   BUY JINDALSTEL @ 1127.4 | 1 strategies | Conf: 0.75
+[2026-08-21 11:11:39]   BUY IDFCFIRSTB @ 86.24 | 1 strategies | Conf: 0.73
+[2026-08-21 11:11:39]   BUY DLF @ 681.75 | 1 strategies | Conf: 0.73
+[2026-08-21 11:11:39]   BUY PREMIERENE @ 1057.7 | 1 strategies | Conf: 0.71
+[2026-08-21 11:11:39]   BUY POWERGRID @ 275.55 | 1 strategies | Conf: 0.65
+[2026-08-21 11:11:39]   BUY ADANIENT @ 2987.8 | 1 strategies | Conf: 0.6
+[2026-08-21 11:11:39]   BUY BAJFINANCE @ 1092.4 | 1 strategies | Conf: 0.6
+[2026-08-21 11:11:39]   BUY SUNPHARMA @ 1893.5 | 1 strategies | Conf: 0.6
+[2026-08-21 11:11:39]   BUY LT @ 4072.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:11:39]   BUY NESTLEIND @ 1459.6 | 1 strategies | Conf: 0.6
+[2026-08-21 11:11:39]   BUY BAJAJFINSV @ 2014.3 | 1 strategies | Conf: 0.6
+[2026-08-21 11:11:39]   BUY INDUSINDBK @ 1003.4 | 1 strategies | Conf: 0.6
+[2026-08-21 11:11:39]   BUY NIFTYMIDCAP100 @ 63696.4 | 1 strategies | Conf: 0.55
+[2026-08-21 11:11:39] Scan complete.
+
+[2026-08-21 11:16:39] Starting auto scan...
+[2026-08-21 11:17:01] Found 25 stock(s) with signals! Sending alerts...
+[2026-08-21 11:18:25] Telegram alerts sent.
+[2026-08-21 11:18:29] Email alerts sent.
+[2026-08-21 11:18:29]   VERY STRONG BUY CDSL @ 1379.5 | 4 strategies | Conf: 0.78
+[2026-08-21 11:18:29]   VERY STRONG BUY KOTAKBANK @ 402.5 | 3 strategies | Conf: 0.54
+[2026-08-21 11:18:29]   VERY STRONG BUY PREMIERENE @ 1063.5 | 3 strategies | Conf: 0.53
+[2026-08-21 11:18:29]   VERY STRONG BUY MCX @ 3201.7 | 3 strategies | Conf: 0.42
+[2026-08-21 11:18:29]   STRONG BUY NAM-INDIA @ 1260.2 | 2 strategies | Conf: 0.78
+[2026-08-21 11:18:29]   STRONG SELL BRITANNIA @ 5363.0 | 2 strategies | Conf: 0.52
+[2026-08-21 11:18:29]   BUY ICICIBANK @ 1417.7 | 1 strategies | Conf: 0.9
+[2026-08-21 11:18:29]   BUY GRASIM @ 3295.2 | 1 strategies | Conf: 0.9
+[2026-08-21 11:18:29]   BUY FEDERALBNK @ 358.6 | 1 strategies | Conf: 0.9
+[2026-08-21 11:18:29]   BUY TITAN @ 5025.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:18:29]   BUY APOLLOHOSP @ 8676.5 | 1 strategies | Conf: 0.8
+[2026-08-21 11:18:29]   BUY EICHERMOT @ 8013.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:18:29]   BUY JSWSTEEL @ 1292.1 | 1 strategies | Conf: 0.8
+[2026-08-21 11:18:29]   BUY JINDALSTEL @ 1127.3 | 1 strategies | Conf: 0.75
+[2026-08-21 11:18:29]   BUY IDFCFIRSTB @ 86.27 | 1 strategies | Conf: 0.73
+[2026-08-21 11:18:29]   BUY DLF @ 682.15 | 1 strategies | Conf: 0.73
+[2026-08-21 11:18:29]   BUY POWERGRID @ 274.8 | 1 strategies | Conf: 0.65
+[2026-08-21 11:18:29]   BUY ADANIENT @ 2987.8 | 1 strategies | Conf: 0.6
+[2026-08-21 11:18:29]   BUY BAJFINANCE @ 1093.5 | 1 strategies | Conf: 0.6
+[2026-08-21 11:18:29]   BUY SUNPHARMA @ 1893.3 | 1 strategies | Conf: 0.6
+[2026-08-21 11:18:29]   BUY LT @ 4076.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:18:29]   BUY NESTLEIND @ 1458.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:18:29]   BUY BAJAJFINSV @ 2015.4 | 1 strategies | Conf: 0.6
+[2026-08-21 11:18:29]   BUY INDUSINDBK @ 1005.7 | 1 strategies | Conf: 0.6
+[2026-08-21 11:18:29]   BUY NIFTYMIDCAP100 @ 63729.2 | 1 strategies | Conf: 0.55
+[2026-08-21 11:18:29] Scan complete.
+
+[2026-08-21 11:23:29] Starting auto scan...
+[2026-08-21 11:23:49] Found 26 stock(s) with signals! Sending alerts...
+[2026-08-21 11:24:40] Telegram alerts sent.
+[2026-08-21 11:24:43] Email alerts sent.
+[2026-08-21 11:24:43]   VERY STRONG BUY CDSL @ 1381.0 | 4 strategies | Conf: 0.79
+[2026-08-21 11:24:43]   VERY STRONG BUY KOTAKBANK @ 402.4 | 3 strategies | Conf: 0.54
+[2026-08-21 11:24:43]   VERY STRONG BUY MCX @ 3200.6 | 3 strategies | Conf: 0.42
+[2026-08-21 11:24:43]   STRONG BUY NAM-INDIA @ 1259.0 | 2 strategies | Conf: 0.78
+[2026-08-21 11:24:43]   STRONG BUY PREMIERENE @ 1061.0 | 2 strategies | Conf: 0.66
+[2026-08-21 11:24:43]   STRONG SELL BRITANNIA @ 5359.0 | 2 strategies | Conf: 0.52
+[2026-08-21 11:24:43]   BUY ICICIBANK @ 1417.0 | 1 strategies | Conf: 0.9
+[2026-08-21 11:24:43]   BUY GRASIM @ 3291.7 | 1 strategies | Conf: 0.9
+[2026-08-21 11:24:43]   BUY FEDERALBNK @ 358.8 | 1 strategies | Conf: 0.9
+[2026-08-21 11:24:43]   BUY TITAN @ 5031.6 | 1 strategies | Conf: 0.8
+[2026-08-21 11:24:43]   BUY APOLLOHOSP @ 8676.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:24:43]   BUY EICHERMOT @ 8009.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:24:43]   BUY JSWSTEEL @ 1291.9 | 1 strategies | Conf: 0.8
+[2026-08-21 11:24:43]   BUY JINDALSTEL @ 1122.6 | 1 strategies | Conf: 0.75
+[2026-08-21 11:24:43]   BUY DLF @ 681.35 | 1 strategies | Conf: 0.74
+[2026-08-21 11:24:43]   BUY IDFCFIRSTB @ 86.26 | 1 strategies | Conf: 0.73
+[2026-08-21 11:24:43]   BUY POWERGRID @ 273.65 | 1 strategies | Conf: 0.67
+[2026-08-21 11:24:43]   BUY ADANIENT @ 2988.1 | 1 strategies | Conf: 0.6
+[2026-08-21 11:24:43]   BUY BAJFINANCE @ 1095.5 | 1 strategies | Conf: 0.6
+[2026-08-21 11:24:43]   BUY SUNPHARMA @ 1893.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:24:43]   BUY LT @ 4071.6 | 1 strategies | Conf: 0.6
+[2026-08-21 11:24:43]   BUY NESTLEIND @ 1458.7 | 1 strategies | Conf: 0.6
+[2026-08-21 11:24:43]   BUY BAJAJFINSV @ 2016.2 | 1 strategies | Conf: 0.6
+[2026-08-21 11:24:43]   BUY INDUSINDBK @ 1003.9 | 1 strategies | Conf: 0.6
+[2026-08-21 11:24:43]   BUY SHRIRAMFIN @ 1131.0 | 1 strategies | Conf: 0.58
+[2026-08-21 11:24:43]   BUY NIFTYMIDCAP100 @ 63717.55 | 1 strategies | Conf: 0.55
+[2026-08-21 11:24:43] Scan complete.
+
+[2026-08-21 11:29:43] Starting auto scan...
+[2026-08-21 11:30:05] Found 25 stock(s) with signals! Sending alerts...
+[2026-08-21 11:31:26] Telegram alerts sent.
+[2026-08-21 11:31:29] Email alerts sent.
+[2026-08-21 11:31:29]   VERY STRONG BUY CDSL @ 1379.0 | 4 strategies | Conf: 0.8
+[2026-08-21 11:31:29]   VERY STRONG BUY KOTAKBANK @ 402.65 | 3 strategies | Conf: 0.54
+[2026-08-21 11:31:29]   VERY STRONG BUY MCX @ 3199.0 | 3 strategies | Conf: 0.42
+[2026-08-21 11:31:29]   STRONG BUY NAM-INDIA @ 1261.8 | 2 strategies | Conf: 0.78
+[2026-08-21 11:31:29]   STRONG BUY PREMIERENE @ 1059.4 | 2 strategies | Conf: 0.66
+[2026-08-21 11:31:29]   BUY ICICIBANK @ 1417.5 | 1 strategies | Conf: 0.9
+[2026-08-21 11:31:29]   BUY GRASIM @ 3293.9 | 1 strategies | Conf: 0.9
+[2026-08-21 11:31:29]   BUY FEDERALBNK @ 358.7 | 1 strategies | Conf: 0.9
+[2026-08-21 11:31:29]   BUY TITAN @ 5035.7 | 1 strategies | Conf: 0.8
+[2026-08-21 11:31:29]   BUY APOLLOHOSP @ 8679.5 | 1 strategies | Conf: 0.8
+[2026-08-21 11:31:29]   BUY EICHERMOT @ 8003.5 | 1 strategies | Conf: 0.8
+[2026-08-21 11:31:29]   BUY JSWSTEEL @ 1292.9 | 1 strategies | Conf: 0.8
+[2026-08-21 11:31:29]   BUY JINDALSTEL @ 1125.4 | 1 strategies | Conf: 0.75
+[2026-08-21 11:31:29]   BUY IDFCFIRSTB @ 86.41 | 1 strategies | Conf: 0.74
+[2026-08-21 11:31:29]   BUY POWERGRID @ 273.15 | 1 strategies | Conf: 0.67
+[2026-08-21 11:31:29]   SELL BRITANNIA @ 5368.0 | 1 strategies | Conf: 0.64
+[2026-08-21 11:31:29]   BUY ADANIENT @ 2991.5 | 1 strategies | Conf: 0.6
+[2026-08-21 11:31:29]   BUY BAJFINANCE @ 1096.1 | 1 strategies | Conf: 0.6
+[2026-08-21 11:31:29]   BUY SUNPHARMA @ 1891.7 | 1 strategies | Conf: 0.6
+[2026-08-21 11:31:29]   BUY LT @ 4072.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:31:29]   BUY NESTLEIND @ 1461.8 | 1 strategies | Conf: 0.6
+[2026-08-21 11:31:29]   BUY BAJAJFINSV @ 2016.2 | 1 strategies | Conf: 0.6
+[2026-08-21 11:31:29]   BUY INDUSINDBK @ 1003.4 | 1 strategies | Conf: 0.6
+[2026-08-21 11:31:29]   BUY SHRIRAMFIN @ 1132.5 | 1 strategies | Conf: 0.58
+[2026-08-21 11:31:29]   BUY NIFTYMIDCAP100 @ 63707.75 | 1 strategies | Conf: 0.55
+[2026-08-21 11:31:29] Scan complete.
+
+[2026-08-21 11:36:29] Starting auto scan...
+[2026-08-21 11:36:49] Found 27 stock(s) with signals! Sending alerts...
+[2026-08-21 11:37:41] Telegram alerts sent.
+[2026-08-21 11:37:44] Email alerts sent.
+[2026-08-21 11:37:44]   VERY STRONG BUY CDSL @ 1383.1 | 4 strategies | Conf: 0.81
+[2026-08-21 11:37:44]   VERY STRONG BUY KOTAKBANK @ 402.85 | 3 strategies | Conf: 0.55
+[2026-08-21 11:37:44]   VERY STRONG BUY MCX @ 3197.4 | 3 strategies | Conf: 0.42
+[2026-08-21 11:37:44]   STRONG BUY NAM-INDIA @ 1257.3 | 2 strategies | Conf: 0.78
+[2026-08-21 11:37:44]   STRONG SELL BRITANNIA @ 5363.0 | 2 strategies | Conf: 0.53
+[2026-08-21 11:37:44]   BUY ICICIBANK @ 1417.7 | 1 strategies | Conf: 0.9
+[2026-08-21 11:37:44]   BUY GRASIM @ 3289.5 | 1 strategies | Conf: 0.9
+[2026-08-21 11:37:44]   BUY FEDERALBNK @ 358.6 | 1 strategies | Conf: 0.9
+[2026-08-21 11:37:44]   BUY TITAN @ 5038.1 | 1 strategies | Conf: 0.8
+[2026-08-21 11:37:44]   BUY APOLLOHOSP @ 8668.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:37:44]   BUY EICHERMOT @ 8000.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:37:44]   BUY JSWSTEEL @ 1292.1 | 1 strategies | Conf: 0.8
+[2026-08-21 11:37:44]   BUY JINDALSTEL @ 1125.2 | 1 strategies | Conf: 0.76
+[2026-08-21 11:37:44]   BUY IDFCFIRSTB @ 86.41 | 1 strategies | Conf: 0.74
+[2026-08-21 11:37:44]   BUY DLF @ 682.4 | 1 strategies | Conf: 0.74
+[2026-08-21 11:37:44]   BUY PREMIERENE @ 1054.6 | 1 strategies | Conf: 0.73
+[2026-08-21 11:37:44]   BUY POWERGRID @ 274.0 | 1 strategies | Conf: 0.67
+[2026-08-21 11:37:44]   BUY ADANIENT @ 2990.6 | 1 strategies | Conf: 0.6
+[2026-08-21 11:37:44]   BUY BAJFINANCE @ 1096.9 | 1 strategies | Conf: 0.6
+[2026-08-21 11:37:44]   BUY SUNPHARMA @ 1891.2 | 1 strategies | Conf: 0.6
+[2026-08-21 11:37:44]   BUY LT @ 4075.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:37:44]   BUY NESTLEIND @ 1462.7 | 1 strategies | Conf: 0.6
+[2026-08-21 11:37:44]   BUY BAJAJFINSV @ 2017.7 | 1 strategies | Conf: 0.6
+[2026-08-21 11:37:44]   BUY INDUSINDBK @ 1003.6 | 1 strategies | Conf: 0.6
+[2026-08-21 11:37:44]   SELL POLYCAB @ 9015.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:37:44]   BUY SHRIRAMFIN @ 1131.4 | 1 strategies | Conf: 0.58
+[2026-08-21 11:37:44]   BUY NIFTYMIDCAP100 @ 63732.1 | 1 strategies | Conf: 0.55
+[2026-08-21 11:37:44] Scan complete.
+
+[2026-08-21 11:42:45] Starting auto scan...
+[2026-08-21 11:43:07] Found 28 stock(s) with signals! Sending alerts...
+[2026-08-21 11:43:40] Telegram alerts sent.
+[2026-08-21 11:43:43] Email alerts sent.
+[2026-08-21 11:43:43]   VERY STRONG BUY CDSL @ 1381.7 | 4 strategies | Conf: 0.81
+[2026-08-21 11:43:43]   VERY STRONG BUY KOTAKBANK @ 403.1 | 3 strategies | Conf: 0.55
+[2026-08-21 11:43:43]   VERY STRONG BUY MCX @ 3182.6 | 3 strategies | Conf: 0.42
+[2026-08-21 11:43:43]   STRONG BUY NAM-INDIA @ 1255.0 | 2 strategies | Conf: 0.78
+[2026-08-21 11:43:43]   BUY ICICIBANK @ 1416.3 | 1 strategies | Conf: 0.9
+[2026-08-21 11:43:43]   BUY GRASIM @ 3287.5 | 1 strategies | Conf: 0.9
+[2026-08-21 11:43:43]   BUY FEDERALBNK @ 358.45 | 1 strategies | Conf: 0.9
+[2026-08-21 11:43:43]   BUY TITAN @ 5037.5 | 1 strategies | Conf: 0.8
+[2026-08-21 11:43:43]   BUY APOLLOHOSP @ 8670.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:43:43]   BUY EICHERMOT @ 7985.5 | 1 strategies | Conf: 0.8
+[2026-08-21 11:43:43]   BUY JSWSTEEL @ 1291.5 | 1 strategies | Conf: 0.8
+[2026-08-21 11:43:43]   BUY JINDALSTEL @ 1126.2 | 1 strategies | Conf: 0.76
+[2026-08-21 11:43:43]   SELL TATASTEEL @ 183.05 | 1 strategies | Conf: 0.75
+[2026-08-21 11:43:43]   BUY IDFCFIRSTB @ 86.4 | 1 strategies | Conf: 0.74
+[2026-08-21 11:43:43]   BUY DLF @ 681.9 | 1 strategies | Conf: 0.74
+[2026-08-21 11:43:43]   BUY PREMIERENE @ 1056.7 | 1 strategies | Conf: 0.74
+[2026-08-21 11:43:43]   BUY POWERGRID @ 272.75 | 1 strategies | Conf: 0.68
+[2026-08-21 11:43:43]   SELL BRITANNIA @ 5370.0 | 1 strategies | Conf: 0.65
+[2026-08-21 11:43:43]   SELL POLYCAB @ 9019.0 | 1 strategies | Conf: 0.61
+[2026-08-21 11:43:43]   BUY ADANIENT @ 2990.9 | 1 strategies | Conf: 0.6
+[2026-08-21 11:43:43]   BUY BAJFINANCE @ 1097.8 | 1 strategies | Conf: 0.6
+[2026-08-21 11:43:43]   BUY SUNPHARMA @ 1892.9 | 1 strategies | Conf: 0.6
+[2026-08-21 11:43:43]   BUY LT @ 4074.8 | 1 strategies | Conf: 0.6
+[2026-08-21 11:43:43]   BUY NESTLEIND @ 1464.1 | 1 strategies | Conf: 0.6
+[2026-08-21 11:43:43]   BUY BAJAJFINSV @ 2018.2 | 1 strategies | Conf: 0.6
+[2026-08-21 11:43:43]   BUY INDUSINDBK @ 1003.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:43:43]   BUY SHRIRAMFIN @ 1134.2 | 1 strategies | Conf: 0.58
+[2026-08-21 11:43:43]   BUY NIFTYMIDCAP100 @ 63701.55 | 1 strategies | Conf: 0.55
+[2026-08-21 11:43:43] Scan complete.
+
+[2026-08-21 11:48:44] Starting auto scan...
+[2026-08-21 11:49:05] Found 65 stock(s) with signals! Sending alerts...
+[2026-08-21 11:51:21] Telegram alerts sent.
+[2026-08-21 11:51:25] Email alerts sent.
+[2026-08-21 11:51:25]   VERY STRONG BUY CDSL @ 1382.7 | 5 strategies | Conf: 0.78
+[2026-08-21 11:51:25]   VERY STRONG BUY NAM-INDIA @ 1254.5 | 3 strategies | Conf: 0.77
+[2026-08-21 11:51:25]   VERY STRONG BUY KOTAKBANK @ 403.05 | 4 strategies | Conf: 0.6
+[2026-08-21 11:51:25]   VERY STRONG BUY MCX @ 3189.9 | 3 strategies | Conf: 0.42
+[2026-08-21 11:51:25]   STRONG BUY DLF @ 682.2 | 2 strategies | Conf: 0.75
+[2026-08-21 11:51:25]   STRONG BUY PREMIERENE @ 1059.9 | 2 strategies | Conf: 0.68
+[2026-08-21 11:51:25]   STRONG BUY JINDALSTEL @ 1124.3 | 2 strategies | Conf: 0.66
+[2026-08-21 11:51:25]   STRONG BUY NIFTYMIDCAP100 @ 63707.4 | 2 strategies | Conf: 0.65
+[2026-08-21 11:51:25]   STRONG BUY ADANIENT @ 2989.1 | 2 strategies | Conf: 0.5
+[2026-08-21 11:51:25]   STRONG BUY NESTLEIND @ 1464.9 | 2 strategies | Conf: 0.5
+[2026-08-21 11:51:25]   BUY ICICIBANK @ 1417.8 | 1 strategies | Conf: 0.9
+[2026-08-21 11:51:25]   BUY GRASIM @ 3281.0 | 1 strategies | Conf: 0.9
+[2026-08-21 11:51:25]   BUY FEDERALBNK @ 358.85 | 1 strategies | Conf: 0.9
+[2026-08-21 11:51:25]   SELL MARUTI @ 13678.0 | 1 strategies | Conf: 0.85
+[2026-08-21 11:51:25]   SELL TRENT @ 2947.0 | 1 strategies | Conf: 0.83
+[2026-08-21 11:51:25]   SELL HINDUNILVR @ 2017.5 | 1 strategies | Conf: 0.81
+[2026-08-21 11:51:25]   BUY HDFCBANK @ 729.75 | 1 strategies | Conf: 0.8
+[2026-08-21 11:51:25]   BUY TITAN @ 5040.5 | 1 strategies | Conf: 0.8
+[2026-08-21 11:51:25]   BUY BHARTIARTL @ 1950.3 | 1 strategies | Conf: 0.8
+[2026-08-21 11:51:25]   BUY APOLLOHOSP @ 8666.5 | 1 strategies | Conf: 0.8
+[2026-08-21 11:51:25]   BUY EICHERMOT @ 7993.5 | 1 strategies | Conf: 0.8
+[2026-08-21 11:51:25]   SELL HEROMOTOCO @ 5670.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:51:25]   BUY JSWSTEEL @ 1290.2 | 1 strategies | Conf: 0.8
+[2026-08-21 11:51:25]   SELL PNB @ 116.01 | 1 strategies | Conf: 0.8
+[2026-08-21 11:51:25]   BUY NIFTYIT @ 30656.8 | 1 strategies | Conf: 0.77
+[2026-08-21 11:51:25]   BUY INFY @ 1131.4 | 1 strategies | Conf: 0.76
+[2026-08-21 11:51:25]   SELL TATASTEEL @ 182.91 | 1 strategies | Conf: 0.76
+[2026-08-21 11:51:25]   SELL SBIN @ 1049.0 | 1 strategies | Conf: 0.75
+[2026-08-21 11:51:25]   SELL RELIANCE @ 1312.3 | 1 strategies | Conf: 0.75
+[2026-08-21 11:51:25]   SELL ADANIENT @ 2989.1 | 1 strategies | Conf: 0.75
+[2026-08-21 11:51:25]   SELL ONGC @ 237.11 | 1 strategies | Conf: 0.75
+[2026-08-21 11:51:25]   SELL APOLLOHOSP @ 8666.5 | 1 strategies | Conf: 0.75
+[2026-08-21 11:51:25]   BUY M&M @ 3431.6 | 1 strategies | Conf: 0.75
+[2026-08-21 11:51:25]   BUY PAYTM @ 1621.9 | 1 strategies | Conf: 0.75
+[2026-08-21 11:51:25]   BUY GODREJPROP @ 2031.6 | 1 strategies | Conf: 0.75
+[2026-08-21 11:51:25]   BUY HINDZINC @ 587.5 | 1 strategies | Conf: 0.75
+[2026-08-21 11:51:25]   BUY IDFCFIRSTB @ 86.37 | 1 strategies | Conf: 0.74
+[2026-08-21 11:51:25]   BUY RELIANCE @ 1312.3 | 1 strategies | Conf: 0.7
+[2026-08-21 11:51:25]   BUY TCS @ 2302.5 | 1 strategies | Conf: 0.69
+[2026-08-21 11:51:25]   BUY POWERGRID @ 272.5 | 1 strategies | Conf: 0.68
+[2026-08-21 11:51:25]   BUY IOC @ 136.34 | 1 strategies | Conf: 0.65
+[2026-08-21 11:51:25]   SELL BRITANNIA @ 5376.0 | 1 strategies | Conf: 0.65
+[2026-08-21 11:51:25]   BUY PNBHOUSING @ 1178.6 | 1 strategies | Conf: 0.65
+[2026-08-21 11:51:25]   SELL POLYCAB @ 9019.5 | 1 strategies | Conf: 0.61
+[2026-08-21 11:51:25]   BUY BAJFINANCE @ 1098.5 | 1 strategies | Conf: 0.6
+[2026-08-21 11:51:25]   BUY SUNPHARMA @ 1893.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:51:25]   BUY LT @ 4069.9 | 1 strategies | Conf: 0.6
+[2026-08-21 11:51:25]   BUY BAJAJFINSV @ 2017.1 | 1 strategies | Conf: 0.6
+[2026-08-21 11:51:25]   SELL INDUSINDBK @ 1003.6 | 1 strategies | Conf: 0.6
+[2026-08-21 11:51:25]   BUY INDUSINDBK @ 1003.6 | 1 strategies | Conf: 0.6
+[2026-08-21 11:51:25]   BUY SHRIRAMFIN @ 1134.3 | 1 strategies | Conf: 0.58
+[2026-08-21 11:51:25]   SELL FINNIFTY @ 26274.05 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   SELL ICICIBANK @ 1417.8 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   BUY ASIANPAINT @ 2623.1 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   SELL ULTRACEMCO @ 11558.0 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   BUY WIPRO @ 180.87 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   BUY TECHM @ 1592.2 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   SELL DRREDDY @ 1177.8 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   SELL GRASIM @ 3281.0 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   BUY HINDALCO @ 1032.3 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   BUY BANKBARODA @ 244.43 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   SELL M&M @ 3431.6 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   BUY HINDPETRO @ 364.9 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   BUY VOLTAS @ 1226.8 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25]   SELL OBEROIRLTY @ 1903.9 | 1 strategies | Conf: 0.4
+[2026-08-21 11:51:25] Scan complete.
+
+[2026-08-21 11:56:26] Starting auto scan...
+[2026-08-21 11:56:47] Found 64 stock(s) with signals! Sending alerts...
+[2026-08-21 11:58:10] Telegram alerts sent.
+[2026-08-21 11:58:14] Email alerts sent.
+[2026-08-21 11:58:14]   VERY STRONG BUY CDSL @ 1393.0 | 6 strategies | Conf: 0.8
+[2026-08-21 11:58:14]   VERY STRONG BUY NAM-INDIA @ 1257.2 | 3 strategies | Conf: 0.78
+[2026-08-21 11:58:14]   VERY STRONG BUY KOTAKBANK @ 402.55 | 4 strategies | Conf: 0.61
+[2026-08-21 11:58:14]   VERY STRONG BUY MCX @ 3182.3 | 3 strategies | Conf: 0.42
+[2026-08-21 11:58:14]   STRONG BUY DLF @ 681.15 | 2 strategies | Conf: 0.75
+[2026-08-21 11:58:14]   STRONG BUY PREMIERENE @ 1061.5 | 2 strategies | Conf: 0.69
+[2026-08-21 11:58:14]   STRONG BUY JINDALSTEL @ 1124.6 | 2 strategies | Conf: 0.66
+[2026-08-21 11:58:14]   STRONG BUY NIFTYMIDCAP100 @ 63676.95 | 2 strategies | Conf: 0.64
+[2026-08-21 11:58:14]   STRONG BUY NESTLEIND @ 1466.2 | 2 strategies | Conf: 0.5
+[2026-08-21 11:58:14]   BUY ICICIBANK @ 1417.0 | 1 strategies | Conf: 0.9
+[2026-08-21 11:58:14]   BUY GRASIM @ 3282.5 | 1 strategies | Conf: 0.9
+[2026-08-21 11:58:14]   BUY FEDERALBNK @ 359.8 | 1 strategies | Conf: 0.9
+[2026-08-21 11:58:14]   SELL MARUTI @ 13663.0 | 1 strategies | Conf: 0.85
+[2026-08-21 11:58:14]   SELL M&M @ 3417.8 | 1 strategies | Conf: 0.85
+[2026-08-21 11:58:14]   SELL TRENT @ 2945.0 | 1 strategies | Conf: 0.85
+[2026-08-21 11:58:14]   SELL HINDUNILVR @ 2015.9 | 1 strategies | Conf: 0.84
+[2026-08-21 11:58:14]   BUY HDFCBANK @ 729.85 | 1 strategies | Conf: 0.8
+[2026-08-21 11:58:14]   BUY TITAN @ 5038.2 | 1 strategies | Conf: 0.8
+[2026-08-21 11:58:14]   BUY BHARTIARTL @ 1950.7 | 1 strategies | Conf: 0.8
+[2026-08-21 11:58:14]   BUY APOLLOHOSP @ 8665.5 | 1 strategies | Conf: 0.8
+[2026-08-21 11:58:14]   BUY EICHERMOT @ 7997.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:58:14]   SELL HEROMOTOCO @ 5668.0 | 1 strategies | Conf: 0.8
+[2026-08-21 11:58:14]   BUY JSWSTEEL @ 1285.7 | 1 strategies | Conf: 0.8
+[2026-08-21 11:58:14]   SELL PNB @ 115.89 | 1 strategies | Conf: 0.8
+[2026-08-21 11:58:14]   BUY INFY @ 1132.9 | 1 strategies | Conf: 0.79
+[2026-08-21 11:58:14]   BUY NIFTYIT @ 30673.7 | 1 strategies | Conf: 0.78
+[2026-08-21 11:58:14]   SELL TATASTEEL @ 182.55 | 1 strategies | Conf: 0.76
+[2026-08-21 11:58:14]   SELL SBIN @ 1047.8 | 1 strategies | Conf: 0.75
+[2026-08-21 11:58:14]   SELL RELIANCE @ 1312.1 | 1 strategies | Conf: 0.75
+[2026-08-21 11:58:14]   SELL ADANIENT @ 2986.1 | 1 strategies | Conf: 0.75
+[2026-08-21 11:58:14]   SELL ONGC @ 237.45 | 1 strategies | Conf: 0.75
+[2026-08-21 11:58:14]   SELL APOLLOHOSP @ 8665.5 | 1 strategies | Conf: 0.75
+[2026-08-21 11:58:14]   BUY PAYTM @ 1622.7 | 1 strategies | Conf: 0.75
+[2026-08-21 11:58:14]   SELL VOLTAS @ 1223.4 | 1 strategies | Conf: 0.75
+[2026-08-21 11:58:14]   BUY GODREJPROP @ 2029.8 | 1 strategies | Conf: 0.75
+[2026-08-21 11:58:14]   BUY HINDZINC @ 587.2 | 1 strategies | Conf: 0.75
+[2026-08-21 11:58:14]   BUY IDFCFIRSTB @ 86.28 | 1 strategies | Conf: 0.74
+[2026-08-21 11:58:14]   BUY RELIANCE @ 1312.1 | 1 strategies | Conf: 0.69
+[2026-08-21 11:58:14]   BUY POWERGRID @ 272.2 | 1 strategies | Conf: 0.68
+[2026-08-21 11:58:14]   BUY IOC @ 136.27 | 1 strategies | Conf: 0.65
+[2026-08-21 11:58:14]   SELL BRITANNIA @ 5374.0 | 1 strategies | Conf: 0.65
+[2026-08-21 11:58:14]   SELL POLYCAB @ 9002.5 | 1 strategies | Conf: 0.61
+[2026-08-21 11:58:14]   BUY ADANIENT @ 2986.1 | 1 strategies | Conf: 0.6
+[2026-08-21 11:58:14]   BUY BAJFINANCE @ 1098.8 | 1 strategies | Conf: 0.6
+[2026-08-21 11:58:14]   BUY SUNPHARMA @ 1891.1 | 1 strategies | Conf: 0.6
+[2026-08-21 11:58:14]   BUY LT @ 4066.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:58:14]   BUY BAJAJFINSV @ 2018.5 | 1 strategies | Conf: 0.6
+[2026-08-21 11:58:14]   SELL INDUSINDBK @ 1002.7 | 1 strategies | Conf: 0.6
+[2026-08-21 11:58:14]   BUY INDUSINDBK @ 1002.7 | 1 strategies | Conf: 0.6
+[2026-08-21 11:58:14]   SELL BANKBARODA @ 244.0 | 1 strategies | Conf: 0.6
+[2026-08-21 11:58:14]   BUY SHRIRAMFIN @ 1133.3 | 1 strategies | Conf: 0.58
+[2026-08-21 11:58:14]   SELL FINNIFTY @ 26259.35 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14]   SELL ICICIBANK @ 1417.0 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14]   BUY ASIANPAINT @ 2620.7 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14]   BUY WIPRO @ 180.83 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14]   BUY TECHM @ 1593.9 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14]   SELL DRREDDY @ 1177.0 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14]   SELL GRASIM @ 3282.5 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14]   BUY HINDALCO @ 1030.1 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14]   BUY BANKBARODA @ 244.0 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14]   BUY HINDPETRO @ 364.8 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14]   BUY VOLTAS @ 1223.4 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14]   SELL OBEROIRLTY @ 1902.7 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14]   BUY PNBHOUSING @ 1176.4 | 1 strategies | Conf: 0.4
+[2026-08-21 11:58:14] Scan complete.
+
+[2026-08-21 12:03:14] Starting auto scan...
+[2026-08-21 12:03:35] Found 62 stock(s) with signals! Sending alerts...
+[2026-08-21 12:05:47] Telegram alerts sent.
+[2026-08-21 12:05:51] Email alerts sent.
+[2026-08-21 12:05:51]   VERY STRONG BUY CDSL @ 1396.7 | 6 strategies | Conf: 0.82
+[2026-08-21 12:05:51]   VERY STRONG BUY NAM-INDIA @ 1255.6 | 3 strategies | Conf: 0.78
+[2026-08-21 12:05:51]   VERY STRONG BUY KOTAKBANK @ 403.5 | 4 strategies | Conf: 0.61
+[2026-08-21 12:05:51]   VERY STRONG BUY MCX @ 3187.1 | 3 strategies | Conf: 0.42
+[2026-08-21 12:05:51]   STRONG BUY DLF @ 681.5 | 2 strategies | Conf: 0.75
+[2026-08-21 12:05:51]   STRONG BUY PREMIERENE @ 1060.3 | 2 strategies | Conf: 0.69
+[2026-08-21 12:05:51]   STRONG BUY NIFTYMIDCAP100 @ 63690.95 | 2 strategies | Conf: 0.65
+[2026-08-21 12:05:51]   STRONG BUY NESTLEIND @ 1464.7 | 2 strategies | Conf: 0.5
+[2026-08-21 12:05:51]   BUY ICICIBANK @ 1417.4 | 1 strategies | Conf: 0.9
+[2026-08-21 12:05:51]   BUY GRASIM @ 3289.4 | 1 strategies | Conf: 0.9
+[2026-08-21 12:05:51]   BUY FEDERALBNK @ 359.7 | 1 strategies | Conf: 0.9
+[2026-08-21 12:05:51]   SELL MARUTI @ 13656.0 | 1 strategies | Conf: 0.85
+[2026-08-21 12:05:51]   SELL M&M @ 3422.2 | 1 strategies | Conf: 0.85
+[2026-08-21 12:05:51]   SELL TRENT @ 2941.0 | 1 strategies | Conf: 0.85
+[2026-08-21 12:05:51]   SELL HINDUNILVR @ 2016.0 | 1 strategies | Conf: 0.84
+[2026-08-21 12:05:51]   BUY HDFCBANK @ 730.35 | 1 strategies | Conf: 0.8
+[2026-08-21 12:05:51]   BUY TITAN @ 5038.8 | 1 strategies | Conf: 0.8
+[2026-08-21 12:05:51]   BUY APOLLOHOSP @ 8664.0 | 1 strategies | Conf: 0.8
+[2026-08-21 12:05:51]   BUY EICHERMOT @ 7991.5 | 1 strategies | Conf: 0.8
+[2026-08-21 12:05:51]   SELL HEROMOTOCO @ 5665.5 | 1 strategies | Conf: 0.8
+[2026-08-21 12:05:51]   BUY JSWSTEEL @ 1286.2 | 1 strategies | Conf: 0.8
+[2026-08-21 12:05:51]   SELL PNB @ 115.91 | 1 strategies | Conf: 0.8
+[2026-08-21 12:05:51]   BUY NIFTYIT @ 30673.4 | 1 strategies | Conf: 0.78
+[2026-08-21 12:05:51]   BUY INFY @ 1132.0 | 1 strategies | Conf: 0.77
+[2026-08-21 12:05:51]   BUY JINDALSTEL @ 1125.3 | 1 strategies | Conf: 0.77
+[2026-08-21 12:05:51]   SELL TATASTEEL @ 182.84 | 1 strategies | Conf: 0.76
+[2026-08-21 12:05:51]   SELL SBIN @ 1046.4 | 1 strategies | Conf: 0.75
+[2026-08-21 12:05:51]   SELL RELIANCE @ 1311.7 | 1 strategies | Conf: 0.75
+[2026-08-21 12:05:51]   SELL ADANIENT @ 2987.3 | 1 strategies | Conf: 0.75
+[2026-08-21 12:05:51]   SELL ONGC @ 236.97 | 1 strategies | Conf: 0.75
+[2026-08-21 12:05:51]   SELL APOLLOHOSP @ 8664.0 | 1 strategies | Conf: 0.75
+[2026-08-21 12:05:51]   BUY PAYTM @ 1623.5 | 1 strategies | Conf: 0.75
+[2026-08-21 12:05:51]   BUY GODREJPROP @ 2030.2 | 1 strategies | Conf: 0.75
+[2026-08-21 12:05:51]   BUY HINDZINC @ 587.0 | 1 strategies | Conf: 0.75
+[2026-08-21 12:05:51]   BUY IDFCFIRSTB @ 86.37 | 1 strategies | Conf: 0.74
+[2026-08-21 12:05:51]   BUY POWERGRID @ 272.25 | 1 strategies | Conf: 0.69
+[2026-08-21 12:05:51]   SELL BRITANNIA @ 5371.5 | 1 strategies | Conf: 0.66
+[2026-08-21 12:05:51]   SELL SUNPHARMA @ 1887.0 | 1 strategies | Conf: 0.65
+[2026-08-21 12:05:51]   BUY IOC @ 136.3 | 1 strategies | Conf: 0.65
+[2026-08-21 12:05:51]   SELL POLYCAB @ 9003.0 | 1 strategies | Conf: 0.61
+[2026-08-21 12:05:51]   BUY ADANIENT @ 2987.3 | 1 strategies | Conf: 0.6
+[2026-08-21 12:05:51]   BUY BAJFINANCE @ 1096.6 | 1 strategies | Conf: 0.6
+[2026-08-21 12:05:51]   BUY LT @ 4066.2 | 1 strategies | Conf: 0.6
+[2026-08-21 12:05:51]   BUY BAJAJFINSV @ 2018.8 | 1 strategies | Conf: 0.6
+[2026-08-21 12:05:51]   SELL INDUSINDBK @ 1003.2 | 1 strategies | Conf: 0.6
+[2026-08-21 12:05:51]   BUY INDUSINDBK @ 1003.2 | 1 strategies | Conf: 0.6
+[2026-08-21 12:05:51]   SELL BANKBARODA @ 244.07 | 1 strategies | Conf: 0.6
+[2026-08-21 12:05:51]   BUY SHRIRAMFIN @ 1133.8 | 1 strategies | Conf: 0.58
+[2026-08-21 12:05:51]   SELL FINNIFTY @ 26264.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   SELL ICICIBANK @ 1417.4 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   BUY ASIANPAINT @ 2620.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   SELL ULTRACEMCO @ 11544.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   BUY BHARTIARTL @ 1949.2 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   BUY WIPRO @ 180.82 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   SELL DRREDDY @ 1177.1 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   SELL GRASIM @ 3289.4 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   BUY HINDALCO @ 1030.05 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   BUY BANKBARODA @ 244.07 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   BUY HINDPETRO @ 364.6 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   BUY VOLTAS @ 1224.9 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   SELL OBEROIRLTY @ 1903.8 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51]   BUY PNBHOUSING @ 1177.8 | 1 strategies | Conf: 0.4
+[2026-08-21 12:05:51] Scan complete.
+
+[2026-08-21 12:10:51] Starting auto scan...
+[2026-08-21 12:11:16] Found 63 stock(s) with signals! Sending alerts...
+[2026-08-21 12:13:09] Telegram alerts sent.
+[2026-08-21 12:13:13] Email alerts sent.
+[2026-08-21 12:13:13]   VERY STRONG BUY CDSL @ 1401.1 | 6 strategies | Conf: 0.83
+[2026-08-21 12:13:13]   VERY STRONG BUY NAM-INDIA @ 1256.6 | 3 strategies | Conf: 0.78
+[2026-08-21 12:13:13]   VERY STRONG BUY KOTAKBANK @ 403.0 | 4 strategies | Conf: 0.62
+[2026-08-21 12:13:13]   VERY STRONG BUY MCX @ 3192.7 | 3 strategies | Conf: 0.43
+[2026-08-21 12:13:13]   STRONG BUY PAYTM @ 1624.6 | 2 strategies | Conf: 0.75
+[2026-08-21 12:13:13]   STRONG BUY DLF @ 681.75 | 2 strategies | Conf: 0.75
+[2026-08-21 12:13:13]   STRONG BUY IDFCFIRSTB @ 86.39 | 2 strategies | Conf: 0.7
+[2026-08-21 12:13:13]   STRONG BUY PREMIERENE @ 1059.1 | 2 strategies | Conf: 0.7
+[2026-08-21 12:13:13]   STRONG BUY NESTLEIND @ 1469.0 | 2 strategies | Conf: 0.67
+[2026-08-21 12:13:13]   STRONG BUY NIFTYMIDCAP100 @ 63696.7 | 2 strategies | Conf: 0.65
+[2026-08-21 12:13:13]   STRONG BUY ADANIENT @ 2990.4 | 2 strategies | Conf: 0.5
+[2026-08-21 12:13:13]   BUY ICICIBANK @ 1417.0 | 1 strategies | Conf: 0.9
+[2026-08-21 12:13:13]   BUY GRASIM @ 3293.9 | 1 strategies | Conf: 0.9
+[2026-08-21 12:13:13]   BUY FEDERALBNK @ 359.2 | 1 strategies | Conf: 0.9
+[2026-08-21 12:13:13]   SELL HINDUNILVR @ 2015.1 | 1 strategies | Conf: 0.85
+[2026-08-21 12:13:13]   SELL MARUTI @ 13660.0 | 1 strategies | Conf: 0.85
+[2026-08-21 12:13:13]   SELL TRENT @ 2938.5 | 1 strategies | Conf: 0.85
+[2026-08-21 12:13:13]   BUY HDFCBANK @ 730.9 | 1 strategies | Conf: 0.8
+[2026-08-21 12:13:13]   BUY TITAN @ 5038.6 | 1 strategies | Conf: 0.8
+[2026-08-21 12:13:13]   BUY APOLLOHOSP @ 8664.5 | 1 strategies | Conf: 0.8
+[2026-08-21 12:13:13]   BUY EICHERMOT @ 7992.0 | 1 strategies | Conf: 0.8
+[2026-08-21 12:13:13]   SELL HEROMOTOCO @ 5663.5 | 1 strategies | Conf: 0.8
+[2026-08-21 12:13:13]   BUY JSWSTEEL @ 1286.7 | 1 strategies | Conf: 0.8
+[2026-08-21 12:13:13]   SELL PNB @ 115.99 | 1 strategies | Conf: 0.8
+[2026-08-21 12:13:13]   BUY NIFTYIT @ 30668.1 | 1 strategies | Conf: 0.78
+[2026-08-21 12:13:13]   BUY INFY @ 1132.4 | 1 strategies | Conf: 0.78
+[2026-08-21 12:13:13]   BUY JINDALSTEL @ 1125.0 | 1 strategies | Conf: 0.77
+[2026-08-21 12:13:13]   SELL TATASTEEL @ 182.94 | 1 strategies | Conf: 0.76
+[2026-08-21 12:13:13]   SELL SBIN @ 1046.8 | 1 strategies | Conf: 0.75
+[2026-08-21 12:13:13]   SELL RELIANCE @ 1312.1 | 1 strategies | Conf: 0.75
+[2026-08-21 12:13:13]   SELL ADANIENT @ 2990.4 | 1 strategies | Conf: 0.75
+[2026-08-21 12:13:13]   SELL ONGC @ 237.11 | 1 strategies | Conf: 0.75
+[2026-08-21 12:13:13]   SELL APOLLOHOSP @ 8664.5 | 1 strategies | Conf: 0.75
+[2026-08-21 12:13:13]   BUY GODREJPROP @ 2032.1 | 1 strategies | Conf: 0.75
+[2026-08-21 12:13:13]   BUY OBEROIRLTY @ 1906.0 | 1 strategies | Conf: 0.75
+[2026-08-21 12:13:13]   BUY HINDZINC @ 586.95 | 1 strategies | Conf: 0.75
+[2026-08-21 12:13:13]   BUY RELIANCE @ 1312.1 | 1 strategies | Conf: 0.69
+[2026-08-21 12:13:13]   BUY TCS @ 2303.1 | 1 strategies | Conf: 0.68
+[2026-08-21 12:13:13]   SELL BRITANNIA @ 5370.5 | 1 strategies | Conf: 0.66
+[2026-08-21 12:13:13]   BUY IOC @ 136.23 | 1 strategies | Conf: 0.65
+[2026-08-21 12:13:13]   SELL POLYCAB @ 8998.0 | 1 strategies | Conf: 0.61
+[2026-08-21 12:13:13]   BUY BAJFINANCE @ 1094.5 | 1 strategies | Conf: 0.6
+[2026-08-21 12:13:13]   BUY LT @ 4066.2 | 1 strategies | Conf: 0.6
+[2026-08-21 12:13:13]   BUY BAJAJFINSV @ 2018.2 | 1 strategies | Conf: 0.6
+[2026-08-21 12:13:13]   SELL INDUSINDBK @ 1002.7 | 1 strategies | Conf: 0.6
+[2026-08-21 12:13:13]   BUY INDUSINDBK @ 1002.7 | 1 strategies | Conf: 0.6
+[2026-08-21 12:13:13]   SELL BANKBARODA @ 243.96 | 1 strategies | Conf: 0.6
+[2026-08-21 12:13:13]   BUY SHRIRAMFIN @ 1132.7 | 1 strategies | Conf: 0.58
+[2026-08-21 12:13:13]   BUY TECHM @ 1588.8 | 1 strategies | Conf: 0.55
+[2026-08-21 12:13:13]   SELL FINNIFTY @ 26257.8 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   SELL ICICIBANK @ 1417.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   BUY ASIANPAINT @ 2622.9 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   SELL ULTRACEMCO @ 11554.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   BUY BHARTIARTL @ 1946.8 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   BUY WIPRO @ 180.84 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   SELL DRREDDY @ 1177.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   BUY HINDALCO @ 1031.4 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   BUY BANKBARODA @ 243.96 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   SELL M&M @ 3425.6 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   BUY HINDPETRO @ 364.25 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   BUY VOLTAS @ 1224.6 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   SELL OBEROIRLTY @ 1906.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13]   BUY PNBHOUSING @ 1177.6 | 1 strategies | Conf: 0.4
+[2026-08-21 12:13:13] Scan complete.
+
+[2026-08-21 12:18:13] Starting auto scan...
+[2026-08-21 12:18:34] Found 63 stock(s) with signals! Sending alerts...
+[2026-08-21 12:20:26] Telegram alerts sent.
+[2026-08-21 12:20:29] Email alerts sent.
+[2026-08-21 12:20:29]   VERY STRONG BUY CDSL @ 1392.5 | 5 strategies | Conf: 0.88
+[2026-08-21 12:20:29]   VERY STRONG BUY NAM-INDIA @ 1254.9 | 3 strategies | Conf: 0.78
+[2026-08-21 12:20:29]   VERY STRONG BUY KOTAKBANK @ 403.1 | 4 strategies | Conf: 0.62
+[2026-08-21 12:20:29]   VERY STRONG BUY MCX @ 3194.5 | 3 strategies | Conf: 0.43
+[2026-08-21 12:20:29]   STRONG BUY PAYTM @ 1628.6 | 2 strategies | Conf: 0.76
+[2026-08-21 12:20:29]   STRONG BUY DLF @ 681.85 | 2 strategies | Conf: 0.75
+[2026-08-21 12:20:29]   STRONG BUY BAJAJFINSV @ 2025.2 | 2 strategies | Conf: 0.72
+[2026-08-21 12:20:29]   STRONG BUY PREMIERENE @ 1059.9 | 2 strategies | Conf: 0.7
+[2026-08-21 12:20:29]   STRONG BUY JINDALSTEL @ 1124.0 | 2 strategies | Conf: 0.66
+[2026-08-21 12:20:29]   STRONG BUY NIFTYMIDCAP100 @ 63693.9 | 2 strategies | Conf: 0.65
+[2026-08-21 12:20:29]   STRONG SELL INDUSINDBK @ 1001.1 | 2 strategies | Conf: 0.61
+[2026-08-21 12:20:29]   STRONG BUY ADANIENT @ 2990.8 | 2 strategies | Conf: 0.5
+[2026-08-21 12:20:29]   STRONG BUY NESTLEIND @ 1464.9 | 2 strategies | Conf: 0.5
+[2026-08-21 12:20:29]   BUY ICICIBANK @ 1416.9 | 1 strategies | Conf: 0.9
+[2026-08-21 12:20:29]   BUY GRASIM @ 3290.6 | 1 strategies | Conf: 0.9
+[2026-08-21 12:20:29]   BUY FEDERALBNK @ 359.1 | 1 strategies | Conf: 0.9
+[2026-08-21 12:20:29]   SELL MARUTI @ 13660.0 | 1 strategies | Conf: 0.85
+[2026-08-21 12:20:29]   SELL TRENT @ 2938.8 | 1 strategies | Conf: 0.85
+[2026-08-21 12:20:29]   SELL HINDUNILVR @ 2016.5 | 1 strategies | Conf: 0.83
+[2026-08-21 12:20:29]   BUY HDFCBANK @ 730.75 | 1 strategies | Conf: 0.8
+[2026-08-21 12:20:29]   BUY TITAN @ 5039.2 | 1 strategies | Conf: 0.8
+[2026-08-21 12:20:29]   BUY APOLLOHOSP @ 8668.5 | 1 strategies | Conf: 0.8
+[2026-08-21 12:20:29]   BUY EICHERMOT @ 7992.0 | 1 strategies | Conf: 0.8
+[2026-08-21 12:20:29]   SELL HEROMOTOCO @ 5666.5 | 1 strategies | Conf: 0.8
+[2026-08-21 12:20:29]   BUY JSWSTEEL @ 1286.3 | 1 strategies | Conf: 0.8
+[2026-08-21 12:20:29]   SELL PNB @ 115.95 | 1 strategies | Conf: 0.8
+[2026-08-21 12:20:29]   BUY NIFTYIT @ 30646.8 | 1 strategies | Conf: 0.76
+[2026-08-21 12:20:29]   BUY INFY @ 1131.3 | 1 strategies | Conf: 0.76
+[2026-08-21 12:20:29]   SELL TATASTEEL @ 182.62 | 1 strategies | Conf: 0.76
+[2026-08-21 12:20:29]   SELL SBIN @ 1046.6 | 1 strategies | Conf: 0.75
+[2026-08-21 12:20:29]   SELL RELIANCE @ 1311.5 | 1 strategies | Conf: 0.75
+[2026-08-21 12:20:29]   SELL ADANIENT @ 2990.8 | 1 strategies | Conf: 0.75
+[2026-08-21 12:20:29]   SELL ONGC @ 236.82 | 1 strategies | Conf: 0.75
+[2026-08-21 12:20:29]   SELL APOLLOHOSP @ 8668.5 | 1 strategies | Conf: 0.75
+[2026-08-21 12:20:29]   BUY IDFCFIRSTB @ 86.3 | 1 strategies | Conf: 0.75
+[2026-08-21 12:20:29]   BUY GODREJPROP @ 2032.6 | 1 strategies | Conf: 0.75
+[2026-08-21 12:20:29]   BUY OBEROIRLTY @ 1906.8 | 1 strategies | Conf: 0.75
+[2026-08-21 12:20:29]   BUY HINDZINC @ 586.9 | 1 strategies | Conf: 0.75
+[2026-08-21 12:20:29]   BUY TCS @ 2302.9 | 1 strategies | Conf: 0.68
+[2026-08-21 12:20:29]   SELL BRITANNIA @ 5373.0 | 1 strategies | Conf: 0.66
+[2026-08-21 12:20:29]   SELL ITC @ 269.65 | 1 strategies | Conf: 0.65
+[2026-08-21 12:20:29]   BUY IOC @ 136.11 | 1 strategies | Conf: 0.65
+[2026-08-21 12:20:29]   SELL BANKBARODA @ 243.83 | 1 strategies | Conf: 0.61
+[2026-08-21 12:20:29]   SELL POLYCAB @ 9000.0 | 1 strategies | Conf: 0.61
+[2026-08-21 12:20:29]   BUY BAJFINANCE @ 1094.3 | 1 strategies | Conf: 0.6
+[2026-08-21 12:20:29]   BUY LT @ 4068.8 | 1 strategies | Conf: 0.6
+[2026-08-21 12:20:29]   BUY INDUSINDBK @ 1001.1 | 1 strategies | Conf: 0.6
+[2026-08-21 12:20:29]   BUY SHRIRAMFIN @ 1132.7 | 1 strategies | Conf: 0.58
+[2026-08-21 12:20:29]   BUY TECHM @ 1587.3 | 1 strategies | Conf: 0.55
+[2026-08-21 12:20:29]   SELL FINNIFTY @ 26259.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   SELL ICICIBANK @ 1416.9 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   BUY ASIANPAINT @ 2622.4 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   SELL ULTRACEMCO @ 11560.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   BUY BHARTIARTL @ 1945.8 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   BUY WIPRO @ 180.72 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   SELL DRREDDY @ 1178.4 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   BUY HINDALCO @ 1031.9 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   BUY BANKBARODA @ 243.83 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   SELL M&M @ 3430.9 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   BUY HINDPETRO @ 363.9 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   BUY VOLTAS @ 1224.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   SELL OBEROIRLTY @ 1906.8 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29]   BUY PNBHOUSING @ 1177.2 | 1 strategies | Conf: 0.4
+[2026-08-21 12:20:29] Scan complete.
+
+[2026-08-21 12:25:30] Starting auto scan...
+[2026-08-21 12:25:52] Found 61 stock(s) with signals! Sending alerts...
+[2026-08-21 12:28:23] Telegram alerts sent.
+[2026-08-21 12:28:27] Email alerts sent.
+[2026-08-21 12:28:27]   VERY STRONG BUY CDSL @ 1393.1 | 5 strategies | Conf: 0.88
+[2026-08-21 12:28:27]   VERY STRONG BUY NAM-INDIA @ 1255.0 | 3 strategies | Conf: 0.78
+[2026-08-21 12:28:27]   VERY STRONG BUY KOTAKBANK @ 403.3 | 4 strategies | Conf: 0.62
+[2026-08-21 12:28:27]   VERY STRONG BUY MCX @ 3190.7 | 3 strategies | Conf: 0.43
+[2026-08-21 12:28:27]   STRONG BUY PAYTM @ 1627.4 | 2 strategies | Conf: 0.76
+[2026-08-21 12:28:27]   STRONG BUY DLF @ 682.25 | 2 strategies | Conf: 0.75
+[2026-08-21 12:28:27]   STRONG BUY BAJAJFINSV @ 2023.0 | 2 strategies | Conf: 0.72
+[2026-08-21 12:28:27]   STRONG BUY IDFCFIRSTB @ 86.41 | 2 strategies | Conf: 0.7
+[2026-08-21 12:28:27]   STRONG BUY PREMIERENE @ 1059.5 | 2 strategies | Conf: 0.7
+[2026-08-21 12:28:27]   STRONG BUY NIFTYMIDCAP100 @ 63723.7 | 2 strategies | Conf: 0.66
+[2026-08-21 12:28:27]   STRONG BUY JINDALSTEL @ 1123.8 | 2 strategies | Conf: 0.66
+[2026-08-21 12:28:27]   STRONG SELL INDUSINDBK @ 1001.9 | 2 strategies | Conf: 0.61
+[2026-08-21 12:28:27]   STRONG BUY NESTLEIND @ 1465.7 | 2 strategies | Conf: 0.5
+[2026-08-21 12:28:27]   BUY ICICIBANK @ 1416.3 | 1 strategies | Conf: 0.9
+[2026-08-21 12:28:27]   BUY GRASIM @ 3293.6 | 1 strategies | Conf: 0.9
+[2026-08-21 12:28:27]   BUY FEDERALBNK @ 359.45 | 1 strategies | Conf: 0.9
+[2026-08-21 12:28:27]   SELL MARUTI @ 13660.0 | 1 strategies | Conf: 0.85
+[2026-08-21 12:28:27]   SELL TRENT @ 2941.0 | 1 strategies | Conf: 0.85
+[2026-08-21 12:28:27]   BUY HDFCBANK @ 730.75 | 1 strategies | Conf: 0.8
+[2026-08-21 12:28:27]   BUY TITAN @ 5043.8 | 1 strategies | Conf: 0.8
+[2026-08-21 12:28:27]   BUY APOLLOHOSP @ 8663.0 | 1 strategies | Conf: 0.8
+[2026-08-21 12:28:27]   BUY EICHERMOT @ 8005.0 | 1 strategies | Conf: 0.8
+[2026-08-21 12:28:27]   SELL HEROMOTOCO @ 5667.0 | 1 strategies | Conf: 0.8
+[2026-08-21 12:28:27]   BUY JSWSTEEL @ 1283.6 | 1 strategies | Conf: 0.8
+[2026-08-21 12:28:27]   SELL PNB @ 116.11 | 1 strategies | Conf: 0.8
+[2026-08-21 12:28:27]   BUY NIFTYIT @ 30678.95 | 1 strategies | Conf: 0.79
+[2026-08-21 12:28:27]   BUY INFY @ 1132.7 | 1 strategies | Conf: 0.78
+[2026-08-21 12:28:27]   SELL HINDUNILVR @ 2018.6 | 1 strategies | Conf: 0.78
+[2026-08-21 12:28:27]   SELL TATASTEEL @ 182.65 | 1 strategies | Conf: 0.76
+[2026-08-21 12:28:27]   SELL SBIN @ 1046.9 | 1 strategies | Conf: 0.75
+[2026-08-21 12:28:27]   SELL RELIANCE @ 1312.0 | 1 strategies | Conf: 0.75
+[2026-08-21 12:28:27]   SELL ADANIENT @ 2985.8 | 1 strategies | Conf: 0.75
+[2026-08-21 12:28:27]   SELL ONGC @ 236.62 | 1 strategies | Conf: 0.75
+[2026-08-21 12:28:27]   SELL APOLLOHOSP @ 8663.0 | 1 strategies | Conf: 0.75
+[2026-08-21 12:28:27]   BUY M&M @ 3431.4 | 1 strategies | Conf: 0.75
+[2026-08-21 12:28:27]   BUY GODREJPROP @ 2032.8 | 1 strategies | Conf: 0.75
+[2026-08-21 12:28:27]   BUY OBEROIRLTY @ 1906.4 | 1 strategies | Conf: 0.75
+[2026-08-21 12:28:27]   BUY HINDZINC @ 588.15 | 1 strategies | Conf: 0.75
+[2026-08-21 12:28:27]   SELL BRITANNIA @ 5372.5 | 1 strategies | Conf: 0.66
+[2026-08-21 12:28:27]   SELL JSWSTEEL @ 1283.6 | 1 strategies | Conf: 0.65
+[2026-08-21 12:28:27]   BUY IOC @ 136.13 | 1 strategies | Conf: 0.65
+[2026-08-21 12:28:27]   SELL POLYCAB @ 9007.0 | 1 strategies | Conf: 0.62
+[2026-08-21 12:28:27]   SELL BANKBARODA @ 244.03 | 1 strategies | Conf: 0.61
+[2026-08-21 12:28:27]   BUY ADANIENT @ 2985.8 | 1 strategies | Conf: 0.6
+[2026-08-21 12:28:27]   BUY BAJFINANCE @ 1095.4 | 1 strategies | Conf: 0.6
+[2026-08-21 12:28:27]   BUY LT @ 4070.0 | 1 strategies | Conf: 0.6
+[2026-08-21 12:28:27]   BUY INDUSINDBK @ 1001.9 | 1 strategies | Conf: 0.6
+[2026-08-21 12:28:27]   BUY SHRIRAMFIN @ 1133.4 | 1 strategies | Conf: 0.58
+[2026-08-21 12:28:27]   SELL FINNIFTY @ 26262.3 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27]   SELL ICICIBANK @ 1416.3 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27]   BUY ASIANPAINT @ 2621.6 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27]   SELL ULTRACEMCO @ 11565.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27]   BUY BHARTIARTL @ 1947.2 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27]   SELL DRREDDY @ 1178.4 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27]   BUY HINDALCO @ 1031.45 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27]   BUY BANKBARODA @ 244.03 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27]   SELL M&M @ 3431.4 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27]   BUY HINDPETRO @ 363.95 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27]   BUY VOLTAS @ 1224.6 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27]   SELL OBEROIRLTY @ 1906.4 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27]   BUY PNBHOUSING @ 1178.3 | 1 strategies | Conf: 0.4
+[2026-08-21 12:28:27] Scan complete.
+
+[2026-08-21 12:33:27] Starting auto scan...
+[2026-08-21 12:33:50] Found 64 stock(s) with signals! Sending alerts...
+[2026-08-21 12:35:43] Telegram alerts sent.
+[2026-08-21 12:35:46] Email alerts sent.
+[2026-08-21 12:35:46]   VERY STRONG BUY CDSL @ 1391.2 | 5 strategies | Conf: 0.89
+[2026-08-21 12:35:46]   VERY STRONG BUY NAM-INDIA @ 1255.2 | 3 strategies | Conf: 0.78
+[2026-08-21 12:35:46]   VERY STRONG BUY KOTAKBANK @ 403.5 | 4 strategies | Conf: 0.62
+[2026-08-21 12:35:46]   VERY STRONG BUY MCX @ 3195.0 | 3 strategies | Conf: 0.43
+[2026-08-21 12:35:46]   STRONG BUY PAYTM @ 1626.4 | 2 strategies | Conf: 0.76
+[2026-08-21 12:35:46]   STRONG BUY DLF @ 681.2 | 2 strategies | Conf: 0.75
+[2026-08-21 12:35:46]   STRONG BUY BAJAJFINSV @ 2026.7 | 2 strategies | Conf: 0.72
+[2026-08-21 12:35:46]   STRONG BUY PREMIERENE @ 1058.7 | 2 strategies | Conf: 0.7
+[2026-08-21 12:35:46]   STRONG BUY NIFTYMIDCAP100 @ 63708.7 | 2 strategies | Conf: 0.66
+[2026-08-21 12:35:46]   STRONG BUY JINDALSTEL @ 1123.9 | 2 strategies | Conf: 0.66
+[2026-08-21 12:35:46]   STRONG SELL INDUSINDBK @ 1000.9 | 2 strategies | Conf: 0.61
+[2026-08-21 12:35:46]   STRONG BUY TITAN @ 5054.4 | 2 strategies | Conf: 0.6
+[2026-08-21 12:35:46]   STRONG BUY NESTLEIND @ 1468.0 | 2 strategies | Conf: 0.5
+[2026-08-21 12:35:46]   BUY ICICIBANK @ 1416.6 | 1 strategies | Conf: 0.9
+[2026-08-21 12:35:46]   BUY GRASIM @ 3295.9 | 1 strategies | Conf: 0.9
+[2026-08-21 12:35:46]   BUY JSWSTEEL @ 1284.0 | 1 strategies | Conf: 0.9
+[2026-08-21 12:35:46]   BUY FEDERALBNK @ 359.1 | 1 strategies | Conf: 0.9
+[2026-08-21 12:35:46]   SELL MARUTI @ 13656.0 | 1 strategies | Conf: 0.85
+[2026-08-21 12:35:46]   SELL TRENT @ 2940.9 | 1 strategies | Conf: 0.85
+[2026-08-21 12:35:46]   BUY HDFCBANK @ 731.0 | 1 strategies | Conf: 0.8
+[2026-08-21 12:35:46]   BUY APOLLOHOSP @ 8668.5 | 1 strategies | Conf: 0.8
+[2026-08-21 12:35:46]   BUY EICHERMOT @ 8000.0 | 1 strategies | Conf: 0.8
+[2026-08-21 12:35:46]   SELL HEROMOTOCO @ 5672.0 | 1 strategies | Conf: 0.8
+[2026-08-21 12:35:46]   SELL PNB @ 115.9 | 1 strategies | Conf: 0.8
+[2026-08-21 12:35:46]   BUY NIFTYIT @ 30668.15 | 1 strategies | Conf: 0.78
+[2026-08-21 12:35:46]   SELL HINDUNILVR @ 2019.0 | 1 strategies | Conf: 0.78
+[2026-08-21 12:35:46]   BUY INFY @ 1131.3 | 1 strategies | Conf: 0.76
+[2026-08-21 12:35:46]   SELL TATASTEEL @ 182.59 | 1 strategies | Conf: 0.76
+[2026-08-21 12:35:46]   SELL SBIN @ 1047.0 | 1 strategies | Conf: 0.75
+[2026-08-21 12:35:46]   SELL RELIANCE @ 1311.0 | 1 strategies | Conf: 0.75
+[2026-08-21 12:35:46]   SELL ADANIENT @ 2986.0 | 1 strategies | Conf: 0.75
+[2026-08-21 12:35:46]   SELL ONGC @ 236.78 | 1 strategies | Conf: 0.75
+[2026-08-21 12:35:46]   SELL APOLLOHOSP @ 8668.5 | 1 strategies | Conf: 0.75
+[2026-08-21 12:35:46]   BUY IDFCFIRSTB @ 86.29 | 1 strategies | Conf: 0.75
+[2026-08-21 12:35:46]   BUY M&M @ 3435.9 | 1 strategies | Conf: 0.75
+[2026-08-21 12:35:46]   BUY GODREJPROP @ 2033.4 | 1 strategies | Conf: 0.75
+[2026-08-21 12:35:46]   BUY HINDZINC @ 589.4 | 1 strategies | Conf: 0.75
+[2026-08-21 12:35:46]   BUY POWERGRID @ 271.85 | 1 strategies | Conf: 0.7
+[2026-08-21 12:35:46]   SELL BRITANNIA @ 5376.5 | 1 strategies | Conf: 0.67
+[2026-08-21 12:35:46]   BUY IOC @ 135.59 | 1 strategies | Conf: 0.65
+[2026-08-21 12:35:46]   SELL POLYCAB @ 9000.0 | 1 strategies | Conf: 0.62
+[2026-08-21 12:35:46]   SELL BANKBARODA @ 244.19 | 1 strategies | Conf: 0.61
+[2026-08-21 12:35:46]   BUY ADANIENT @ 2986.0 | 1 strategies | Conf: 0.6
+[2026-08-21 12:35:46]   BUY BAJFINANCE @ 1097.5 | 1 strategies | Conf: 0.6
+[2026-08-21 12:35:46]   BUY LT @ 4066.8 | 1 strategies | Conf: 0.6
+[2026-08-21 12:35:46]   SELL CIPLA @ 1412.2 | 1 strategies | Conf: 0.6
+[2026-08-21 12:35:46]   BUY INDUSINDBK @ 1000.9 | 1 strategies | Conf: 0.6
+[2026-08-21 12:35:46]   BUY SHRIRAMFIN @ 1133.1 | 1 strategies | Conf: 0.58
+[2026-08-21 12:35:46]   BUY HINDPETRO @ 363.1 | 1 strategies | Conf: 0.55
+[2026-08-21 12:35:46]   SELL FINNIFTY @ 26271.25 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:46]   SELL ICICIBANK @ 1416.6 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:46]   BUY ASIANPAINT @ 2622.7 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47]   SELL ULTRACEMCO @ 11556.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47]   BUY BHARTIARTL @ 1947.8 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47]   BUY WIPRO @ 180.96 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47]   BUY TECHM @ 1589.4 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47]   SELL DRREDDY @ 1178.7 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47]   BUY HINDALCO @ 1031.5 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47]   BUY BANKBARODA @ 244.19 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47]   SELL M&M @ 3435.9 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47]   SELL BPCL @ 309.55 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47]   BUY VOLTAS @ 1223.9 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47]   SELL OBEROIRLTY @ 1903.8 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47]   BUY PNBHOUSING @ 1176.8 | 1 strategies | Conf: 0.4
+[2026-08-21 12:35:47] Scan complete.
+
+[2026-08-21 12:40:47] Starting auto scan...
+[2026-08-21 12:41:09] Found 64 stock(s) with signals! Sending alerts...
+[2026-08-21 12:42:27] Telegram alerts sent.
+[2026-08-21 12:42:31] Email alerts sent.
+[2026-08-21 12:42:31]   VERY STRONG BUY CDSL @ 1387.0 | 4 strategies | Conf: 0.9
+[2026-08-21 12:42:31]   VERY STRONG BUY NAM-INDIA @ 1254.5 | 3 strategies | Conf: 0.78
+[2026-08-21 12:42:31]   VERY STRONG BUY KOTAKBANK @ 402.7 | 4 strategies | Conf: 0.62
+[2026-08-21 12:42:31]   VERY STRONG BUY MCX @ 3193.1 | 3 strategies | Conf: 0.43
+[2026-08-21 12:42:31]   STRONG BUY PAYTM @ 1627.5 | 2 strategies | Conf: 0.76
+[2026-08-21 12:42:31]   STRONG BUY DLF @ 681.2 | 2 strategies | Conf: 0.75
+[2026-08-21 12:42:31]   STRONG BUY BAJAJFINSV @ 2024.6 | 2 strategies | Conf: 0.72
+[2026-08-21 12:42:31]   STRONG BUY JINDALSTEL @ 1122.5 | 2 strategies | Conf: 0.66
+[2026-08-21 12:42:31]   STRONG BUY NIFTYMIDCAP100 @ 63688.2 | 2 strategies | Conf: 0.64
+[2026-08-21 12:42:31]   STRONG SELL INDUSINDBK @ 1000.8 | 2 strategies | Conf: 0.61
+[2026-08-21 12:42:31]   STRONG BUY TITAN @ 5053.5 | 2 strategies | Conf: 0.6
+[2026-08-21 12:42:31]   STRONG BUY ADANIENT @ 2989.0 | 2 strategies | Conf: 0.5
+[2026-08-21 12:42:31]   STRONG BUY NESTLEIND @ 1466.0 | 2 strategies | Conf: 0.5
+[2026-08-21 12:42:31]   BUY ICICIBANK @ 1416.4 | 1 strategies | Conf: 0.9
+[2026-08-21 12:42:31]   BUY GRASIM @ 3294.9 | 1 strategies | Conf: 0.9
+[2026-08-21 12:42:31]   BUY JSWSTEEL @ 1283.1 | 1 strategies | Conf: 0.9
+[2026-08-21 12:42:31]   BUY FEDERALBNK @ 359.35 | 1 strategies | Conf: 0.9
+[2026-08-21 12:42:31]   SELL MARUTI @ 13629.0 | 1 strategies | Conf: 0.85
+[2026-08-21 12:42:31]   SELL TRENT @ 2939.6 | 1 strategies | Conf: 0.85
+[2026-08-21 12:42:31]   BUY HDFCBANK @ 731.35 | 1 strategies | Conf: 0.8
+[2026-08-21 12:42:31]   BUY APOLLOHOSP @ 8667.0 | 1 strategies | Conf: 0.8
+[2026-08-21 12:42:31]   BUY EICHERMOT @ 8000.0 | 1 strategies | Conf: 0.8
+[2026-08-21 12:42:31]   SELL HEROMOTOCO @ 5665.0 | 1 strategies | Conf: 0.8
+[2026-08-21 12:42:31]   SELL PNB @ 116.12 | 1 strategies | Conf: 0.8
+[2026-08-21 12:42:31]   BUY NIFTYIT @ 30663.75 | 1 strategies | Conf: 0.78
+[2026-08-21 12:42:31]   BUY INFY @ 1132.0 | 1 strategies | Conf: 0.77
+[2026-08-21 12:42:31]   SELL TATASTEEL @ 182.39 | 1 strategies | Conf: 0.77
+[2026-08-21 12:42:31]   BUY PREMIERENE @ 1056.6 | 1 strategies | Conf: 0.77
+[2026-08-21 12:42:31]   SELL HINDUNILVR @ 2020.0 | 1 strategies | Conf: 0.76
+[2026-08-21 12:42:31]   SELL SBIN @ 1046.4 | 1 strategies | Conf: 0.75
+[2026-08-21 12:42:31]   SELL RELIANCE @ 1311.1 | 1 strategies | Conf: 0.75
+[2026-08-21 12:42:31]   SELL ADANIENT @ 2989.0 | 1 strategies | Conf: 0.75
+[2026-08-21 12:42:31]   SELL ONGC @ 236.43 | 1 strategies | Conf: 0.75
+[2026-08-21 12:42:31]   SELL APOLLOHOSP @ 8667.0 | 1 strategies | Conf: 0.75
+[2026-08-21 12:42:31]   BUY IDFCFIRSTB @ 86.32 | 1 strategies | Conf: 0.75
+[2026-08-21 12:42:31]   SELL VOLTAS @ 1222.9 | 1 strategies | Conf: 0.75
+[2026-08-21 12:42:31]   BUY GODREJPROP @ 2034.9 | 1 strategies | Conf: 0.75
+[2026-08-21 12:42:31]   BUY HINDZINC @ 589.35 | 1 strategies | Conf: 0.75
+[2026-08-21 12:42:31]   SELL BRITANNIA @ 5375.0 | 1 strategies | Conf: 0.67
+[2026-08-21 12:42:31]   SELL ITC @ 269.45 | 1 strategies | Conf: 0.65
+[2026-08-21 12:42:31]   BUY IOC @ 135.52 | 1 strategies | Conf: 0.65
+[2026-08-21 12:42:31]   SELL POLYCAB @ 9004.5 | 1 strategies | Conf: 0.62
+[2026-08-21 12:42:31]   SELL BANKBARODA @ 244.39 | 1 strategies | Conf: 0.61
+[2026-08-21 12:42:31]   BUY BAJFINANCE @ 1095.3 | 1 strategies | Conf: 0.6
+[2026-08-21 12:42:31]   BUY LT @ 4067.0 | 1 strategies | Conf: 0.6
+[2026-08-21 12:42:31]   SELL CIPLA @ 1410.9 | 1 strategies | Conf: 0.6
+[2026-08-21 12:42:31]   BUY INDUSINDBK @ 1000.8 | 1 strategies | Conf: 0.6
+[2026-08-21 12:42:31]   BUY SHRIRAMFIN @ 1134.5 | 1 strategies | Conf: 0.59
+[2026-08-21 12:42:31]   BUY TECHM @ 1587.8 | 1 strategies | Conf: 0.55
+[2026-08-21 12:42:31]   BUY HINDPETRO @ 363.4 | 1 strategies | Conf: 0.55
+[2026-08-21 12:42:31]   SELL FINNIFTY @ 26261.25 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   SELL ICICIBANK @ 1416.4 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   BUY ASIANPAINT @ 2620.9 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   SELL ULTRACEMCO @ 11550.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   BUY BHARTIARTL @ 1949.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   BUY WIPRO @ 181.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   SELL DRREDDY @ 1178.4 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   BUY HINDALCO @ 1030.9 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   BUY BANKBARODA @ 244.39 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   SELL M&M @ 3429.5 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   SELL BPCL @ 310.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   BUY VOLTAS @ 1222.9 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   SELL OBEROIRLTY @ 1902.7 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31]   BUY PNBHOUSING @ 1175.0 | 1 strategies | Conf: 0.4
+[2026-08-21 12:42:31] Scan complete.
+
+[2026-08-21 12:47:32] Starting auto scan...
+[2026-08-21 12:48:32] Found 180 stock(s) with signals! Sending alerts...
+[2026-08-21 13:12:10] Starting auto scan...
+[2026-08-21 13:13:18] Found 132 stock(s) with signals! Sending alerts...
+[2026-08-21 13:15:33] Telegram error: [WinError 10054] An existing connection was forcibly closed by the remote host
+[2026-08-21 13:15:39] Email alerts sent.
+[2026-08-21 13:15:39]   VERY STRONG BUY CDSL @ 1388.7 | 5 strategies | Conf: 0.9
+[2026-08-21 13:15:39]   VERY STRONG BUY NYKAA @ 333.3 | 3 strategies | Conf: 0.76
+[2026-08-21 13:15:39]   VERY STRONG SELL INDIGO @ 5070.5 | 3 strategies | Conf: 0.74
+[2026-08-21 13:15:39]   VERY STRONG BUY AUBANK @ 1099.0 | 3 strategies | Conf: 0.73
+[2026-08-21 13:15:39]   VERY STRONG BUY ICICIPRULI @ 515.85 | 3 strategies | Conf: 0.72
+[2026-08-21 13:15:39]   VERY STRONG BUY KOTAKBANK @ 403.25 | 5 strategies | Conf: 0.7
+[2026-08-21 13:15:39]   VERY STRONG BUY UNITDSPR @ 1561.8 | 3 strategies | Conf: 0.69
+[2026-08-21 13:15:39]   VERY STRONG BUY KFINTECH @ 984.8 | 5 strategies | Conf: 0.62
+[2026-08-21 13:15:39]   VERY STRONG SELL BRITANNIA @ 5360.0 | 3 strategies | Conf: 0.6
+[2026-08-21 13:15:39]   VERY STRONG SELL CUMMINSIND @ 5120.0 | 4 strategies | Conf: 0.59
+[2026-08-21 13:15:39]   VERY STRONG BUY MOTILALOFS @ 993.85 | 5 strategies | Conf: 0.54
+[2026-08-21 13:15:39]   VERY STRONG SELL LICHSGFIN @ 492.4 | 4 strategies | Conf: 0.51
+[2026-08-21 13:15:39]   VERY STRONG BUY BRIGADE @ 635.3 | 3 strategies | Conf: 0.49
+[2026-08-21 13:15:39]   VERY STRONG BUY MCX @ 3184.7 | 3 strategies | Conf: 0.43
+[2026-08-21 13:15:39]   VERY STRONG SELL ADANIENSOL @ 1536.3 | 3 strategies | Conf: 0.41
+[2026-08-21 13:15:39]   VERY STRONG SELL GMRAIRPORT @ 99.73 | 3 strategies | Conf: 0.41
+[2026-08-21 13:15:39]   STRONG BUY DLF @ 681.8 | 2 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   STRONG BUY APLAPOLLO @ 2145.5 | 2 strategies | Conf: 0.73
+[2026-08-21 13:15:39]   STRONG BUY BAJAJFINSV @ 2026.2 | 2 strategies | Conf: 0.72
+[2026-08-21 13:15:39]   STRONG SELL MARUTI @ 13621.0 | 2 strategies | Conf: 0.72
+[2026-08-21 13:15:39]   STRONG BUY IDFCFIRSTB @ 86.4 | 2 strategies | Conf: 0.71
+[2026-08-21 13:15:39]   STRONG BUY NIFTYBANK @ 57698.5 | 2 strategies | Conf: 0.7
+[2026-08-21 13:15:39]   STRONG BUY KALYANKJIL @ 600.95 | 2 strategies | Conf: 0.7
+[2026-08-21 13:15:39]   STRONG BUY JINDALSTEL @ 1123.5 | 2 strategies | Conf: 0.67
+[2026-08-21 13:15:39]   STRONG BUY NIFTYMIDCAP100 @ 63683.95 | 2 strategies | Conf: 0.64
+[2026-08-21 13:15:39]   STRONG BUY HDFCLIFE @ 549.85 | 2 strategies | Conf: 0.62
+[2026-08-21 13:15:39]   STRONG SELL INDUSINDBK @ 1001.7 | 2 strategies | Conf: 0.61
+[2026-08-21 13:15:39]   STRONG BUY BEL @ 413.35 | 2 strategies | Conf: 0.52
+[2026-08-21 13:15:39]   STRONG SELL DMART @ 3885.1 | 2 strategies | Conf: 0.51
+[2026-08-21 13:15:39]   STRONG BUY ADANIENT @ 2998.8 | 2 strategies | Conf: 0.5
+[2026-08-21 13:15:39]   BUY DIXON @ 14800.0 | 1 strategies | Conf: 1.0
+[2026-08-21 13:15:39]   BUY ABCAPITAL @ 411.75 | 1 strategies | Conf: 0.9
+[2026-08-21 13:15:39]   BUY AUROPHARMA @ 1602.9 | 1 strategies | Conf: 0.9
+[2026-08-21 13:15:39]   BUY CHOLAFIN @ 1860.5 | 1 strategies | Conf: 0.9
+[2026-08-21 13:15:39]   BUY GRASIM @ 3297.0 | 1 strategies | Conf: 0.9
+[2026-08-21 13:15:39]   BUY ICICIBANK @ 1418.9 | 1 strategies | Conf: 0.9
+[2026-08-21 13:15:39]   BUY JSWSTEEL @ 1293.0 | 1 strategies | Conf: 0.9
+[2026-08-21 13:15:39]   BUY AMBER @ 7352.0 | 1 strategies | Conf: 0.85
+[2026-08-21 13:15:39]   SELL CANBK @ 129.22 | 1 strategies | Conf: 0.85
+[2026-08-21 13:15:39]   SELL CONCOR @ 515.05 | 1 strategies | Conf: 0.85
+[2026-08-21 13:15:39]   SELL LAURUSLABS @ 1796.6 | 1 strategies | Conf: 0.85
+[2026-08-21 13:15:39]   SELL MAZDOCK @ 2559.0 | 1 strategies | Conf: 0.85
+[2026-08-21 13:15:39]   SELL VBL @ 432.6 | 1 strategies | Conf: 0.85
+[2026-08-21 13:15:39]   BUY APOLLOHOSP @ 8668.0 | 1 strategies | Conf: 0.8
+[2026-08-21 13:15:39]   BUY EICHERMOT @ 8008.5 | 1 strategies | Conf: 0.8
+[2026-08-21 13:15:39]   BUY HDFCBANK @ 731.5 | 1 strategies | Conf: 0.8
+[2026-08-21 13:15:39]   SELL HEROMOTOCO @ 5679.0 | 1 strategies | Conf: 0.8
+[2026-08-21 13:15:39]   BUY IEX @ 123.78 | 1 strategies | Conf: 0.8
+[2026-08-21 13:15:39]   BUY LAURUSLABS @ 1796.6 | 1 strategies | Conf: 0.8
+[2026-08-21 13:15:39]   BUY MARICO @ 846.6 | 1 strategies | Conf: 0.8
+[2026-08-21 13:15:39]   BUY MPHASIS @ 2432.5 | 1 strategies | Conf: 0.78
+[2026-08-21 13:15:39]   BUY NIFTYIT @ 30640.55 | 1 strategies | Conf: 0.76
+[2026-08-21 13:15:39]   BUY COFORGE @ 1882.7 | 1 strategies | Conf: 0.76
+[2026-08-21 13:15:39]   SELL ADANIPOWER @ 203.79 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL ANGELONE @ 288.75 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL APOLLOHOSP @ 8668.0 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL ASHOKLEY @ 173.0 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL AUROPHARMA @ 1602.9 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL BHEL @ 411.0 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL BIOCON @ 412.0 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL COCHINSHIP @ 1471.3 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL CAMS @ 752.6 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL DABUR @ 398.25 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL FORCEMOT @ 17751.0 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   BUY GODREJPROP @ 2035.8 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL HAVELLS @ 1267.9 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   BUY HINDZINC @ 594.0 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL INDIANB @ 871.2 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL KEI @ 5543.0 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL LUPIN @ 2191.0 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   SELL VOLTAS @ 1223.5 | 1 strategies | Conf: 0.75
+[2026-08-21 13:15:39]   BUY 360ONE @ 1203.1 | 1 strategies | Conf: 0.73
+[2026-08-21 13:15:39]   SELL HINDUNILVR @ 2021.9 | 1 strategies | Conf: 0.72
+[2026-08-21 13:15:39]   BUY BDL @ 1359.2 | 1 strategies | Conf: 0.71
+[2026-08-21 13:15:39]   BUY INFY @ 1128.6 | 1 strategies | Conf: 0.7
+[2026-08-21 13:15:39]   SELL JUBLFOOD @ 505.65 | 1 strategies | Conf: 0.7
+[2026-08-21 13:15:39]   BUY MANAPPURAM @ 356.7 | 1 strategies | Conf: 0.7
+[2026-08-21 13:15:39]   BUY VMM @ 103.66 | 1 strategies | Conf: 0.7
+[2026-08-21 13:15:39]   SELL BOSCHLTD @ 48090.0 | 1 strategies | Conf: 0.65
+[2026-08-21 13:15:39]   SELL HDFCAMC @ 2605.7 | 1 strategies | Conf: 0.65
+[2026-08-21 13:15:39]   BUY IOC @ 136.13 | 1 strategies | Conf: 0.65
+[2026-08-21 13:15:39]   BUY JSWENERGY @ 549.4 | 1 strategies | Conf: 0.65
+[2026-08-21 13:15:39]   SELL MARICO @ 846.6 | 1 strategies | Conf: 0.65
+[2026-08-21 13:15:39]   SELL SOBHA @ 1297.3 | 1 strategies | Conf: 0.65
+[2026-08-21 13:15:39]   SELL BSE @ 3240.3 | 1 strategies | Conf: 0.64
+[2026-08-21 13:15:39]   BUY BANDHANBNK @ 175.88 | 1 strategies | Conf: 0.62
+[2026-08-21 13:15:39]   BUY BAJFINANCE @ 1094.4 | 1 strategies | Conf: 0.6
+[2026-08-21 13:15:39]   BUY CONCOR @ 515.05 | 1 strategies | Conf: 0.6
+[2026-08-21 13:15:39]   BUY GAIL @ 172.06 | 1 strategies | Conf: 0.6
+[2026-08-21 13:15:39]   BUY INDUSINDBK @ 1001.7 | 1 strategies | Conf: 0.6
+[2026-08-21 13:15:39]   BUY KEI @ 5543.0 | 1 strategies | Conf: 0.6
+[2026-08-21 13:15:39]   BUY LTF @ 319.0 | 1 strategies | Conf: 0.6
+[2026-08-21 13:15:39]   BUY LT @ 4078.0 | 1 strategies | Conf: 0.6
+[2026-08-21 13:15:39]   BUY LODHA @ 1242.7 | 1 strategies | Conf: 0.6
+[2026-08-21 13:15:39]   BUY ZYDUSLIFE @ 1100.0 | 1 strategies | Conf: 0.6
+[2026-08-21 13:15:39]   BUY MFSL @ 1583.0 | 1 strategies | Conf: 0.59
+[2026-08-21 13:15:39]   BUY ADANIPORTS @ 1696.4 | 1 strategies | Conf: 0.58
+[2026-08-21 13:15:39]   BUY BIOCON @ 412.0 | 1 strategies | Conf: 0.55
+[2026-08-21 13:15:39]   BUY MUTHOOTFIN @ 3042.2 | 1 strategies | Conf: 0.46
+[2026-08-21 13:15:39]   SELL FINNIFTY @ 26268.2 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL APLAPOLLO @ 2145.5 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL ADANIPORTS @ 1696.4 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY ADANIPOWER @ 203.79 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY ANGELONE @ 288.75 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY ASHOKLEY @ 173.0 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY ASTRAL @ 1533.1 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY BAJAJHLDNG @ 11343.0 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL BANKINDIA @ 143.08 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY BHARATFORG @ 2054.2 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY BHARTIARTL @ 1947.6 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY CAMS @ 752.6 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL CROMPTON @ 254.55 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY CUMMINSIND @ 5120.0 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY DELHIVERY @ 451.2 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL GAIL @ 172.06 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY GODFRYPHLP @ 2116.0 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY HINDPETRO @ 363.95 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL HYUNDAI @ 2225.0 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL IRFC @ 86.61 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL IREDA @ 115.13 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY INOXWIND @ 74.22 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL JIOFIN @ 244.25 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY KPITTECH @ 593.2 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL LT @ 4078.0 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL LICI @ 421.35 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL M&M @ 3430.1 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL ULTRACEMCO @ 11547.0 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY IDEA @ 14.01 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY VOLTAS @ 1223.5 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY YESBANK @ 22.74 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   BUY TRIDENT @ 24.57 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39]   SELL ACC @ 1309.7 | 1 strategies | Conf: 0.4
+[2026-08-21 13:15:39] Scan complete.
+
+[2026-08-21 13:20:39] Starting auto scan...
+[2026-08-21 13:21:48] Found 192 stock(s) with signals! Sending alerts...
+[2026-08-21 13:29:48] Starting auto scan...
+[2026-08-21 13:30:52] Found 141 stock(s) with signals! Sending alerts...
+[2026-08-21 13:38:54] Starting auto scan...
+[2026-08-21 13:40:06] Found 198 stock(s) with signals! Sending alerts...
+[2026-08-21 13:51:19] Starting auto scan...
+[2026-08-21 13:52:19] Found 109 stock(s) with signals! Sending alerts...
+[2026-08-21 13:55:31] Telegram alerts sent.
+[2026-08-21 13:55:35] Email alerts sent.
+[2026-08-21 13:55:35]   VERY STRONG BUY CDSL @ 1383.8 | 4 strategies | Conf: 0.92
+[2026-08-21 13:55:35]   VERY STRONG BUY NYKAA @ 334.0 | 3 strategies | Conf: 0.76
+[2026-08-21 13:55:35]   VERY STRONG SELL INDIGO @ 5072.5 | 3 strategies | Conf: 0.76
+[2026-08-21 13:55:35]   VERY STRONG BUY KFINTECH @ 980.65 | 3 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   VERY STRONG BUY AUBANK @ 1100.1 | 3 strategies | Conf: 0.73
+[2026-08-21 13:55:35]   VERY STRONG BUY ICICIPRULI @ 515.95 | 3 strategies | Conf: 0.72
+[2026-08-21 13:55:35]   VERY STRONG BUY KOTAKBANK @ 402.55 | 5 strategies | Conf: 0.71
+[2026-08-21 13:55:35]   VERY STRONG SELL BRITANNIA @ 5351.0 | 3 strategies | Conf: 0.61
+[2026-08-21 13:55:35]   VERY STRONG SELL CUMMINSIND @ 5118.5 | 4 strategies | Conf: 0.6
+[2026-08-21 13:55:35]   VERY STRONG SELL LICHSGFIN @ 492.0 | 4 strategies | Conf: 0.52
+[2026-08-21 13:55:35]   VERY STRONG SELL ADANIENSOL @ 1536.4 | 3 strategies | Conf: 0.42
+[2026-08-21 13:55:35]   VERY STRONG SELL GMRAIRPORT @ 99.83 | 3 strategies | Conf: 0.41
+[2026-08-21 13:55:35]   STRONG BUY DLF @ 681.2 | 2 strategies | Conf: 0.76
+[2026-08-21 13:55:35]   STRONG BUY BAJAJFINSV @ 2024.6 | 2 strategies | Conf: 0.72
+[2026-08-21 13:55:35]   STRONG BUY HINDZINC @ 593.8 | 2 strategies | Conf: 0.71
+[2026-08-21 13:55:35]   STRONG BUY IDFCFIRSTB @ 86.41 | 2 strategies | Conf: 0.71
+[2026-08-21 13:55:35]   STRONG BUY KALYANKJIL @ 602.15 | 2 strategies | Conf: 0.71
+[2026-08-21 13:55:35]   STRONG BUY NIFTYBANK @ 57635.1 | 2 strategies | Conf: 0.7
+[2026-08-21 13:55:35]   STRONG BUY JINDALSTEL @ 1124.1 | 2 strategies | Conf: 0.67
+[2026-08-21 13:55:35]   STRONG BUY AUROPHARMA @ 1605.8 | 2 strategies | Conf: 0.65
+[2026-08-21 13:55:35]   STRONG BUY NIFTYMIDCAP100 @ 63676.2 | 2 strategies | Conf: 0.64
+[2026-08-21 13:55:35]   STRONG BUY HDFCLIFE @ 550.15 | 2 strategies | Conf: 0.63
+[2026-08-21 13:55:35]   STRONG SELL INDUSINDBK @ 1001.1 | 2 strategies | Conf: 0.62
+[2026-08-21 13:55:35]   STRONG BUY LT @ 4083.0 | 2 strategies | Conf: 0.6
+[2026-08-21 13:55:35]   STRONG SELL KEI @ 5540.1 | 2 strategies | Conf: 0.57
+[2026-08-21 13:55:35]   STRONG SELL DMART @ 3885.0 | 2 strategies | Conf: 0.52
+[2026-08-21 13:55:35]   STRONG BUY BEL @ 414.0 | 2 strategies | Conf: 0.52
+[2026-08-21 13:55:35]   STRONG BUY ADANIENT @ 2995.2 | 2 strategies | Conf: 0.5
+[2026-08-21 13:55:35]   BUY DIXON @ 14821.0 | 1 strategies | Conf: 1.0
+[2026-08-21 13:55:35]   BUY ABCAPITAL @ 411.45 | 1 strategies | Conf: 0.9
+[2026-08-21 13:55:35]   BUY CHOLAFIN @ 1856.3 | 1 strategies | Conf: 0.9
+[2026-08-21 13:55:35]   BUY GRASIM @ 3273.8 | 1 strategies | Conf: 0.9
+[2026-08-21 13:55:35]   BUY ICICIBANK @ 1418.0 | 1 strategies | Conf: 0.9
+[2026-08-21 13:55:35]   BUY JSWSTEEL @ 1287.3 | 1 strategies | Conf: 0.9
+[2026-08-21 13:55:35]   BUY AMBER @ 7365.5 | 1 strategies | Conf: 0.85
+[2026-08-21 13:55:35]   SELL CANBK @ 128.92 | 1 strategies | Conf: 0.85
+[2026-08-21 13:55:35]   SELL CONCOR @ 513.65 | 1 strategies | Conf: 0.85
+[2026-08-21 13:55:35]   SELL JUBLFOOD @ 504.35 | 1 strategies | Conf: 0.85
+[2026-08-21 13:55:35]   SELL LAURUSLABS @ 1798.0 | 1 strategies | Conf: 0.85
+[2026-08-21 13:55:35]   BUY APOLLOHOSP @ 8655.0 | 1 strategies | Conf: 0.8
+[2026-08-21 13:55:35]   BUY EICHERMOT @ 7994.5 | 1 strategies | Conf: 0.8
+[2026-08-21 13:55:35]   BUY HDFCBANK @ 730.4 | 1 strategies | Conf: 0.8
+[2026-08-21 13:55:35]   SELL HEROMOTOCO @ 5696.0 | 1 strategies | Conf: 0.8
+[2026-08-21 13:55:35]   BUY IEX @ 123.78 | 1 strategies | Conf: 0.8
+[2026-08-21 13:55:35]   BUY LAURUSLABS @ 1798.0 | 1 strategies | Conf: 0.8
+[2026-08-21 13:55:35]   BUY BHARATFORG @ 2057.4 | 1 strategies | Conf: 0.76
+[2026-08-21 13:55:35]   SELL ADANIPOWER @ 203.29 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL ANGELONE @ 287.5 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL APOLLOHOSP @ 8655.0 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL ASHOKLEY @ 172.9 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL AUROPHARMA @ 1605.8 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL BHEL @ 410.15 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL COCHINSHIP @ 1473.8 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL CAMS @ 750.85 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL DABUR @ 397.9 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL FORCEMOT @ 17780.0 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   BUY GODREJPROP @ 2034.8 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL HAVELLS @ 1266.7 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL INDIANB @ 872.15 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL IOC @ 135.89 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL KPITTECH @ 592.05 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   SELL LUPIN @ 2193.6 | 1 strategies | Conf: 0.75
+[2026-08-21 13:55:35]   BUY BDL @ 1360.0 | 1 strategies | Conf: 0.71
+[2026-08-21 13:55:35]   SELL HINDUNILVR @ 2022.3 | 1 strategies | Conf: 0.71
+[2026-08-21 13:55:35]   SELL NIFTY50 @ 24227.3 | 1 strategies | Conf: 0.7
+[2026-08-21 13:55:35]   BUY NIFTYIT @ 30574.95 | 1 strategies | Conf: 0.7
+[2026-08-21 13:55:35]   BUY MANAPPURAM @ 356.25 | 1 strategies | Conf: 0.7
+[2026-08-21 13:55:35]   SELL CROMPTON @ 251.6 | 1 strategies | Conf: 0.66
+[2026-08-21 13:55:35]   SELL BSE @ 3241.6 | 1 strategies | Conf: 0.65
+[2026-08-21 13:55:35]   SELL CHOLAFIN @ 1856.3 | 1 strategies | Conf: 0.65
+[2026-08-21 13:55:35]   SELL HDFCAMC @ 2610.8 | 1 strategies | Conf: 0.65
+[2026-08-21 13:55:35]   SELL ITC @ 269.4 | 1 strategies | Conf: 0.65
+[2026-08-21 13:55:35]   BUY IOC @ 135.89 | 1 strategies | Conf: 0.65
+[2026-08-21 13:55:35]   BUY JSWENERGY @ 549.1 | 1 strategies | Conf: 0.65
+[2026-08-21 13:55:35]   BUY KAYNES @ 3884.0 | 1 strategies | Conf: 0.65
+[2026-08-21 13:55:35]   BUY BANDHANBNK @ 175.79 | 1 strategies | Conf: 0.62
+[2026-08-21 13:55:35]   BUY BAJFINANCE @ 1094.1 | 1 strategies | Conf: 0.6
+[2026-08-21 13:55:35]   BUY CONCOR @ 513.65 | 1 strategies | Conf: 0.6
+[2026-08-21 13:55:35]   BUY GAIL @ 171.99 | 1 strategies | Conf: 0.6
+[2026-08-21 13:55:35]   BUY INDUSINDBK @ 1001.1 | 1 strategies | Conf: 0.6
+[2026-08-21 13:55:35]   BUY KEI @ 5540.1 | 1 strategies | Conf: 0.6
+[2026-08-21 13:55:35]   BUY LTF @ 318.45 | 1 strategies | Conf: 0.6
+[2026-08-21 13:55:35]   BUY LODHA @ 1240.4 | 1 strategies | Conf: 0.6
+[2026-08-21 13:55:35]   BUY HAL @ 5008.9 | 1 strategies | Conf: 0.55
+[2026-08-21 13:55:35]   BUY HINDPETRO @ 362.85 | 1 strategies | Conf: 0.55
+[2026-08-21 13:55:35]   BUY INOXWIND @ 74.1 | 1 strategies | Conf: 0.55
+[2026-08-21 13:55:35]   SELL FINNIFTY @ 26241.4 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL APLAPOLLO @ 2138.6 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL ADANIPORTS @ 1693.9 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL ABCAPITAL @ 411.45 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL ALKEM @ 5376.5 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   BUY ASHOKLEY @ 172.9 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   BUY ASIANPAINT @ 2624.1 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   BUY ASTRAL @ 1530.9 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL BANKINDIA @ 143.02 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   BUY CAMS @ 750.85 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   BUY CUMMINSIND @ 5118.5 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   BUY DELHIVERY @ 449.95 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL DIXON @ 14821.0 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL DRREDDY @ 1177.5 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   BUY GODFRYPHLP @ 2112.1 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL GRASIM @ 3273.8 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL ICICIBANK @ 1418.0 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL IRFC @ 86.41 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   BUY KPITTECH @ 592.05 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL LT @ 4083.0 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL LICI @ 420.75 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL M&M @ 3427.5 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35]   SELL MANAPPURAM @ 356.25 | 1 strategies | Conf: 0.4
+[2026-08-21 13:55:35] Scan complete.
+
+[2026-08-21 14:00:36] Starting auto scan...
+[2026-08-21 14:01:45] Found 188 stock(s) with signals! Sending alerts...
+[2026-08-21 14:07:26] Starting auto scan...
+[2026-08-21 14:08:26] Found 181 stock(s) with signals! Sending alerts...
+[2026-08-21 14:14:07] Telegram alerts sent.
+[2026-08-21 14:14:12] Email alerts sent.
+[2026-08-21 14:14:12]   VERY STRONG BUY CDSL @ 1381.3 | 4 strategies | Conf: 0.93
+[2026-08-21 14:14:12]   VERY STRONG BUY NAM-INDIA @ 1246.7 | 4 strategies | Conf: 0.84
+[2026-08-21 14:14:12]   VERY STRONG BUY NYKAA @ 334.2 | 3 strategies | Conf: 0.76
+[2026-08-21 14:14:12]   VERY STRONG SELL INDIGO @ 5074.5 | 3 strategies | Conf: 0.76
+[2026-08-21 14:14:12]   VERY STRONG BUY KFINTECH @ 980.0 | 3 strategies | Conf: 0.75
+[2026-08-21 14:14:12]   VERY STRONG BUY ICICIPRULI @ 516.6 | 3 strategies | Conf: 0.72
+[2026-08-21 14:14:12]   VERY STRONG BUY AUBANK @ 1102.0 | 4 strategies | Conf: 0.71
+[2026-08-21 14:14:12]   VERY STRONG BUY KOTAKBANK @ 402.3 | 6 strategies | Conf: 0.7
+[2026-08-21 14:14:12]   VERY STRONG SELL BRITANNIA @ 5353.0 | 3 strategies | Conf: 0.63
+[2026-08-21 14:14:12]   VERY STRONG SELL CUMMINSIND @ 5117.0 | 4 strategies | Conf: 0.61
+[2026-08-21 14:14:12]   VERY STRONG BUY LT @ 4093.0 | 4 strategies | Conf: 0.55
+[2026-08-21 14:14:12]   VERY STRONG BUY MOTILALOFS @ 994.8 | 5 strategies | Conf: 0.55
+[2026-08-21 14:14:12]   VERY STRONG SELL LICHSGFIN @ 491.75 | 4 strategies | Conf: 0.52
+[2026-08-21 14:14:12]   VERY STRONG SELL TMPV @ 317.7 | 4 strategies | Conf: 0.5
+[2026-08-21 14:14:12]   VERY STRONG BUY MCX @ 3176.7 | 3 strategies | Conf: 0.45
+[2026-08-21 14:14:12]   VERY STRONG SELL ADANIENSOL @ 1535.8 | 3 strategies | Conf: 0.43
+[2026-08-21 14:14:12]   VERY STRONG SELL GMRAIRPORT @ 99.86 | 3 strategies | Conf: 0.41
+[2026-08-21 14:14:12]   VERY STRONG SELL TATACONSUM @ 1046.1 | 4 strategies | Conf: 0.41
+[2026-08-21 14:14:12]   STRONG BUY SIEMENS @ 3910.2 | 2 strategies | Conf: 0.78
+[2026-08-21 14:14:12]   STRONG BUY PAYTM @ 1632.5 | 2 strategies | Conf: 0.77
+[2026-08-21 14:14:12]   STRONG BUY DLF @ 680.75 | 2 strategies | Conf: 0.76
+[2026-08-21 14:14:12]   STRONG BUY PRESTIGE @ 1625.5 | 2 strategies | Conf: 0.75
+[2026-08-21 14:14:12]   STRONG SELL MARUTI @ 13610.0 | 2 strategies | Conf: 0.73
+[2026-08-21 14:14:12]   STRONG BUY BAJAJFINSV @ 2029.2 | 2 strategies | Conf: 0.72
+[2026-08-21 14:14:12]   STRONG BUY HINDZINC @ 595.3 | 2 strategies | Conf: 0.72
+[2026-08-21 14:14:12]   STRONG BUY KALYANKJIL @ 602.8 | 2 strategies | Conf: 0.72
+[2026-08-21 14:14:12]   STRONG BUY IDFCFIRSTB @ 86.58 | 2 strategies | Conf: 0.71
+[2026-08-21 14:14:12]   STRONG BUY NIFTYBANK @ 57636.0 | 2 strategies | Conf: 0.7
+[2026-08-21 14:14:13]   STRONG SELL PFC @ 363.6 | 2 strategies | Conf: 0.69
+[2026-08-21 14:14:13]   STRONG BUY JINDALSTEL @ 1124.5 | 2 strategies | Conf: 0.67
+[2026-08-21 14:14:13]   STRONG BUY AUROPHARMA @ 1607.6 | 2 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   STRONG BUY NIFTYMIDCAP100 @ 63676.75 | 2 strategies | Conf: 0.64
+[2026-08-21 14:14:13]   STRONG BUY HDFCLIFE @ 550.5 | 2 strategies | Conf: 0.63
+[2026-08-21 14:14:13]   STRONG SELL INDUSINDBK @ 1001.8 | 2 strategies | Conf: 0.63
+[2026-08-21 14:14:13]   STRONG BUY PGEL @ 604.65 | 2 strategies | Conf: 0.62
+[2026-08-21 14:14:13]   STRONG BUY TITAN @ 5067.6 | 2 strategies | Conf: 0.6
+[2026-08-21 14:14:13]   STRONG SELL KEI @ 5535.5 | 2 strategies | Conf: 0.58
+[2026-08-21 14:14:13]   STRONG SELL RECLTD @ 326.9 | 2 strategies | Conf: 0.57
+[2026-08-21 14:14:13]   STRONG BUY BEL @ 413.25 | 2 strategies | Conf: 0.53
+[2026-08-21 14:14:13]   STRONG SELL DMART @ 3877.5 | 2 strategies | Conf: 0.52
+[2026-08-21 14:14:13]   STRONG BUY ADANIENT @ 2999.0 | 2 strategies | Conf: 0.5
+[2026-08-21 14:14:13]   STRONG BUY NESTLEIND @ 1466.6 | 2 strategies | Conf: 0.5
+[2026-08-21 14:14:13]   BUY DIXON @ 14811.0 | 1 strategies | Conf: 1.0
+[2026-08-21 14:14:13]   BUY ABCAPITAL @ 411.25 | 1 strategies | Conf: 0.9
+[2026-08-21 14:14:13]   BUY CHOLAFIN @ 1857.0 | 1 strategies | Conf: 0.9
+[2026-08-21 14:14:13]   BUY GRASIM @ 3285.2 | 1 strategies | Conf: 0.9
+[2026-08-21 14:14:13]   BUY ICICIBANK @ 1417.6 | 1 strategies | Conf: 0.9
+[2026-08-21 14:14:13]   BUY JSWSTEEL @ 1285.5 | 1 strategies | Conf: 0.9
+[2026-08-21 14:14:13]   BUY PIDILITIND @ 1649.0 | 1 strategies | Conf: 0.9
+[2026-08-21 14:14:13]   BUY FEDERALBNK @ 359.45 | 1 strategies | Conf: 0.9
+[2026-08-21 14:14:13]   BUY AMBER @ 7352.0 | 1 strategies | Conf: 0.85
+[2026-08-21 14:14:13]   SELL CANBK @ 128.83 | 1 strategies | Conf: 0.85
+[2026-08-21 14:14:13]   SELL CONCOR @ 513.35 | 1 strategies | Conf: 0.85
+[2026-08-21 14:14:13]   SELL LAURUSLABS @ 1795.9 | 1 strategies | Conf: 0.85
+[2026-08-21 14:14:13]   SELL MAZDOCK @ 2558.5 | 1 strategies | Conf: 0.85
+[2026-08-21 14:14:13]   SELL OFSS @ 11724.0 | 1 strategies | Conf: 0.85
+[2026-08-21 14:14:13]   SELL TRENT @ 2919.2 | 1 strategies | Conf: 0.85
+[2026-08-21 14:14:13]   BUY APOLLOHOSP @ 8655.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:14:13]   BUY EICHERMOT @ 8000.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:14:13]   BUY HDFCBANK @ 730.45 | 1 strategies | Conf: 0.8
+[2026-08-21 14:14:13]   SELL HEROMOTOCO @ 5702.5 | 1 strategies | Conf: 0.8
+[2026-08-21 14:14:13]   BUY IEX @ 123.66 | 1 strategies | Conf: 0.8
+[2026-08-21 14:14:13]   BUY LAURUSLABS @ 1795.9 | 1 strategies | Conf: 0.8
+[2026-08-21 14:14:13]   BUY MARICO @ 845.6 | 1 strategies | Conf: 0.8
+[2026-08-21 14:14:13]   BUY OFSS @ 11724.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:14:13]   BUY PREMIERENE @ 1051.4 | 1 strategies | Conf: 0.8
+[2026-08-21 14:14:13]   SELL PNB @ 116.35 | 1 strategies | Conf: 0.8
+[2026-08-21 14:14:13]   SELL SUZLON @ 46.75 | 1 strategies | Conf: 0.79
+[2026-08-21 14:14:13]   SELL TATASTEEL @ 182.4 | 1 strategies | Conf: 0.79
+[2026-08-21 14:14:13]   BUY PETRONET @ 292.55 | 1 strategies | Conf: 0.77
+[2026-08-21 14:14:13]   BUY ADANIPOWER @ 204.75 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL ANGELONE @ 287.65 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL APOLLOHOSP @ 8655.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL ASHOKLEY @ 172.82 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL AUROPHARMA @ 1607.6 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL BHEL @ 410.6 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL COCHINSHIP @ 1475.7 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL CAMS @ 750.25 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL DABUR @ 398.15 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL FORCEMOT @ 17794.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   BUY GODREJPROP @ 2036.5 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL HAVELLS @ 1267.9 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL INDIANB @ 872.15 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL KPITTECH @ 590.25 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL LUPIN @ 2192.6 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   BUY M&M @ 3433.6 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   BUY MPHASIS @ 2429.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL ONGC @ 236.71 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL PAGEIND @ 35500.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL RADICO @ 4635.5 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL RELIANCE @ 1309.5 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   BUY SBICARD @ 644.45 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL SONACOMS @ 814.95 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL SBIN @ 1043.6 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL TATAPOWER @ 375.35 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   SELL PHOENIXLTD @ 1919.8 | 1 strategies | Conf: 0.75
+[2026-08-21 14:14:13]   BUY BHARATFORG @ 2061.4 | 1 strategies | Conf: 0.74
+[2026-08-21 14:14:13]   BUY POWERGRID @ 272.35 | 1 strategies | Conf: 0.74
+[2026-08-21 14:14:13]   BUY MOTHERSON @ 169.73 | 1 strategies | Conf: 0.73
+[2026-08-21 14:14:13]   SELL HINDUNILVR @ 2022.0 | 1 strategies | Conf: 0.72
+[2026-08-21 14:14:13]   BUY BDL @ 1359.5 | 1 strategies | Conf: 0.71
+[2026-08-21 14:14:13]   SELL CROMPTON @ 250.8 | 1 strategies | Conf: 0.71
+[2026-08-21 14:14:13]   BUY MANAPPURAM @ 355.85 | 1 strategies | Conf: 0.7
+[2026-08-21 14:14:13]   BUY POLICYBZR @ 1791.9 | 1 strategies | Conf: 0.7
+[2026-08-21 14:14:13]   SELL SAIL @ 174.06 | 1 strategies | Conf: 0.7
+[2026-08-21 14:14:13]   BUY INDHOTEL @ 725.8 | 1 strategies | Conf: 0.7
+[2026-08-21 14:14:13]   BUY SONACOMS @ 814.95 | 1 strategies | Conf: 0.69
+[2026-08-21 14:14:13]   SELL BSE @ 3237.4 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   SELL BAJFINANCE @ 1092.7 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   SELL BLUESTARCO @ 1507.0 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   SELL CHOLAFIN @ 1857.0 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   SELL HDFCAMC @ 2610.5 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   SELL ITC @ 269.3 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   BUY IOC @ 135.99 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   BUY JSWENERGY @ 549.2 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   BUY KAYNES @ 3898.9 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   SELL MARICO @ 845.6 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   BUY PIIND @ 2505.2 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   SELL PATANJALI @ 346.65 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   SELL SUPREMEIND @ 3627.6 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   SELL TIINDIA @ 2872.6 | 1 strategies | Conf: 0.65
+[2026-08-21 14:14:13]   SELL POLYCAB @ 9006.0 | 1 strategies | Conf: 0.64
+[2026-08-21 14:14:13]   SELL BANKBARODA @ 244.21 | 1 strategies | Conf: 0.63
+[2026-08-21 14:14:13]   BUY BANDHANBNK @ 175.69 | 1 strategies | Conf: 0.62
+[2026-08-21 14:14:13]   SELL MANKIND @ 2381.4 | 1 strategies | Conf: 0.61
+[2026-08-21 14:14:13]   BUY BAJFINANCE @ 1092.7 | 1 strategies | Conf: 0.6
+[2026-08-21 14:14:13]   BUY CONCOR @ 513.35 | 1 strategies | Conf: 0.6
+[2026-08-21 14:14:13]   BUY GAIL @ 171.92 | 1 strategies | Conf: 0.6
+[2026-08-21 14:14:13]   SELL HAL @ 4987.0 | 1 strategies | Conf: 0.6
+[2026-08-21 14:14:13]   BUY INDUSINDBK @ 1001.8 | 1 strategies | Conf: 0.6
+[2026-08-21 14:14:13]   BUY KEI @ 5535.5 | 1 strategies | Conf: 0.6
+[2026-08-21 14:14:13]   BUY LTF @ 318.5 | 1 strategies | Conf: 0.6
+[2026-08-21 14:14:13]   BUY LODHA @ 1241.1 | 1 strategies | Conf: 0.6
+[2026-08-21 14:14:13]   BUY TORNTPHARM @ 4917.0 | 1 strategies | Conf: 0.6
+[2026-08-21 14:14:13]   BUY ADANIPORTS @ 1698.0 | 1 strategies | Conf: 0.59
+[2026-08-21 14:14:13]   BUY MFSL @ 1580.6 | 1 strategies | Conf: 0.59
+[2026-08-21 14:14:13]   BUY SHRIRAMFIN @ 1134.0 | 1 strategies | Conf: 0.59
+[2026-08-21 14:14:13]   BUY BSE @ 3237.4 | 1 strategies | Conf: 0.55
+[2026-08-21 14:14:13]   BUY HAL @ 4987.0 | 1 strategies | Conf: 0.55
+[2026-08-21 14:14:13]   BUY MUTHOOTFIN @ 3033.1 | 1 strategies | Conf: 0.47
+[2026-08-21 14:14:13]   SELL FINNIFTY @ 26242.15 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL APLAPOLLO @ 2138.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL ADANIPORTS @ 1698.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL ABCAPITAL @ 411.25 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL ALKEM @ 5384.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY ASHOKLEY @ 172.82 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY ASTRAL @ 1538.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY BANKBARODA @ 244.21 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL BANKINDIA @ 142.73 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY BHARTIARTL @ 1945.7 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY COCHINSHIP @ 1475.7 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY CAMS @ 750.25 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY CUMMINSIND @ 5117.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY DELHIVERY @ 450.2 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL DIXON @ 14811.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL DRREDDY @ 1179.9 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY GODFRYPHLP @ 2111.2 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL GRASIM @ 3285.2 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL ICICIBANK @ 1417.6 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL IRFC @ 86.43 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL JIOFIN @ 244.05 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL LICI @ 421.15 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL M&M @ 3433.6 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL MANAPPURAM @ 355.85 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY MANKIND @ 2381.4 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL MFSL @ 1580.6 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY MAXHEALTH @ 998.2 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL NBCC @ 88.9 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL NHPC @ 76.28 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL NMDC @ 84.19 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL OBEROIRLTY @ 1903.2 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL PERSISTENT @ 5662.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL PIDILITIND @ 1649.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY PFC @ 363.6 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL PREMIERENE @ 1051.4 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY SRF @ 2578.7 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   SELL SOLARINDS @ 19925.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY TCS @ 2290.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY TATAPOWER @ 375.35 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY PHOENIXLTD @ 1919.8 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13]   BUY UNOMINDA @ 1263.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:14:13] Scan complete.
+
+[2026-08-21 14:19:13] Starting auto scan...
+[2026-08-21 14:20:20] Found 127 stock(s) with signals! Sending alerts...
+[2026-08-21 14:21:59] Telegram error: [WinError 10054] An existing connection was forcibly closed by the remote host
+[2026-08-21 14:22:03] Email alerts sent.
+[2026-08-21 14:22:03]   VERY STRONG BUY CDSL @ 1381.1 | 4 strategies | Conf: 0.93
+[2026-08-21 14:22:03]   VERY STRONG BUY NAM-INDIA @ 1247.3 | 4 strategies | Conf: 0.84
+[2026-08-21 14:22:03]   VERY STRONG BUY NYKAA @ 334.3 | 3 strategies | Conf: 0.77
+[2026-08-21 14:22:03]   VERY STRONG SELL INDIGO @ 5092.5 | 3 strategies | Conf: 0.77
+[2026-08-21 14:22:03]   VERY STRONG BUY KFINTECH @ 979.95 | 3 strategies | Conf: 0.75
+[2026-08-21 14:22:03]   VERY STRONG BUY HINDZINC @ 597.6 | 3 strategies | Conf: 0.74
+[2026-08-21 14:22:03]   VERY STRONG BUY ICICIPRULI @ 517.25 | 3 strategies | Conf: 0.72
+[2026-08-21 14:22:03]   VERY STRONG BUY AUBANK @ 1105.0 | 4 strategies | Conf: 0.71
+[2026-08-21 14:22:03]   VERY STRONG BUY KOTAKBANK @ 402.1 | 6 strategies | Conf: 0.71
+[2026-08-21 14:22:03]   VERY STRONG SELL BRITANNIA @ 5350.0 | 3 strategies | Conf: 0.63
+[2026-08-21 14:22:03]   VERY STRONG SELL CUMMINSIND @ 5118.0 | 4 strategies | Conf: 0.61
+[2026-08-21 14:22:03]   VERY STRONG BUY UNITDSPR @ 1554.6 | 3 strategies | Conf: 0.59
+[2026-08-21 14:22:03]   VERY STRONG BUY LT @ 4098.6 | 4 strategies | Conf: 0.56
+[2026-08-21 14:22:03]   VERY STRONG BUY MOTILALOFS @ 994.75 | 5 strategies | Conf: 0.55
+[2026-08-21 14:22:03]   VERY STRONG SELL LICHSGFIN @ 491.6 | 4 strategies | Conf: 0.53
+[2026-08-21 14:22:03]   VERY STRONG SELL RECLTD @ 327.0 | 3 strategies | Conf: 0.52
+[2026-08-21 14:22:03]   VERY STRONG BUY BRIGADE @ 637.6 | 3 strategies | Conf: 0.51
+[2026-08-21 14:22:03]   VERY STRONG SELL TMPV @ 317.4 | 4 strategies | Conf: 0.5
+[2026-08-21 14:22:03]   VERY STRONG BUY MCX @ 3179.1 | 3 strategies | Conf: 0.45
+[2026-08-21 14:22:03]   VERY STRONG SELL ADANIENSOL @ 1533.2 | 3 strategies | Conf: 0.43
+[2026-08-21 14:22:03]   VERY STRONG SELL GMRAIRPORT @ 99.86 | 3 strategies | Conf: 0.41
+[2026-08-21 14:22:03]   VERY STRONG SELL TATACONSUM @ 1046.0 | 4 strategies | Conf: 0.41
+[2026-08-21 14:22:03]   STRONG BUY SIEMENS @ 3912.2 | 2 strategies | Conf: 0.78
+[2026-08-21 14:22:03]   STRONG SELL TATAPOWER @ 375.15 | 2 strategies | Conf: 0.78
+[2026-08-21 14:22:03]   STRONG BUY PAYTM @ 1631.9 | 2 strategies | Conf: 0.77
+[2026-08-21 14:22:03]   STRONG BUY DLF @ 678.4 | 2 strategies | Conf: 0.76
+[2026-08-21 14:22:04]   STRONG BUY PRESTIGE @ 1627.2 | 2 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   STRONG SELL MARUTI @ 13608.0 | 2 strategies | Conf: 0.73
+[2026-08-21 14:22:04]   STRONG BUY BAJAJFINSV @ 2024.0 | 2 strategies | Conf: 0.72
+[2026-08-21 14:22:04]   STRONG BUY IDFCFIRSTB @ 86.65 | 2 strategies | Conf: 0.72
+[2026-08-21 14:22:04]   STRONG BUY KALYANKJIL @ 602.2 | 2 strategies | Conf: 0.71
+[2026-08-21 14:22:04]   STRONG BUY NIFTYBANK @ 57674.65 | 2 strategies | Conf: 0.7
+[2026-08-21 14:22:04]   STRONG SELL PFC @ 363.6 | 2 strategies | Conf: 0.69
+[2026-08-21 14:22:04]   STRONG BUY AUROPHARMA @ 1609.1 | 2 strategies | Conf: 0.65
+[2026-08-21 14:22:04]   STRONG BUY NESTLEIND @ 1472.3 | 2 strategies | Conf: 0.65
+[2026-08-21 14:22:04]   STRONG BUY NIFTYMIDCAP100 @ 63684.7 | 2 strategies | Conf: 0.64
+[2026-08-21 14:22:04]   STRONG BUY PGEL @ 604.5 | 2 strategies | Conf: 0.62
+[2026-08-21 14:22:04]   STRONG BUY TITAN @ 5068.3 | 2 strategies | Conf: 0.6
+[2026-08-21 14:22:04]   STRONG SELL DMART @ 3877.6 | 2 strategies | Conf: 0.53
+[2026-08-21 14:22:04]   STRONG BUY BEL @ 413.15 | 2 strategies | Conf: 0.53
+[2026-08-21 14:22:04]   STRONG BUY KAYNES @ 3907.4 | 2 strategies | Conf: 0.53
+[2026-08-21 14:22:04]   STRONG BUY ADANIENT @ 2996.2 | 2 strategies | Conf: 0.5
+[2026-08-21 14:22:04]   BUY DIXON @ 14815.0 | 1 strategies | Conf: 1.0
+[2026-08-21 14:22:04]   BUY ABCAPITAL @ 411.1 | 1 strategies | Conf: 0.9
+[2026-08-21 14:22:04]   BUY CHOLAFIN @ 1858.8 | 1 strategies | Conf: 0.9
+[2026-08-21 14:22:04]   BUY GRASIM @ 3283.2 | 1 strategies | Conf: 0.9
+[2026-08-21 14:22:04]   BUY ICICIBANK @ 1419.0 | 1 strategies | Conf: 0.9
+[2026-08-21 14:22:04]   BUY JSWSTEEL @ 1286.0 | 1 strategies | Conf: 0.9
+[2026-08-21 14:22:04]   BUY OFSS @ 11693.0 | 1 strategies | Conf: 0.9
+[2026-08-21 14:22:04]   BUY PIDILITIND @ 1648.2 | 1 strategies | Conf: 0.9
+[2026-08-21 14:22:04]   BUY FEDERALBNK @ 359.25 | 1 strategies | Conf: 0.9
+[2026-08-21 14:22:04]   SELL CANBK @ 128.87 | 1 strategies | Conf: 0.85
+[2026-08-21 14:22:04]   SELL TRENT @ 2920.9 | 1 strategies | Conf: 0.85
+[2026-08-21 14:22:04]   SELL VBL @ 431.85 | 1 strategies | Conf: 0.85
+[2026-08-21 14:22:04]   BUY PREMIERENE @ 1049.0 | 1 strategies | Conf: 0.81
+[2026-08-21 14:22:04]   BUY APOLLOHOSP @ 8652.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:22:04]   BUY EICHERMOT @ 7998.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:22:04]   BUY LAURUSLABS @ 1795.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:22:04]   BUY MARICO @ 847.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:22:04]   SELL SUZLON @ 46.74 | 1 strategies | Conf: 0.8
+[2026-08-21 14:22:04]   BUY JINDALSTEL @ 1128.0 | 1 strategies | Conf: 0.79
+[2026-08-21 14:22:04]   SELL TATASTEEL @ 182.62 | 1 strategies | Conf: 0.79
+[2026-08-21 14:22:04]   BUY PETRONET @ 293.2 | 1 strategies | Conf: 0.77
+[2026-08-21 14:22:04]   SELL ANGELONE @ 287.4 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   SELL APOLLOHOSP @ 8652.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   SELL CAMS @ 750.15 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   SELL DABUR @ 398.25 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   SELL FORCEMOT @ 17792.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   BUY GODREJPROP @ 2034.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   SELL KPITTECH @ 589.85 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   SELL LUPIN @ 2190.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   BUY M&M @ 3436.7 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   SELL ONGC @ 236.86 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   SELL PAGEIND @ 35475.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   SELL RELIANCE @ 1308.9 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   BUY SBICARD @ 644.4 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   SELL PHOENIXLTD @ 1919.3 | 1 strategies | Conf: 0.75
+[2026-08-21 14:22:04]   BUY MOTHERSON @ 169.84 | 1 strategies | Conf: 0.74
+[2026-08-21 14:22:04]   SELL HINDUNILVR @ 2021.2 | 1 strategies | Conf: 0.73
+[2026-08-21 14:22:04]   SELL ICICIGI @ 1616.6 | 1 strategies | Conf: 0.73
+[2026-08-21 14:22:04]   BUY MPHASIS @ 2425.7 | 1 strategies | Conf: 0.73
+[2026-08-21 14:22:04]   BUY APLAPOLLO @ 2140.2 | 1 strategies | Conf: 0.72
+[2026-08-21 14:22:04]   BUY BDL @ 1361.8 | 1 strategies | Conf: 0.71
+[2026-08-21 14:22:04]   SELL CROMPTON @ 251.45 | 1 strategies | Conf: 0.71
+[2026-08-21 14:22:04]   SELL BANKINDIA @ 142.7 | 1 strategies | Conf: 0.7
+[2026-08-21 14:22:04]   BUY MANAPPURAM @ 356.4 | 1 strategies | Conf: 0.7
+[2026-08-21 14:22:04]   BUY INDHOTEL @ 726.5 | 1 strategies | Conf: 0.7
+[2026-08-21 14:22:04]   BUY POLICYBZR @ 1794.3 | 1 strategies | Conf: 0.69
+[2026-08-21 14:22:04]   BUY SONACOMS @ 814.85 | 1 strategies | Conf: 0.69
+[2026-08-21 14:22:04]   SELL BSE @ 3239.7 | 1 strategies | Conf: 0.65
+[2026-08-21 14:22:04]   SELL GODREJCP @ 931.7 | 1 strategies | Conf: 0.65
+[2026-08-21 14:22:04]   SELL HDFCAMC @ 2607.2 | 1 strategies | Conf: 0.65
+[2026-08-21 14:22:04]   SELL ITC @ 269.2 | 1 strategies | Conf: 0.65
+[2026-08-21 14:22:04]   SELL TIINDIA @ 2873.4 | 1 strategies | Conf: 0.65
+[2026-08-21 14:22:04]   SELL BANKBARODA @ 244.37 | 1 strategies | Conf: 0.64
+[2026-08-21 14:22:04]   SELL POLYCAB @ 9002.5 | 1 strategies | Conf: 0.64
+[2026-08-21 14:22:04]   SELL MANKIND @ 2379.1 | 1 strategies | Conf: 0.61
+[2026-08-21 14:22:04]   BUY BAJFINANCE @ 1093.5 | 1 strategies | Conf: 0.6
+[2026-08-21 14:22:04]   BUY CONCOR @ 513.9 | 1 strategies | Conf: 0.6
+[2026-08-21 14:22:04]   BUY GAIL @ 172.0 | 1 strategies | Conf: 0.6
+[2026-08-21 14:22:04]   BUY INDUSINDBK @ 1002.7 | 1 strategies | Conf: 0.6
+[2026-08-21 14:22:04]   BUY KEI @ 5541.3 | 1 strategies | Conf: 0.6
+[2026-08-21 14:22:04]   BUY LTF @ 318.6 | 1 strategies | Conf: 0.6
+[2026-08-21 14:22:04]   BUY LODHA @ 1234.0 | 1 strategies | Conf: 0.6
+[2026-08-21 14:22:04]   BUY TORNTPHARM @ 4910.0 | 1 strategies | Conf: 0.6
+[2026-08-21 14:22:04]   BUY ZYDUSLIFE @ 1104.3 | 1 strategies | Conf: 0.6
+[2026-08-21 14:22:04]   BUY MFSL @ 1581.8 | 1 strategies | Conf: 0.59
+[2026-08-21 14:22:04]   BUY SHRIRAMFIN @ 1137.0 | 1 strategies | Conf: 0.59
+[2026-08-21 14:22:04]   BUY HAL @ 4987.3 | 1 strategies | Conf: 0.55
+[2026-08-21 14:22:04]   BUY MUTHOOTFIN @ 3041.5 | 1 strategies | Conf: 0.48
+[2026-08-21 14:22:04]   SELL FINNIFTY @ 26247.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   SELL ADANIPORTS @ 1696.7 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   SELL ALKEM @ 5380.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   BUY ASHOKLEY @ 172.9 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   BUY ASTRAL @ 1536.5 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   BUY BHARTIARTL @ 1946.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   BUY COCHINSHIP @ 1476.6 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   SELL DRREDDY @ 1179.2 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   SELL IRFC @ 86.46 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   SELL JIOFIN @ 244.1 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   SELL LICI @ 421.1 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   SELL NBCC @ 88.87 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   SELL NHPC @ 76.29 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   SELL NMDC @ 84.27 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   SELL PREMIERENE @ 1049.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   BUY UNOMINDA @ 1260.5 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04]   SELL ACC @ 1308.4 | 1 strategies | Conf: 0.4
+[2026-08-21 14:22:04] Scan complete.
+
+[2026-08-21 14:27:04] Starting auto scan...
+[2026-08-21 14:28:05] Found 120 stock(s) with signals! Sending alerts...
+[2026-08-21 14:31:03] Telegram alerts sent.
+[2026-08-21 14:31:09] Email alerts sent.
+[2026-08-21 14:31:09]   VERY STRONG BUY CDSL @ 1383.0 | 4 strategies | Conf: 0.94
+[2026-08-21 14:31:09]   VERY STRONG BUY NAM-INDIA @ 1247.7 | 4 strategies | Conf: 0.84
+[2026-08-21 14:31:09]   VERY STRONG BUY NYKAA @ 334.4 | 3 strategies | Conf: 0.77
+[2026-08-21 14:31:09]   VERY STRONG SELL INDIGO @ 5090.0 | 3 strategies | Conf: 0.77
+[2026-08-21 14:31:09]   VERY STRONG BUY KFINTECH @ 979.0 | 3 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   VERY STRONG BUY ICICIPRULI @ 518.4 | 3 strategies | Conf: 0.73
+[2026-08-21 14:31:09]   VERY STRONG BUY AUBANK @ 1104.9 | 4 strategies | Conf: 0.72
+[2026-08-21 14:31:09]   VERY STRONG BUY KOTAKBANK @ 402.25 | 6 strategies | Conf: 0.71
+[2026-08-21 14:31:09]   VERY STRONG SELL BRITANNIA @ 5350.5 | 3 strategies | Conf: 0.63
+[2026-08-21 14:31:09]   VERY STRONG SELL CUMMINSIND @ 5122.0 | 4 strategies | Conf: 0.61
+[2026-08-21 14:31:09]   VERY STRONG BUY LT @ 4093.6 | 4 strategies | Conf: 0.57
+[2026-08-21 14:31:09]   VERY STRONG BUY MOTILALOFS @ 994.6 | 5 strategies | Conf: 0.55
+[2026-08-21 14:31:09]   VERY STRONG SELL LICHSGFIN @ 491.85 | 4 strategies | Conf: 0.53
+[2026-08-21 14:31:09]   VERY STRONG SELL RECLTD @ 326.75 | 3 strategies | Conf: 0.52
+[2026-08-21 14:31:09]   VERY STRONG SELL PFC @ 362.95 | 4 strategies | Conf: 0.51
+[2026-08-21 14:31:09]   VERY STRONG SELL TMPV @ 317.35 | 4 strategies | Conf: 0.51
+[2026-08-21 14:31:09]   VERY STRONG BUY MCX @ 3171.0 | 3 strategies | Conf: 0.45
+[2026-08-21 14:31:09]   VERY STRONG SELL ADANIENSOL @ 1534.0 | 3 strategies | Conf: 0.43
+[2026-08-21 14:31:09]   VERY STRONG SELL GMRAIRPORT @ 99.89 | 3 strategies | Conf: 0.41
+[2026-08-21 14:31:09]   VERY STRONG SELL TATACONSUM @ 1047.4 | 4 strategies | Conf: 0.41
+[2026-08-21 14:31:09]   STRONG BUY DIXON @ 14861.0 | 2 strategies | Conf: 0.92
+[2026-08-21 14:31:09]   STRONG BUY SIEMENS @ 3915.3 | 2 strategies | Conf: 0.78
+[2026-08-21 14:31:09]   STRONG BUY PAYTM @ 1633.4 | 2 strategies | Conf: 0.77
+[2026-08-21 14:31:09]   STRONG BUY DLF @ 678.3 | 2 strategies | Conf: 0.76
+[2026-08-21 14:31:09]   STRONG SELL MARUTI @ 13620.0 | 2 strategies | Conf: 0.73
+[2026-08-21 14:31:09]   STRONG BUY BAJAJFINSV @ 2022.5 | 2 strategies | Conf: 0.72
+[2026-08-21 14:31:09]   STRONG BUY HINDZINC @ 595.85 | 2 strategies | Conf: 0.72
+[2026-08-21 14:31:09]   STRONG SELL DMART @ 3886.9 | 2 strategies | Conf: 0.71
+[2026-08-21 14:31:09]   STRONG BUY KALYANKJIL @ 602.1 | 2 strategies | Conf: 0.71
+[2026-08-21 14:31:09]   STRONG BUY NIFTYBANK @ 57651.1 | 2 strategies | Conf: 0.7
+[2026-08-21 14:31:09]   STRONG BUY PRESTIGE @ 1629.9 | 2 strategies | Conf: 0.7
+[2026-08-21 14:31:09]   STRONG BUY LICI @ 422.15 | 2 strategies | Conf: 0.68
+[2026-08-21 14:31:09]   STRONG BUY NIFTYMIDCAP100 @ 63691.8 | 2 strategies | Conf: 0.65
+[2026-08-21 14:31:09]   STRONG BUY AUROPHARMA @ 1611.2 | 2 strategies | Conf: 0.65
+[2026-08-21 14:31:09]   STRONG BUY PGEL @ 604.6 | 2 strategies | Conf: 0.62
+[2026-08-21 14:31:09]   STRONG BUY TITAN @ 5078.0 | 2 strategies | Conf: 0.6
+[2026-08-21 14:31:09]   STRONG SELL LUPIN @ 2195.2 | 2 strategies | Conf: 0.57
+[2026-08-21 14:31:09]   STRONG BUY BEL @ 413.7 | 2 strategies | Conf: 0.53
+[2026-08-21 14:31:09]   STRONG BUY KAYNES @ 3906.0 | 2 strategies | Conf: 0.53
+[2026-08-21 14:31:09]   STRONG BUY ADANIENT @ 2997.1 | 2 strategies | Conf: 0.5
+[2026-08-21 14:31:09]   BUY ABCAPITAL @ 410.75 | 1 strategies | Conf: 0.9
+[2026-08-21 14:31:09]   BUY CHOLAFIN @ 1860.7 | 1 strategies | Conf: 0.9
+[2026-08-21 14:31:09]   BUY GRASIM @ 3283.4 | 1 strategies | Conf: 0.9
+[2026-08-21 14:31:09]   BUY ICICIBANK @ 1418.4 | 1 strategies | Conf: 0.9
+[2026-08-21 14:31:09]   BUY JSWSTEEL @ 1286.1 | 1 strategies | Conf: 0.9
+[2026-08-21 14:31:09]   BUY OFSS @ 11689.0 | 1 strategies | Conf: 0.9
+[2026-08-21 14:31:09]   BUY PIDILITIND @ 1646.9 | 1 strategies | Conf: 0.9
+[2026-08-21 14:31:09]   BUY FEDERALBNK @ 359.1 | 1 strategies | Conf: 0.9
+[2026-08-21 14:31:09]   SELL BANKINDIA @ 142.45 | 1 strategies | Conf: 0.85
+[2026-08-21 14:31:09]   SELL CANBK @ 128.79 | 1 strategies | Conf: 0.85
+[2026-08-21 14:31:09]   SELL TRENT @ 2922.9 | 1 strategies | Conf: 0.85
+[2026-08-21 14:31:09]   BUY PREMIERENE @ 1051.5 | 1 strategies | Conf: 0.82
+[2026-08-21 14:31:09]   BUY APOLLOHOSP @ 8660.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:31:09]   BUY EICHERMOT @ 8008.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:31:09]   BUY JINDALSTEL @ 1126.3 | 1 strategies | Conf: 0.8
+[2026-08-21 14:31:09]   BUY LAURUSLABS @ 1795.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:31:09]   BUY MARICO @ 846.05 | 1 strategies | Conf: 0.8
+[2026-08-21 14:31:09]   SELL TATASTEEL @ 182.59 | 1 strategies | Conf: 0.8
+[2026-08-21 14:31:09]   SELL SUZLON @ 46.76 | 1 strategies | Conf: 0.79
+[2026-08-21 14:31:09]   BUY IDFCFIRSTB @ 86.47 | 1 strategies | Conf: 0.78
+[2026-08-21 14:31:09]   BUY PETRONET @ 293.25 | 1 strategies | Conf: 0.77
+[2026-08-21 14:31:09]   SELL ANGELONE @ 287.55 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   SELL APOLLOHOSP @ 8660.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   SELL CAMS @ 750.4 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   SELL DABUR @ 398.4 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   SELL FORCEMOT @ 17800.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   BUY GODREJPROP @ 2033.4 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   SELL KPITTECH @ 590.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   BUY M&M @ 3437.2 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   SELL ONGC @ 236.87 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   SELL PAGEIND @ 35535.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   SELL RELIANCE @ 1309.2 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   BUY SBICARD @ 644.4 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   SELL TATAPOWER @ 375.25 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   SELL PHOENIXLTD @ 1922.5 | 1 strategies | Conf: 0.75
+[2026-08-21 14:31:09]   BUY MPHASIS @ 2425.0 | 1 strategies | Conf: 0.73
+[2026-08-21 14:31:09]   SELL CROMPTON @ 251.4 | 1 strategies | Conf: 0.72
+[2026-08-21 14:31:09]   SELL HINDUNILVR @ 2022.0 | 1 strategies | Conf: 0.72
+[2026-08-21 14:31:09]   BUY MOTHERSON @ 169.66 | 1 strategies | Conf: 0.72
+[2026-08-21 14:31:09]   BUY BDL @ 1359.5 | 1 strategies | Conf: 0.71
+[2026-08-21 14:31:09]   BUY MANAPPURAM @ 356.55 | 1 strategies | Conf: 0.7
+[2026-08-21 14:31:09]   BUY INDHOTEL @ 725.65 | 1 strategies | Conf: 0.7
+[2026-08-21 14:31:09]   BUY POLICYBZR @ 1793.4 | 1 strategies | Conf: 0.69
+[2026-08-21 14:31:09]   BUY SONACOMS @ 814.95 | 1 strategies | Conf: 0.69
+[2026-08-21 14:31:09]   SELL BSE @ 3238.4 | 1 strategies | Conf: 0.65
+[2026-08-21 14:31:09]   SELL HDFCAMC @ 2605.6 | 1 strategies | Conf: 0.65
+[2026-08-21 14:31:09]   SELL ITC @ 269.15 | 1 strategies | Conf: 0.65
+[2026-08-21 14:31:09]   SELL TIINDIA @ 2872.5 | 1 strategies | Conf: 0.65
+[2026-08-21 14:31:09]   SELL BANKBARODA @ 244.45 | 1 strategies | Conf: 0.64
+[2026-08-21 14:31:09]   SELL POLYCAB @ 9002.0 | 1 strategies | Conf: 0.64
+[2026-08-21 14:31:09]   SELL MANKIND @ 2380.9 | 1 strategies | Conf: 0.61
+[2026-08-21 14:31:09]   BUY BAJFINANCE @ 1093.6 | 1 strategies | Conf: 0.6
+[2026-08-21 14:31:09]   BUY CONCOR @ 514.25 | 1 strategies | Conf: 0.6
+[2026-08-21 14:31:09]   BUY GAIL @ 172.0 | 1 strategies | Conf: 0.6
+[2026-08-21 14:31:09]   BUY INDUSINDBK @ 1002.4 | 1 strategies | Conf: 0.6
+[2026-08-21 14:31:09]   BUY KEI @ 5535.7 | 1 strategies | Conf: 0.6
+[2026-08-21 14:31:09]   BUY LTF @ 318.45 | 1 strategies | Conf: 0.6
+[2026-08-21 14:31:09]   BUY LODHA @ 1235.7 | 1 strategies | Conf: 0.6
+[2026-08-21 14:31:09]   BUY NESTLEIND @ 1469.9 | 1 strategies | Conf: 0.6
+[2026-08-21 14:31:09]   BUY TORNTPHARM @ 4910.0 | 1 strategies | Conf: 0.6
+[2026-08-21 14:31:09]   BUY MFSL @ 1584.9 | 1 strategies | Conf: 0.59
+[2026-08-21 14:31:09]   BUY SHRIRAMFIN @ 1132.8 | 1 strategies | Conf: 0.59
+[2026-08-21 14:31:09]   BUY HAL @ 4984.5 | 1 strategies | Conf: 0.55
+[2026-08-21 14:31:09]   BUY MUTHOOTFIN @ 3037.2 | 1 strategies | Conf: 0.48
+[2026-08-21 14:31:09]   SELL FINNIFTY @ 26244.05 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   SELL ADANIPORTS @ 1697.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   SELL ALKEM @ 5381.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   BUY ASHOKLEY @ 172.94 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   BUY ASTRAL @ 1536.9 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   BUY COCHINSHIP @ 1476.8 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   SELL DRREDDY @ 1179.7 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   SELL IRFC @ 86.42 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   SELL JIOFIN @ 244.15 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   SELL LICI @ 422.15 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   SELL NBCC @ 88.85 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   SELL NHPC @ 76.32 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   SELL NMDC @ 84.08 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   SELL PREMIERENE @ 1051.5 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   BUY PHOENIXLTD @ 1922.5 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09]   BUY UNOMINDA @ 1261.3 | 1 strategies | Conf: 0.4
+[2026-08-21 14:31:09] Scan complete.
+
+[2026-08-21 14:36:10] Starting auto scan...
+[2026-08-21 14:41:21] Starting auto scan...
+[2026-08-21 14:42:18] Found 53 stock(s) with signals! Sending alerts...
+[2026-08-21 14:44:02] Telegram alerts sent.
+[2026-08-21 14:44:06] Email alerts sent.
+[2026-08-21 14:44:06]   VERY STRONG BUY CDSL @ 1381.0 | 4 strategies | Conf: 0.94
+[2026-08-21 14:44:06]   VERY STRONG BUY DIXON @ 14880.0 | 3 strategies | Conf: 0.86
+[2026-08-21 14:44:06]   VERY STRONG BUY NYKAA @ 334.2 | 3 strategies | Conf: 0.77
+[2026-08-21 14:44:06]   VERY STRONG BUY AUBANK @ 1101.1 | 3 strategies | Conf: 0.73
+[2026-08-21 14:44:06]   VERY STRONG SELL CUMMINSIND @ 5103.5 | 6 strategies | Conf: 0.65
+[2026-08-21 14:44:06]   VERY STRONG SELL BRITANNIA @ 5350.0 | 3 strategies | Conf: 0.63
+[2026-08-21 14:44:06]   VERY STRONG BUY BRIGADE @ 640.4 | 3 strategies | Conf: 0.52
+[2026-08-21 14:44:06]   VERY STRONG SELL BSE @ 3230.8 | 3 strategies | Conf: 0.46
+[2026-08-21 14:44:06]   VERY STRONG SELL GMRAIRPORT @ 99.87 | 3 strategies | Conf: 0.42
+[2026-08-21 14:44:06]   STRONG BUY DLF @ 680.3 | 2 strategies | Conf: 0.76
+[2026-08-21 14:44:06]   STRONG BUY APLAPOLLO @ 2141.2 | 2 strategies | Conf: 0.73
+[2026-08-21 14:44:06]   STRONG BUY BAJAJFINSV @ 2020.6 | 2 strategies | Conf: 0.72
+[2026-08-21 14:44:06]   STRONG BUY NIFTYBANK @ 57646.9 | 2 strategies | Conf: 0.7
+[2026-08-21 14:44:06]   STRONG BUY NIFTYMIDCAP100 @ 63691.15 | 2 strategies | Conf: 0.65
+[2026-08-21 14:44:06]   STRONG BUY AUROPHARMA @ 1609.8 | 2 strategies | Conf: 0.65
+[2026-08-21 14:44:06]   STRONG BUY BEL @ 413.95 | 2 strategies | Conf: 0.53
+[2026-08-21 14:44:06]   STRONG BUY ADANIENT @ 2996.1 | 2 strategies | Conf: 0.5
+[2026-08-21 14:44:06]   BUY ABCAPITAL @ 410.35 | 1 strategies | Conf: 0.9
+[2026-08-21 14:44:06]   BUY CHOLAFIN @ 1861.0 | 1 strategies | Conf: 0.9
+[2026-08-21 14:44:06]   BUY GRASIM @ 3288.6 | 1 strategies | Conf: 0.9
+[2026-08-21 14:44:06]   SELL CANBK @ 128.92 | 1 strategies | Conf: 0.85
+[2026-08-21 14:44:06]   SELL BANKINDIA @ 142.57 | 1 strategies | Conf: 0.83
+[2026-08-21 14:44:06]   BUY APOLLOHOSP @ 8658.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:44:06]   BUY EICHERMOT @ 8002.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:44:06]   SELL DMART @ 3900.6 | 1 strategies | Conf: 0.79
+[2026-08-21 14:44:06]   SELL CROMPTON @ 249.8 | 1 strategies | Conf: 0.77
+[2026-08-21 14:44:06]   SELL ANGELONE @ 287.45 | 1 strategies | Conf: 0.75
+[2026-08-21 14:44:06]   SELL APOLLOHOSP @ 8658.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:44:06]   SELL CAMS @ 750.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:44:06]   SELL DABUR @ 398.6 | 1 strategies | Conf: 0.75
+[2026-08-21 14:44:06]   SELL FORCEMOT @ 17789.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:44:06]   BUY GODREJPROP @ 2035.6 | 1 strategies | Conf: 0.75
+[2026-08-21 14:44:06]   BUY BDL @ 1359.9 | 1 strategies | Conf: 0.71
+[2026-08-21 14:44:06]   SELL CGPOWER @ 867.95 | 1 strategies | Conf: 0.71
+[2026-08-21 14:44:06]   SELL HDFCAMC @ 2603.0 | 1 strategies | Conf: 0.65
+[2026-08-21 14:44:06]   SELL BANKBARODA @ 244.48 | 1 strategies | Conf: 0.64
+[2026-08-21 14:44:06]   BUY BAJFINANCE @ 1093.3 | 1 strategies | Conf: 0.6
+[2026-08-21 14:44:06]   BUY CONCOR @ 514.55 | 1 strategies | Conf: 0.6
+[2026-08-21 14:44:06]   BUY GAIL @ 171.74 | 1 strategies | Conf: 0.6
+[2026-08-21 14:44:06]   BUY HAL @ 4980.0 | 1 strategies | Conf: 0.55
+[2026-08-21 14:44:06]   SELL FINNIFTY @ 26238.35 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06]   SELL ADANIPORTS @ 1696.3 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06]   SELL ALKEM @ 5379.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06]   BUY ASHOKLEY @ 172.9 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06]   BUY ASTRAL @ 1536.3 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06]   SELL BANDHANBNK @ 175.18 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06]   BUY BHARTIARTL @ 1946.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06]   SELL CIPLA @ 1426.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06]   BUY COCHINSHIP @ 1480.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06]   SELL DRREDDY @ 1179.3 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06]   SELL HINDPETRO @ 363.05 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06]   SELL HINDUNILVR @ 2023.3 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06]   SELL ACC @ 1308.6 | 1 strategies | Conf: 0.4
+[2026-08-21 14:44:06] Scan complete.
+
+[2026-08-21 14:49:06] Starting auto scan...
+[2026-08-21 14:50:11] Found 131 stock(s) with signals! Sending alerts...
+[2026-08-21 14:54:16] Telegram alerts sent.
+[2026-08-21 14:54:20] Email alerts sent.
+[2026-08-21 14:54:20]   VERY STRONG BUY CDSL @ 1381.1 | 4 strategies | Conf: 0.94
+[2026-08-21 14:54:20]   VERY STRONG BUY DIXON @ 14880.0 | 3 strategies | Conf: 0.86
+[2026-08-21 14:54:20]   VERY STRONG BUY NAM-INDIA @ 1247.4 | 4 strategies | Conf: 0.84
+[2026-08-21 14:54:20]   VERY STRONG SELL INDIGO @ 5096.0 | 3 strategies | Conf: 0.78
+[2026-08-21 14:54:20]   VERY STRONG BUY NYKAA @ 334.25 | 3 strategies | Conf: 0.77
+[2026-08-21 14:54:20]   VERY STRONG BUY HINDZINC @ 596.4 | 3 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   VERY STRONG BUY AUBANK @ 1100.3 | 3 strategies | Conf: 0.74
+[2026-08-21 14:54:20]   VERY STRONG BUY ICICIPRULI @ 519.25 | 3 strategies | Conf: 0.74
+[2026-08-21 14:54:20]   VERY STRONG BUY KOTAKBANK @ 402.7 | 6 strategies | Conf: 0.72
+[2026-08-21 14:54:20]   VERY STRONG BUY KFINTECH @ 981.1 | 4 strategies | Conf: 0.67
+[2026-08-21 14:54:20]   VERY STRONG SELL CUMMINSIND @ 5109.0 | 6 strategies | Conf: 0.65
+[2026-08-21 14:54:20]   VERY STRONG BUY UNITDSPR @ 1556.0 | 3 strategies | Conf: 0.6
+[2026-08-21 14:54:20]   VERY STRONG BUY BRIGADE @ 641.4 | 4 strategies | Conf: 0.59
+[2026-08-21 14:54:20]   VERY STRONG BUY LT @ 4091.8 | 4 strategies | Conf: 0.57
+[2026-08-21 14:54:20]   VERY STRONG BUY MOTILALOFS @ 993.5 | 5 strategies | Conf: 0.55
+[2026-08-21 14:54:20]   VERY STRONG SELL LICHSGFIN @ 494.75 | 4 strategies | Conf: 0.54
+[2026-08-21 14:54:20]   VERY STRONG SELL RECLTD @ 326.95 | 3 strategies | Conf: 0.52
+[2026-08-21 14:54:20]   VERY STRONG SELL TMPV @ 317.35 | 4 strategies | Conf: 0.51
+[2026-08-21 14:54:20]   VERY STRONG SELL LUPIN @ 2195.0 | 4 strategies | Conf: 0.49
+[2026-08-21 14:54:20]   VERY STRONG BUY MCX @ 3183.9 | 3 strategies | Conf: 0.46
+[2026-08-21 14:54:20]   VERY STRONG SELL GMRAIRPORT @ 99.7 | 3 strategies | Conf: 0.42
+[2026-08-21 14:54:20]   VERY STRONG SELL TATACONSUM @ 1047.0 | 4 strategies | Conf: 0.41
+[2026-08-21 14:54:20]   STRONG BUY SIEMENS @ 3920.7 | 2 strategies | Conf: 0.78
+[2026-08-21 14:54:20]   STRONG SELL TATAPOWER @ 375.0 | 2 strategies | Conf: 0.78
+[2026-08-21 14:54:20]   STRONG BUY PAYTM @ 1632.9 | 2 strategies | Conf: 0.77
+[2026-08-21 14:54:20]   STRONG BUY DLF @ 680.3 | 2 strategies | Conf: 0.76
+[2026-08-21 14:54:20]   STRONG BUY TITAN @ 5083.0 | 2 strategies | Conf: 0.76
+[2026-08-21 14:54:20]   STRONG SELL SRF @ 2573.0 | 2 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   STRONG BUY KALYANKJIL @ 604.5 | 2 strategies | Conf: 0.74
+[2026-08-21 14:54:20]   STRONG SELL MARUTI @ 13608.0 | 2 strategies | Conf: 0.73
+[2026-08-21 14:54:20]   STRONG BUY BAJAJFINSV @ 2020.0 | 2 strategies | Conf: 0.72
+[2026-08-21 14:54:20]   STRONG BUY PETRONET @ 293.4 | 2 strategies | Conf: 0.72
+[2026-08-21 14:54:20]   STRONG SELL TRENT @ 2919.0 | 2 strategies | Conf: 0.72
+[2026-08-21 14:54:20]   STRONG BUY NIFTYBANK @ 57672.15 | 2 strategies | Conf: 0.7
+[2026-08-21 14:54:20]   STRONG SELL PFC @ 363.4 | 2 strategies | Conf: 0.7
+[2026-08-21 14:54:20]   STRONG BUY LICI @ 422.35 | 2 strategies | Conf: 0.68
+[2026-08-21 14:54:20]   STRONG BUY NIFTYMIDCAP100 @ 63708.2 | 2 strategies | Conf: 0.66
+[2026-08-21 14:54:20]   STRONG BUY AUROPHARMA @ 1610.9 | 2 strategies | Conf: 0.65
+[2026-08-21 14:54:20]   STRONG SELL BRITANNIA @ 5358.5 | 2 strategies | Conf: 0.62
+[2026-08-21 14:54:20]   STRONG BUY PGEL @ 604.5 | 2 strategies | Conf: 0.62
+[2026-08-21 14:54:20]   STRONG BUY BEL @ 414.4 | 2 strategies | Conf: 0.53
+[2026-08-21 14:54:20]   STRONG BUY KAYNES @ 3907.0 | 2 strategies | Conf: 0.53
+[2026-08-21 14:54:20]   STRONG BUY ADANIENT @ 2997.2 | 2 strategies | Conf: 0.5
+[2026-08-21 14:54:20]   BUY ABCAPITAL @ 409.95 | 1 strategies | Conf: 0.9
+[2026-08-21 14:54:20]   BUY CHOLAFIN @ 1861.7 | 1 strategies | Conf: 0.9
+[2026-08-21 14:54:20]   BUY GRASIM @ 3287.1 | 1 strategies | Conf: 0.9
+[2026-08-21 14:54:20]   BUY ICICIBANK @ 1419.0 | 1 strategies | Conf: 0.9
+[2026-08-21 14:54:20]   BUY JSWSTEEL @ 1289.0 | 1 strategies | Conf: 0.9
+[2026-08-21 14:54:20]   BUY OFSS @ 11684.0 | 1 strategies | Conf: 0.9
+[2026-08-21 14:54:20]   BUY PIDILITIND @ 1646.7 | 1 strategies | Conf: 0.9
+[2026-08-21 14:54:20]   BUY FEDERALBNK @ 359.1 | 1 strategies | Conf: 0.9
+[2026-08-21 14:54:20]   SELL CANBK @ 129.0 | 1 strategies | Conf: 0.85
+[2026-08-21 14:54:20]   SELL VBL @ 432.35 | 1 strategies | Conf: 0.85
+[2026-08-21 14:54:20]   SELL BANKINDIA @ 142.57 | 1 strategies | Conf: 0.83
+[2026-08-21 14:54:20]   BUY PREMIERENE @ 1050.1 | 1 strategies | Conf: 0.83
+[2026-08-21 14:54:20]   BUY JINDALSTEL @ 1127.4 | 1 strategies | Conf: 0.81
+[2026-08-21 14:54:20]   BUY APOLLOHOSP @ 8666.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:54:20]   BUY EICHERMOT @ 8004.5 | 1 strategies | Conf: 0.8
+[2026-08-21 14:54:20]   BUY LAURUSLABS @ 1798.0 | 1 strategies | Conf: 0.8
+[2026-08-21 14:54:20]   BUY MARICO @ 847.4 | 1 strategies | Conf: 0.8
+[2026-08-21 14:54:20]   BUY PRESTIGE @ 1624.6 | 1 strategies | Conf: 0.8
+[2026-08-21 14:54:20]   SELL TATASTEEL @ 182.5 | 1 strategies | Conf: 0.8
+[2026-08-21 14:54:20]   SELL DMART @ 3901.9 | 1 strategies | Conf: 0.79
+[2026-08-21 14:54:20]   BUY IDFCFIRSTB @ 86.49 | 1 strategies | Conf: 0.79
+[2026-08-21 14:54:20]   BUY COFORGE @ 1882.1 | 1 strategies | Conf: 0.78
+[2026-08-21 14:54:20]   SELL CROMPTON @ 249.8 | 1 strategies | Conf: 0.77
+[2026-08-21 14:54:20]   BUY SONACOMS @ 820.75 | 1 strategies | Conf: 0.77
+[2026-08-21 14:54:20]   SELL SUZLON @ 46.79 | 1 strategies | Conf: 0.77
+[2026-08-21 14:54:20]   SELL ANGELONE @ 287.8 | 1 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   SELL APOLLOHOSP @ 8666.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   SELL CAMS @ 750.7 | 1 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   SELL DABUR @ 398.75 | 1 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   SELL FORCEMOT @ 17808.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   BUY GODREJPROP @ 2037.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   SELL KPITTECH @ 590.05 | 1 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   BUY M&M @ 3439.0 | 1 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   SELL ONGC @ 236.48 | 1 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   SELL RELIANCE @ 1309.1 | 1 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   BUY SBICARD @ 645.65 | 1 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   SELL PHOENIXLTD @ 1922.4 | 1 strategies | Conf: 0.75
+[2026-08-21 14:54:20]   BUY APLAPOLLO @ 2140.3 | 1 strategies | Conf: 0.72
+[2026-08-21 14:54:20]   BUY MPHASIS @ 2423.3 | 1 strategies | Conf: 0.72
+[2026-08-21 14:54:20]   BUY BDL @ 1360.8 | 1 strategies | Conf: 0.71
+[2026-08-21 14:54:20]   SELL CGPOWER @ 868.15 | 1 strategies | Conf: 0.71
+[2026-08-21 14:54:20]   BUY MANAPPURAM @ 356.85 | 1 strategies | Conf: 0.7
+[2026-08-21 14:54:20]   BUY INDHOTEL @ 725.4 | 1 strategies | Conf: 0.7
+[2026-08-21 14:54:20]   BUY POLICYBZR @ 1793.5 | 1 strategies | Conf: 0.69
+[2026-08-21 14:54:20]   SELL BSE @ 3239.0 | 1 strategies | Conf: 0.67
+[2026-08-21 14:54:20]   SELL HDFCAMC @ 2602.8 | 1 strategies | Conf: 0.65
+[2026-08-21 14:54:20]   SELL ITC @ 269.4 | 1 strategies | Conf: 0.65
+[2026-08-21 14:54:20]   SELL POLYCAB @ 9001.5 | 1 strategies | Conf: 0.65
+[2026-08-21 14:54:20]   SELL MANKIND @ 2383.2 | 1 strategies | Conf: 0.61
+[2026-08-21 14:54:20]   BUY BAJFINANCE @ 1094.0 | 1 strategies | Conf: 0.6
+[2026-08-21 14:54:20]   BUY CONCOR @ 514.6 | 1 strategies | Conf: 0.6
+[2026-08-21 14:54:20]   BUY GAIL @ 171.87 | 1 strategies | Conf: 0.6
+[2026-08-21 14:54:20]   BUY INDUSINDBK @ 1003.0 | 1 strategies | Conf: 0.6
+[2026-08-21 14:54:20]   BUY KEI @ 5527.3 | 1 strategies | Conf: 0.6
+[2026-08-21 14:54:20]   BUY LTF @ 317.75 | 1 strategies | Conf: 0.6
+[2026-08-21 14:54:20]   BUY LODHA @ 1236.1 | 1 strategies | Conf: 0.6
+[2026-08-21 14:54:20]   BUY NESTLEIND @ 1473.2 | 1 strategies | Conf: 0.6
+[2026-08-21 14:54:20]   BUY SHRIRAMFIN @ 1133.8 | 1 strategies | Conf: 0.6
+[2026-08-21 14:54:20]   BUY TORNTPHARM @ 4908.0 | 1 strategies | Conf: 0.6
+[2026-08-21 14:54:20]   BUY ZYDUSLIFE @ 1115.9 | 1 strategies | Conf: 0.6
+[2026-08-21 14:54:20]   BUY MFSL @ 1583.0 | 1 strategies | Conf: 0.59
+[2026-08-21 14:54:20]   BUY HAL @ 4982.8 | 1 strategies | Conf: 0.55
+[2026-08-21 14:54:20]   BUY MUTHOOTFIN @ 3039.7 | 1 strategies | Conf: 0.48
+[2026-08-21 14:54:20]   SELL FINNIFTY @ 26258.85 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL ADANIPORTS @ 1696.7 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL ALKEM @ 5383.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   BUY ASHOKLEY @ 172.91 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   BUY ASTRAL @ 1535.9 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   BUY BAJAJHLDNG @ 11344.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL BANDHANBNK @ 175.22 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL CIPLA @ 1425.4 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   BUY COCHINSHIP @ 1480.5 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL DRREDDY @ 1178.5 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL HINDPETRO @ 363.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL HINDUNILVR @ 2023.9 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   BUY INDIANB @ 873.6 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL IRFC @ 86.43 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL IREDA @ 115.06 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL LICI @ 422.35 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL NBCC @ 88.87 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL NHPC @ 76.37 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL NMDC @ 84.34 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL PREMIERENE @ 1050.1 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   BUY PHOENIXLTD @ 1922.4 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   BUY UNOMINDA @ 1261.4 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL ULTRACEMCO @ 11568.0 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   BUY IDEA @ 13.99 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20]   SELL ACC @ 1309.9 | 1 strategies | Conf: 0.4
+[2026-08-21 14:54:20] Scan complete.
+
+[2026-08-21 14:59:20] Starting auto scan...
+[2026-08-21 15:00:27] Found 135 stock(s) with signals! Sending alerts...
+[2026-08-21 15:04:11] Telegram alerts sent.
+[2026-08-21 15:04:16] Email alerts sent.
+[2026-08-21 15:04:16]   VERY STRONG BUY CDSL @ 1384.3 | 4 strategies | Conf: 0.95
+[2026-08-21 15:04:16]   VERY STRONG BUY NAM-INDIA @ 1245.1 | 4 strategies | Conf: 0.84
+[2026-08-21 15:04:16]   VERY STRONG SELL INDIGO @ 5098.5 | 3 strategies | Conf: 0.79
+[2026-08-21 15:04:16]   VERY STRONG BUY NYKAA @ 334.45 | 3 strategies | Conf: 0.77
+[2026-08-21 15:04:16]   VERY STRONG BUY ICICIPRULI @ 518.2 | 3 strategies | Conf: 0.74
+[2026-08-21 15:04:16]   VERY STRONG BUY AUBANK @ 1101.3 | 4 strategies | Conf: 0.72
+[2026-08-21 15:04:16]   VERY STRONG BUY KOTAKBANK @ 402.55 | 6 strategies | Conf: 0.72
+[2026-08-21 15:04:16]   VERY STRONG SELL VBL @ 431.5 | 3 strategies | Conf: 0.7
+[2026-08-21 15:04:16]   VERY STRONG BUY KFINTECH @ 981.4 | 4 strategies | Conf: 0.67
+[2026-08-21 15:04:16]   VERY STRONG SELL CUMMINSIND @ 5105.0 | 6 strategies | Conf: 0.66
+[2026-08-21 15:04:16]   VERY STRONG SELL BRITANNIA @ 5354.0 | 3 strategies | Conf: 0.64
+[2026-08-21 15:04:16]   VERY STRONG BUY LICI @ 425.0 | 4 strategies | Conf: 0.62
+[2026-08-21 15:04:16]   VERY STRONG SELL MARUTI @ 13600.0 | 3 strategies | Conf: 0.62
+[2026-08-21 15:04:16]   VERY STRONG BUY UNITDSPR @ 1554.9 | 3 strategies | Conf: 0.61
+[2026-08-21 15:04:16]   VERY STRONG BUY BRIGADE @ 640.1 | 4 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   VERY STRONG BUY LT @ 4091.9 | 4 strategies | Conf: 0.57
+[2026-08-21 15:04:16]   VERY STRONG SELL LICHSGFIN @ 495.0 | 4 strategies | Conf: 0.55
+[2026-08-21 15:04:16]   VERY STRONG BUY MOTILALOFS @ 992.75 | 5 strategies | Conf: 0.55
+[2026-08-21 15:04:16]   VERY STRONG SELL PFC @ 362.7 | 4 strategies | Conf: 0.52
+[2026-08-21 15:04:16]   VERY STRONG SELL RECLTD @ 326.3 | 3 strategies | Conf: 0.52
+[2026-08-21 15:04:16]   VERY STRONG SELL TMPV @ 317.45 | 4 strategies | Conf: 0.52
+[2026-08-21 15:04:16]   VERY STRONG SELL LUPIN @ 2195.0 | 5 strategies | Conf: 0.48
+[2026-08-21 15:04:16]   VERY STRONG BUY MCX @ 3179.4 | 3 strategies | Conf: 0.46
+[2026-08-21 15:04:16]   VERY STRONG SELL ADANIENSOL @ 1534.0 | 3 strategies | Conf: 0.44
+[2026-08-21 15:04:16]   VERY STRONG SELL GMRAIRPORT @ 99.85 | 3 strategies | Conf: 0.42
+[2026-08-21 15:04:16]   VERY STRONG SELL TATACONSUM @ 1046.0 | 4 strategies | Conf: 0.42
+[2026-08-21 15:04:16]   STRONG BUY SIEMENS @ 3911.6 | 2 strategies | Conf: 0.78
+[2026-08-21 15:04:16]   STRONG SELL TATAPOWER @ 374.95 | 2 strategies | Conf: 0.78
+[2026-08-21 15:04:16]   STRONG BUY PAYTM @ 1633.5 | 2 strategies | Conf: 0.77
+[2026-08-21 15:04:16]   STRONG BUY DLF @ 680.0 | 2 strategies | Conf: 0.76
+[2026-08-21 15:04:16]   STRONG BUY KALYANKJIL @ 606.25 | 2 strategies | Conf: 0.76
+[2026-08-21 15:04:16]   STRONG SELL SRF @ 2572.0 | 2 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   STRONG BUY HINDZINC @ 595.95 | 2 strategies | Conf: 0.73
+[2026-08-21 15:04:16]   STRONG SELL TRENT @ 2916.1 | 2 strategies | Conf: 0.73
+[2026-08-21 15:04:16]   STRONG BUY NIFTYBANK @ 57661.05 | 2 strategies | Conf: 0.71
+[2026-08-21 15:04:16]   STRONG BUY INDUSINDBK @ 1005.1 | 2 strategies | Conf: 0.67
+[2026-08-21 15:04:16]   STRONG BUY NIFTYMIDCAP100 @ 63694.55 | 2 strategies | Conf: 0.65
+[2026-08-21 15:04:16]   STRONG BUY AUROPHARMA @ 1611.3 | 2 strategies | Conf: 0.65
+[2026-08-21 15:04:16]   STRONG BUY NESTLEIND @ 1472.8 | 2 strategies | Conf: 0.64
+[2026-08-21 15:04:16]   STRONG BUY PGEL @ 602.1 | 2 strategies | Conf: 0.57
+[2026-08-21 15:04:16]   STRONG BUY BEL @ 414.1 | 2 strategies | Conf: 0.53
+[2026-08-21 15:04:16]   STRONG BUY KAYNES @ 3900.0 | 2 strategies | Conf: 0.53
+[2026-08-21 15:04:16]   STRONG BUY ADANIENT @ 2996.2 | 2 strategies | Conf: 0.5
+[2026-08-21 15:04:16]   STRONG SELL HINDPETRO @ 362.9 | 2 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   BUY DIXON @ 14850.0 | 1 strategies | Conf: 1.0
+[2026-08-21 15:04:16]   BUY ABCAPITAL @ 410.4 | 1 strategies | Conf: 0.9
+[2026-08-21 15:04:16]   BUY CHOLAFIN @ 1863.0 | 1 strategies | Conf: 0.9
+[2026-08-21 15:04:16]   BUY GRASIM @ 3295.1 | 1 strategies | Conf: 0.9
+[2026-08-21 15:04:16]   BUY ICICIBANK @ 1418.4 | 1 strategies | Conf: 0.9
+[2026-08-21 15:04:16]   BUY JSWSTEEL @ 1287.3 | 1 strategies | Conf: 0.9
+[2026-08-21 15:04:16]   BUY OFSS @ 11672.0 | 1 strategies | Conf: 0.9
+[2026-08-21 15:04:16]   BUY PIDILITIND @ 1647.0 | 1 strategies | Conf: 0.9
+[2026-08-21 15:04:16]   BUY FEDERALBNK @ 359.05 | 1 strategies | Conf: 0.9
+[2026-08-21 15:04:16]   SELL CANBK @ 128.72 | 1 strategies | Conf: 0.85
+[2026-08-21 15:04:16]   BUY PREMIERENE @ 1048.3 | 1 strategies | Conf: 0.84
+[2026-08-21 15:04:16]   SELL BANKINDIA @ 142.58 | 1 strategies | Conf: 0.82
+[2026-08-21 15:04:16]   BUY JINDALSTEL @ 1127.3 | 1 strategies | Conf: 0.81
+[2026-08-21 15:04:16]   SELL TATASTEEL @ 182.35 | 1 strategies | Conf: 0.81
+[2026-08-21 15:04:16]   BUY APOLLOHOSP @ 8658.5 | 1 strategies | Conf: 0.8
+[2026-08-21 15:04:16]   BUY EICHERMOT @ 8008.5 | 1 strategies | Conf: 0.8
+[2026-08-21 15:04:16]   BUY IDFCFIRSTB @ 86.5 | 1 strategies | Conf: 0.8
+[2026-08-21 15:04:16]   BUY LAURUSLABS @ 1798.8 | 1 strategies | Conf: 0.8
+[2026-08-21 15:04:16]   BUY MARICO @ 845.8 | 1 strategies | Conf: 0.8
+[2026-08-21 15:04:16]   BUY PRESTIGE @ 1623.0 | 1 strategies | Conf: 0.8
+[2026-08-21 15:04:16]   BUY TITAN @ 5080.0 | 1 strategies | Conf: 0.8
+[2026-08-21 15:04:16]   SELL DMART @ 3903.8 | 1 strategies | Conf: 0.79
+[2026-08-21 15:04:16]   SELL CROMPTON @ 249.8 | 1 strategies | Conf: 0.78
+[2026-08-21 15:04:16]   BUY PETRONET @ 292.25 | 1 strategies | Conf: 0.78
+[2026-08-21 15:04:16]   SELL SUZLON @ 46.77 | 1 strategies | Conf: 0.78
+[2026-08-21 15:04:16]   SELL IOC @ 135.82 | 1 strategies | Conf: 0.76
+[2026-08-21 15:04:16]   SELL ANGELONE @ 288.0 | 1 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   SELL APOLLOHOSP @ 8658.5 | 1 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   SELL CAMS @ 750.25 | 1 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   SELL DABUR @ 399.0 | 1 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   SELL FORCEMOT @ 17800.0 | 1 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   BUY GODREJPROP @ 2033.0 | 1 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   SELL KPITTECH @ 590.05 | 1 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   BUY M&M @ 3434.4 | 1 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   SELL ONGC @ 236.45 | 1 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   SELL RELIANCE @ 1309.2 | 1 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   BUY SBICARD @ 645.7 | 1 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   SELL PHOENIXLTD @ 1920.9 | 1 strategies | Conf: 0.75
+[2026-08-21 15:04:16]   BUY MPHASIS @ 2424.9 | 1 strategies | Conf: 0.73
+[2026-08-21 15:04:16]   BUY BDL @ 1359.8 | 1 strategies | Conf: 0.71
+[2026-08-21 15:04:16]   SELL CGPOWER @ 867.5 | 1 strategies | Conf: 0.71
+[2026-08-21 15:04:16]   BUY MANAPPURAM @ 355.9 | 1 strategies | Conf: 0.7
+[2026-08-21 15:04:16]   BUY INDHOTEL @ 724.9 | 1 strategies | Conf: 0.7
+[2026-08-21 15:04:16]   SELL BSE @ 3236.3 | 1 strategies | Conf: 0.67
+[2026-08-21 15:04:16]   SELL POLYCAB @ 8994.5 | 1 strategies | Conf: 0.66
+[2026-08-21 15:04:16]   SELL BANKBARODA @ 244.41 | 1 strategies | Conf: 0.65
+[2026-08-21 15:04:16]   SELL BLUESTARCO @ 1506.2 | 1 strategies | Conf: 0.65
+[2026-08-21 15:04:16]   SELL HDFCAMC @ 2604.6 | 1 strategies | Conf: 0.65
+[2026-08-21 15:04:16]   SELL ITC @ 269.35 | 1 strategies | Conf: 0.65
+[2026-08-21 15:04:16]   SELL MARICO @ 845.8 | 1 strategies | Conf: 0.65
+[2026-08-21 15:04:16]   SELL PATANJALI @ 346.7 | 1 strategies | Conf: 0.65
+[2026-08-21 15:04:16]   SELL TIINDIA @ 2872.0 | 1 strategies | Conf: 0.65
+[2026-08-21 15:04:16]   SELL MANKIND @ 2381.1 | 1 strategies | Conf: 0.61
+[2026-08-21 15:04:16]   BUY BAJFINANCE @ 1092.5 | 1 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   BUY BAJAJFINSV @ 2019.6 | 1 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   BUY CONCOR @ 515.25 | 1 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   BUY GAIL @ 171.84 | 1 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   BUY KEI @ 5510.0 | 1 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   BUY LTF @ 317.3 | 1 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   BUY LODHA @ 1233.0 | 1 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   BUY MFSL @ 1583.9 | 1 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   SELL PREMIERENE @ 1048.3 | 1 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   BUY SHRIRAMFIN @ 1132.2 | 1 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   BUY TORNTPHARM @ 4911.5 | 1 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   BUY ZYDUSLIFE @ 1115.0 | 1 strategies | Conf: 0.6
+[2026-08-21 15:04:16]   BUY HAL @ 4982.3 | 1 strategies | Conf: 0.55
+[2026-08-21 15:04:16]   BUY MUTHOOTFIN @ 3037.4 | 1 strategies | Conf: 0.48
+[2026-08-21 15:04:16]   SELL FINNIFTY @ 26249.15 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL ADANIPORTS @ 1693.7 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL ALKEM @ 5391.0 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   BUY ASHOKLEY @ 172.79 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   BUY ASTRAL @ 1535.5 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   BUY BAJAJHLDNG @ 11344.0 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL BANDHANBNK @ 175.18 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   BUY BHARTIARTL @ 1947.4 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL CIPLA @ 1425.9 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   BUY COCHINSHIP @ 1480.2 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL DRREDDY @ 1179.1 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL HINDUNILVR @ 2023.9 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   BUY INDIANB @ 873.7 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL IRFC @ 86.4 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL IREDA @ 115.01 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL NBCC @ 88.89 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL NHPC @ 76.27 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL NMDC @ 84.28 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   BUY SONACOMS @ 819.7 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   BUY PHOENIXLTD @ 1920.9 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   BUY UNOMINDA @ 1259.7 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL ULTRACEMCO @ 11557.0 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   BUY IDEA @ 13.98 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16]   SELL ACC @ 1306.8 | 1 strategies | Conf: 0.4
+[2026-08-21 15:04:16] Scan complete.
+
+[2026-08-21 15:09:16] Starting auto scan...
+[2026-08-21 15:10:27] Found 128 stock(s) with signals! Sending alerts...
+[2026-08-21 15:15:01] Telegram alerts sent.
+[2026-08-21 15:15:06] Email alerts sent.
+[2026-08-21 15:15:06]   VERY STRONG BUY CDSL @ 1384.1 | 4 strategies | Conf: 0.95
+[2026-08-21 15:15:06]   VERY STRONG BUY NAM-INDIA @ 1244.1 | 4 strategies | Conf: 0.85
+[2026-08-21 15:15:06]   VERY STRONG SELL INDIGO @ 5097.5 | 3 strategies | Conf: 0.81
+[2026-08-21 15:15:06]   VERY STRONG BUY NYKAA @ 334.2 | 3 strategies | Conf: 0.77
+[2026-08-21 15:15:06]   VERY STRONG BUY HINDZINC @ 596.45 | 3 strategies | Conf: 0.76
+[2026-08-21 15:15:06]   VERY STRONG BUY ICICIPRULI @ 516.95 | 3 strategies | Conf: 0.74
+[2026-08-21 15:15:06]   VERY STRONG BUY AUBANK @ 1104.3 | 4 strategies | Conf: 0.73
+[2026-08-21 15:15:06]   VERY STRONG BUY KOTAKBANK @ 402.65 | 6 strategies | Conf: 0.73
+[2026-08-21 15:15:06]   VERY STRONG BUY LICI @ 423.95 | 3 strategies | Conf: 0.7
+[2026-08-21 15:15:06]   VERY STRONG SELL VBL @ 431.25 | 3 strategies | Conf: 0.7
+[2026-08-21 15:15:06]   VERY STRONG SELL CUMMINSIND @ 5096.5 | 6 strategies | Conf: 0.67
+[2026-08-21 15:15:06]   VERY STRONG BUY KFINTECH @ 983.95 | 6 strategies | Conf: 0.67
+[2026-08-21 15:15:06]   VERY STRONG SELL SBIN @ 1041.0 | 3 strategies | Conf: 0.64
+[2026-08-21 15:15:06]   VERY STRONG SELL MARUTI @ 13589.0 | 3 strategies | Conf: 0.63
+[2026-08-21 15:15:06]   VERY STRONG BUY UNITDSPR @ 1551.4 | 3 strategies | Conf: 0.62
+[2026-08-21 15:15:06]   VERY STRONG BUY BRIGADE @ 639.2 | 4 strategies | Conf: 0.6
+[2026-08-21 15:15:06]   VERY STRONG BUY LT @ 4088.4 | 4 strategies | Conf: 0.57
+[2026-08-21 15:15:06]   VERY STRONG BUY MOTILALOFS @ 992.45 | 5 strategies | Conf: 0.55
+[2026-08-21 15:15:06]   VERY STRONG SELL TMPV @ 317.1 | 4 strategies | Conf: 0.53
+[2026-08-21 15:15:06]   VERY STRONG SELL PFC @ 362.0 | 4 strategies | Conf: 0.52
+[2026-08-21 15:15:06]   VERY STRONG SELL RECLTD @ 325.9 | 4 strategies | Conf: 0.49
+[2026-08-21 15:15:06]   VERY STRONG SELL LUPIN @ 2195.7 | 5 strategies | Conf: 0.48
+[2026-08-21 15:15:06]   VERY STRONG BUY MCX @ 3179.0 | 3 strategies | Conf: 0.47
+[2026-08-21 15:15:06]   VERY STRONG SELL ADANIENSOL @ 1530.5 | 3 strategies | Conf: 0.44
+[2026-08-21 15:15:06]   VERY STRONG SELL GMRAIRPORT @ 99.9 | 3 strategies | Conf: 0.43
+[2026-08-21 15:15:06]   VERY STRONG SELL TATACONSUM @ 1046.8 | 4 strategies | Conf: 0.42
+[2026-08-21 15:15:06]   VERY STRONG SELL HINDPETRO @ 362.7 | 3 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   STRONG BUY SIEMENS @ 3921.9 | 2 strategies | Conf: 0.78
+[2026-08-21 15:15:06]   STRONG SELL TATAPOWER @ 374.6 | 2 strategies | Conf: 0.78
+[2026-08-21 15:15:06]   STRONG BUY PAYTM @ 1628.9 | 2 strategies | Conf: 0.77
+[2026-08-21 15:15:06]   STRONG BUY DLF @ 679.5 | 2 strategies | Conf: 0.76
+[2026-08-21 15:15:06]   STRONG BUY KALYANKJIL @ 605.65 | 2 strategies | Conf: 0.76
+[2026-08-21 15:15:06]   STRONG BUY PRESTIGE @ 1627.5 | 2 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   STRONG BUY APLAPOLLO @ 2141.9 | 2 strategies | Conf: 0.74
+[2026-08-21 15:15:06]   STRONG SELL TRENT @ 2924.7 | 2 strategies | Conf: 0.73
+[2026-08-21 15:15:06]   STRONG BUY BAJAJFINSV @ 2024.0 | 2 strategies | Conf: 0.72
+[2026-08-21 15:15:06]   STRONG BUY NIFTYBANK @ 57642.85 | 2 strategies | Conf: 0.71
+[2026-08-21 15:15:06]   STRONG BUY INDUSINDBK @ 1005.0 | 2 strategies | Conf: 0.66
+[2026-08-21 15:15:06]   STRONG BUY AUROPHARMA @ 1612.3 | 2 strategies | Conf: 0.65
+[2026-08-21 15:15:06]   STRONG BUY TITAN @ 5077.1 | 2 strategies | Conf: 0.6
+[2026-08-21 15:15:06]   STRONG BUY PGEL @ 601.35 | 2 strategies | Conf: 0.57
+[2026-08-21 15:15:06]   STRONG BUY BEL @ 413.05 | 2 strategies | Conf: 0.54
+[2026-08-21 15:15:06]   STRONG BUY KAYNES @ 3905.0 | 2 strategies | Conf: 0.54
+[2026-08-21 15:15:06]   STRONG BUY ADANIENT @ 2990.5 | 2 strategies | Conf: 0.5
+[2026-08-21 15:15:06]   BUY DIXON @ 14836.0 | 1 strategies | Conf: 1.0
+[2026-08-21 15:15:06]   BUY ABCAPITAL @ 411.25 | 1 strategies | Conf: 0.9
+[2026-08-21 15:15:06]   BUY CHOLAFIN @ 1863.3 | 1 strategies | Conf: 0.9
+[2026-08-21 15:15:06]   BUY GRASIM @ 3303.9 | 1 strategies | Conf: 0.9
+[2026-08-21 15:15:06]   BUY ICICIBANK @ 1418.0 | 1 strategies | Conf: 0.9
+[2026-08-21 15:15:06]   BUY JSWSTEEL @ 1291.6 | 1 strategies | Conf: 0.9
+[2026-08-21 15:15:06]   BUY OFSS @ 11679.0 | 1 strategies | Conf: 0.9
+[2026-08-21 15:15:06]   BUY PIDILITIND @ 1646.8 | 1 strategies | Conf: 0.9
+[2026-08-21 15:15:06]   BUY FEDERALBNK @ 359.2 | 1 strategies | Conf: 0.9
+[2026-08-21 15:15:06]   BUY PREMIERENE @ 1054.7 | 1 strategies | Conf: 0.86
+[2026-08-21 15:15:06]   SELL BANKINDIA @ 142.43 | 1 strategies | Conf: 0.85
+[2026-08-21 15:15:06]   SELL CANBK @ 128.65 | 1 strategies | Conf: 0.85
+[2026-08-21 15:15:06]   BUY ETERNAL @ 328.15 | 1 strategies | Conf: 0.83
+[2026-08-21 15:15:06]   BUY JINDALSTEL @ 1127.2 | 1 strategies | Conf: 0.82
+[2026-08-21 15:15:06]   SELL SUZLON @ 46.71 | 1 strategies | Conf: 0.82
+[2026-08-21 15:15:06]   SELL TATASTEEL @ 182.43 | 1 strategies | Conf: 0.81
+[2026-08-21 15:15:06]   BUY APOLLOHOSP @ 8658.0 | 1 strategies | Conf: 0.8
+[2026-08-21 15:15:06]   SELL DMART @ 3907.9 | 1 strategies | Conf: 0.8
+[2026-08-21 15:15:06]   SELL CROMPTON @ 249.1 | 1 strategies | Conf: 0.8
+[2026-08-21 15:15:06]   BUY EICHERMOT @ 8007.0 | 1 strategies | Conf: 0.8
+[2026-08-21 15:15:06]   BUY IDFCFIRSTB @ 86.55 | 1 strategies | Conf: 0.8
+[2026-08-21 15:15:06]   BUY LAURUSLABS @ 1796.8 | 1 strategies | Conf: 0.8
+[2026-08-21 15:15:06]   BUY MARICO @ 845.95 | 1 strategies | Conf: 0.8
+[2026-08-21 15:15:06]   BUY NESTLEIND @ 1481.9 | 1 strategies | Conf: 0.8
+[2026-08-21 15:15:06]   SELL BRITANNIA @ 5366.0 | 1 strategies | Conf: 0.79
+[2026-08-21 15:15:06]   BUY PETRONET @ 292.7 | 1 strategies | Conf: 0.78
+[2026-08-21 15:15:06]   SELL IOC @ 135.84 | 1 strategies | Conf: 0.77
+[2026-08-21 15:15:06]   BUY SONACOMS @ 820.15 | 1 strategies | Conf: 0.77
+[2026-08-21 15:15:06]   SELL ANGELONE @ 288.3 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   SELL APOLLOHOSP @ 8658.0 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   SELL CAMS @ 752.15 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   SELL DABUR @ 399.05 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   SELL FORCEMOT @ 17764.0 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   BUY GODREJPROP @ 2031.9 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   SELL KPITTECH @ 589.3 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   BUY M&M @ 3432.1 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   SELL ONGC @ 236.54 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   SELL PIIND @ 2499.9 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   SELL RELIANCE @ 1311.2 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   BUY SBICARD @ 645.55 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   SELL SHREECEM @ 24190.0 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   SELL SRF @ 2576.0 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   SELL PHOENIXLTD @ 1921.9 | 1 strategies | Conf: 0.75
+[2026-08-21 15:15:06]   BUY MPHASIS @ 2425.0 | 1 strategies | Conf: 0.73
+[2026-08-21 15:15:06]   SELL CGPOWER @ 866.65 | 1 strategies | Conf: 0.72
+[2026-08-21 15:15:06]   BUY NIFTYMIDCAP100 @ 63663.95 | 1 strategies | Conf: 0.71
+[2026-08-21 15:15:06]   BUY BDL @ 1360.5 | 1 strategies | Conf: 0.71
+[2026-08-21 15:15:06]   BUY MANAPPURAM @ 355.4 | 1 strategies | Conf: 0.7
+[2026-08-21 15:15:06]   BUY INDHOTEL @ 725.9 | 1 strategies | Conf: 0.7
+[2026-08-21 15:15:06]   SELL BSE @ 3240.9 | 1 strategies | Conf: 0.68
+[2026-08-21 15:15:06]   SELL POLYCAB @ 8977.0 | 1 strategies | Conf: 0.67
+[2026-08-21 15:15:06]   SELL BANKBARODA @ 244.25 | 1 strategies | Conf: 0.65
+[2026-08-21 15:15:06]   SELL BLUESTARCO @ 1507.1 | 1 strategies | Conf: 0.65
+[2026-08-21 15:15:06]   SELL HDFCAMC @ 2605.3 | 1 strategies | Conf: 0.65
+[2026-08-21 15:15:06]   SELL ITC @ 269.55 | 1 strategies | Conf: 0.65
+[2026-08-21 15:15:06]   SELL SOBHA @ 1296.9 | 1 strategies | Conf: 0.65
+[2026-08-21 15:15:06]   SELL MANKIND @ 2378.5 | 1 strategies | Conf: 0.62
+[2026-08-21 15:15:06]   BUY BAJFINANCE @ 1092.9 | 1 strategies | Conf: 0.6
+[2026-08-21 15:15:06]   BUY CONCOR @ 513.95 | 1 strategies | Conf: 0.6
+[2026-08-21 15:15:06]   BUY GAIL @ 171.7 | 1 strategies | Conf: 0.6
+[2026-08-21 15:15:06]   BUY KEI @ 5498.8 | 1 strategies | Conf: 0.6
+[2026-08-21 15:15:06]   BUY LTF @ 317.6 | 1 strategies | Conf: 0.6
+[2026-08-21 15:15:06]   BUY LODHA @ 1235.9 | 1 strategies | Conf: 0.6
+[2026-08-21 15:15:06]   BUY MFSL @ 1580.6 | 1 strategies | Conf: 0.6
+[2026-08-21 15:15:06]   BUY SHRIRAMFIN @ 1131.1 | 1 strategies | Conf: 0.6
+[2026-08-21 15:15:06]   BUY TORNTPHARM @ 4910.5 | 1 strategies | Conf: 0.6
+[2026-08-21 15:15:06]   BUY ZYDUSLIFE @ 1115.2 | 1 strategies | Conf: 0.6
+[2026-08-21 15:15:06]   BUY HAL @ 4975.0 | 1 strategies | Conf: 0.55
+[2026-08-21 15:15:06]   BUY MUTHOOTFIN @ 3037.1 | 1 strategies | Conf: 0.49
+[2026-08-21 15:15:06]   SELL ALKEM @ 5392.0 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   BUY ASHOKLEY @ 172.99 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   BUY ASTRAL @ 1534.8 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   SELL BANDHANBNK @ 175.29 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   BUY BHARTIARTL @ 1947.1 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   BUY COCHINSHIP @ 1479.6 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   SELL DRREDDY @ 1180.3 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   SELL HINDUNILVR @ 2024.8 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   SELL IREDA @ 115.01 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   SELL NBCC @ 88.88 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   SELL NMDC @ 84.35 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   BUY PHOENIXLTD @ 1921.9 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   BUY UNOMINDA @ 1260.4 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   SELL ULTRACEMCO @ 11555.0 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06]   SELL ACC @ 1308.4 | 1 strategies | Conf: 0.4
+[2026-08-21 15:15:06] Scan complete.
+
+[2026-08-21 15:20:06] Starting auto scan...
+[2026-08-21 15:21:11] Found 126 stock(s) with signals! Sending alerts...
+[2026-08-23 15:16:38] Token expired! Please run daily_login.bat to re-authenticate.
+[2026-08-23 15:16:59] Token expired! Please run daily_login.bat to re-authenticate.
+[2026-08-23 15:20:33] Token expired! Please run daily_login.bat to re-authenticate.
+[2026-08-23 15:21:00] Token expired! Please run daily_login.bat to re-authenticate.
+[2026-08-24 09:29:53] Starting auto scan...
+[2026-08-24 09:30:04] Starting auto scan...

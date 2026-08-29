@@ -1,0 +1,19 @@
+{
+  "status": "LOGGED_IN",
+  "verified_at": "2026-08-26T16:58:43Z",
+  "profile": {
+    "name": "AMIT SINGH",
+    "fy_id": "XA05589",
+    "email": "axxxxxxxg@gmail.com",
+    "totp_enabled": true,
+    "ddpi_enabled": false,
+    "mtf_enabled": false
+  },
+  "tokens": {
+    "access_token_expires": "2026-08-27T00:30:00Z",
+    "refresh_token_expires": "2026-09-10T00:30:00Z",
+    "access_valid_hours_remaining": 7.5
+  },
+  "source": "E:\\Fyers API\\auth\\fyers_token.json",
+  "mcp_synced": true
+}
