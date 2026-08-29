@@ -765,7 +765,8 @@ class DashboardHandler(SimpleHTTPRequestHandler):
                 break
 
     def _serve_bigmoney(self):
-        """Big Money tracker results — newest of live 15-min bursts or daily scan."""
+        """Big Money — prefer the WebSocket scanner (simple punch criteria,
+        source=websocket) over the legacy daily scan."""
         from datetime import datetime as _dt
         live_path = os.path.join(os.path.dirname(__file__), "data", "big_money_live.json")
         daily_path = os.path.join(os.path.dirname(__file__), "data", "big_money_signals.json")
@@ -785,12 +786,18 @@ class DashboardHandler(SimpleHTTPRequestHandler):
 
         live = _load(live_path)
         daily = _load(daily_path)
-        if live is None and daily is None:
+
+        # Always prefer the WebSocket scanner (source=websocket) with simple punch criteria.
+        # Fall back to the legacy daily scan only if the WS file is missing.
+        ws = live if live and live.get("source") == "websocket" else None
+        if ws is None:
+            ws = daily
+
+        if ws is None:
             data = {"generated": None, "signals": []}
         else:
-            src = live if (live is not None and _ts(live) >= _ts(daily)) else daily
-            signals = (src or {}).get("bursts") or (src or {}).get("signals") or []
-            data = {"generated": (src or {}).get("generated"), "signals": signals}
+            signals = ws.get("bursts") or ws.get("signals") or []
+            data = {"generated": ws.get("generated"), "signals": signals}
         self.send_response(200)
         self.send_header("Content-Type", "application/json")
         self.send_header("Access-Control-Allow-Origin", "*")
@@ -814,7 +821,8 @@ class DashboardHandler(SimpleHTTPRequestHandler):
         self.wfile.write(json.dumps({"punches": history}).encode())
 
     def _trigger_bigmoney_scan(self):
-        """Trigger a big money scan in background thread."""
+        """Legacy on-demand daily big-money scan. Writes to the DAILY file only
+        (never the WebSocket live file, which the punch tracker owns)."""
         global _backtest_status
         if _backtest_status.get("running"):
             self.send_response(409)
@@ -829,15 +837,13 @@ class DashboardHandler(SimpleHTTPRequestHandler):
                 from scanner.big_money import BigMoneyTracker
                 tracker = BigMoneyTracker(min_score=50.0)
                 signals = tracker.scan_all(max_stocks=None, mode="daily")
-                tracker.save_results()
-                # Also save as live version so the dashboard sees it immediately
-                live_path = os.path.join(os.path.dirname(__file__), "data", "big_money_live.json")
+                daily_path = os.path.join(os.path.dirname(__file__), "data", "big_money_signals.json")
                 import datetime as _dt
-                with open(live_path, "w") as f:
+                with open(daily_path, "w") as f:
                     json.dump({
                         "generated": _dt.datetime.now().isoformat(),
-                        "interval_min": 15,
-                        "bursts": [asdict(s) for s in signals],
+                        "interval_min": 1440,
+                        "signals": [asdict(s) for s in signals],
                     }, f, indent=2)
             except Exception as e:
                 print(f"Big money scan error: {e}")
