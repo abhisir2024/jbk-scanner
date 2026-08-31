@@ -38,7 +38,7 @@ from fyers_apiv3 import fyersModel
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
-CLIENT_ID = os.environ.get("FYERS_CLIENT_ID", "")
+CLIENT_ID = os.environ.get("FYERS_CLIENT_ID") or os.environ.get("FYERS_APP_ID", "")
 SECRET_KEY = os.environ.get("FYERS_SECRET_KEY", "")
 REDIRECT_URI = os.environ.get("FYERS_REDIRECT_URI", "http://127.0.0.1:5000/callback")
 GRANT_TYPE = "authorization_code"
@@ -72,8 +72,9 @@ def load_env():
 
 def _resolve_credentials():
     """Return (client_id, secret_key, redirect_uri) from env or globals."""
+    cid = os.environ.get("FYERS_CLIENT_ID") or os.environ.get("FYERS_APP_ID") or CLIENT_ID
     return (
-        os.environ.get("FYERS_CLIENT_ID", CLIENT_ID),
+        cid,
         os.environ.get("FYERS_SECRET_KEY", SECRET_KEY),
         os.environ.get("FYERS_REDIRECT_URI", REDIRECT_URI),
     )
