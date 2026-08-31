@@ -465,6 +465,8 @@ class DashboardHandler(SimpleHTTPRequestHandler):
             self._serve_login(params)
         elif path == "/api/login/submit":
             self._serve_login_submit(params)
+        elif path == "/api/callback":
+            self._serve_callback(params)
         elif path == "/api/login/status":
             self._serve_login_status()
         else:
@@ -502,8 +504,14 @@ class DashboardHandler(SimpleHTTPRequestHandler):
         from auth.login import load_env, _resolve_credentials
         load_env()
         client_id, secret_key, _ = _resolve_credentials()
-        # Always use the Fyers standard redirect URI
-        redirect_uri = "https://trade.fyers.in/api-login/redirect-uri/index.html"
+        # Detect Render.com URL and use it as redirect_uri
+        host = os.environ.get("RENDER_EXTERNAL_URL", "")
+        if host:
+            # On Render: redirect back to our /api/callback
+            redirect_uri = host.rstrip("/") + "/api/callback"
+        else:
+            # Local: use Fyers standard redirect
+            redirect_uri = "https://trade.fyers.in/api-login/redirect-uri/index.html"
         login_url = (
             f"https://api-t1.fyers.in/api/v3/generate-authcode"
             f"?client_id={client_id}"
@@ -610,6 +618,46 @@ h1 {{ background: linear-gradient(135deg, #3b82f6, #06b6d4); -webkit-background-
                 '<a href="/api/login" style="color:#3b82f6;">Try again</a></body></html>'
             )
             self.wfile.write(error_page.encode())
+
+    def _serve_callback(self, params):
+        """Handle Fyers redirect — auto-exchange auth_code for token."""
+        auth_code = params.get("auth_code", [""])[0]
+        if not auth_code:
+            self.send_response(302)
+            self.send_header("Location", "/api/login")
+            self.end_headers()
+            return
+        try:
+            from auth.login import load_env, _resolve_credentials, _save_token, is_token_valid
+            from fyers_apiv3 import fyersModel
+            load_env()
+            client_id, secret_key, _ = _resolve_credentials()
+            FYERS_REDIRECT = "https://trade.fyers.in/api-login/redirect-uri/index.html"
+            session = fyersModel.SessionModel(
+                client_id=client_id, redirect_uri=FYERS_REDIRECT,
+                response_type="code", state="fyers_login",
+                secret_key=secret_key, grant_type="authorization_code",
+            )
+            session.set_token(auth_code)
+            response = session.generate_token()
+            if "access_token" not in response:
+                raise Exception(f"Token generation failed: {response}")
+            access_token = response["access_token"]
+            _save_token(access_token, client_id)
+            if is_token_valid(access_token, client_id):
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.end_headers()
+                self.wfile.write('<html><body style="background:#0a0e1a;color:#f1f5f9;font-family:sans-serif;text-align:center;padding:50px;"><h2 style="color:#22c55e;">Login Successful!</h2><p>Redirecting to scanner...</p><script>setTimeout(()=>window.location="/",1500);</script></body></html>'.encode())
+                threading.Thread(target=_run_scan, args=("D",), daemon=True).start()
+            else:
+                raise Exception("Token saved but validation failed")
+        except Exception as e:
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            msg = str(e).replace("<", "&lt;").replace(">", "&gt;")
+            self.wfile.write(f'<html><body style="background:#0a0e1a;color:#f1f5f9;font-family:sans-serif;text-align:center;padding:50px;"><h2 style="color:#ef4444;">Login Failed</h2><p>{msg}</p><a href="/api/login" style="color:#3b82f6;">Try again</a></body></html>'.encode())
 
     def _serve_login_status(self):
         """Check if logged in."""
