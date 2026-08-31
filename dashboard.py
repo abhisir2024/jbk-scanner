@@ -501,7 +501,9 @@ class DashboardHandler(SimpleHTTPRequestHandler):
         """Show login page with Fyers auth URL and auth_code input."""
         from auth.login import load_env, _resolve_credentials
         load_env()
-        client_id, secret_key, redirect_uri = _resolve_credentials()
+        client_id, secret_key, _ = _resolve_credentials()
+        # Always use the Fyers standard redirect URI
+        redirect_uri = "https://trade.fyers.in/api-login/redirect-uri/index.html"
         login_url = (
             f"https://api-t1.fyers.in/api/v3/generate-authcode"
             f"?client_id={client_id}"
@@ -557,6 +559,8 @@ h1 {{ background: linear-gradient(135deg, #3b82f6, #06b6d4); -webkit-background-
     def _serve_login_submit(self, params):
         """Exchange auth_code for access_token."""
         auth_code = params.get("auth_code", [""])[0]
+        # Allow user to also pass redirect_uri from the full URL they copied
+        redirect_override = params.get("redirect_uri", [""])[0]
         if not auth_code:
             self.send_response(400)
             self.send_header("Content-Type", "text/html; charset=utf-8")
@@ -568,9 +572,13 @@ h1 {{ background: linear-gradient(135deg, #3b82f6, #06b6d4); -webkit-background-
             from fyers_apiv3 import fyersModel
             load_env()
             client_id, secret_key, redirect_uri = _resolve_credentials()
+            # Use the Fyers standard redirect URI (matches what Fyers redirected to)
+            FYERS_REDIRECT = "https://trade.fyers.in/api-login/redirect-uri/index.html"
+            if redirect_override:
+                redirect_uri = redirect_override
             # Exchange auth_code for access_token
             session = fyersModel.SessionModel(
-                client_id=client_id, redirect_uri=redirect_uri,
+                client_id=client_id, redirect_uri=FYERS_REDIRECT,
                 response_type="code", state="fyers_login",
                 secret_key=secret_key, grant_type="authorization_code",
             )
