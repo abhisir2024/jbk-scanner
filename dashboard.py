@@ -406,6 +406,12 @@ class DashboardHandler(SimpleHTTPRequestHandler):
         params = parse_qs(parsed.query)
 
         if path == "/" or path == "/index.html":
+            # If no valid token, redirect to login page
+            if not self._has_valid_token():
+                self.send_response(302)
+                self.send_header("Location", "/api/login")
+                self.end_headers()
+                return
             self._serve_static("index.html", "text/html")
         elif path == "/style.css":
             self._serve_static("style.css", "text/css")
@@ -455,6 +461,12 @@ class DashboardHandler(SimpleHTTPRequestHandler):
             self._add_to_watchlist(params)
         elif path == "/api/watchlist/remove":
             self._remove_from_watchlist(params)
+        elif path == "/api/login":
+            self._serve_login(params)
+        elif path == "/api/login/submit":
+            self._serve_login_submit(params)
+        elif path == "/api/login/status":
+            self._serve_login_status()
         else:
             self.send_error(404)
 
@@ -482,6 +494,165 @@ class DashboardHandler(SimpleHTTPRequestHandler):
         self.send_header("Content-Length", str(len(cached)))
         self.end_headers()
         self.wfile.write(cached)
+
+    # ---- Login endpoints (for Render.com headless login) ----
+
+    def _serve_login(self, params):
+        """Show login page with Fyers auth URL and auth_code input."""
+        from auth.login import load_env, _resolve_credentials
+        load_env()
+        client_id, secret_key, redirect_uri = _resolve_credentials()
+        login_url = (
+            f"https://api-t1.fyers.in/api/v3/generate-authcode"
+            f"?client_id={client_id}"
+            f"&redirect_uri={redirect_uri}"
+            f"&response_type=code&state=fyers_login"
+        )
+        # Check if token is valid
+        token_valid = False
+        try:
+            from auth.login import _load_saved_token, is_token_valid
+            saved = _load_saved_token()
+            if saved and is_token_valid(saved["access_token"], saved.get("client_id", client_id)):
+                token_valid = True
+        except Exception:
+            pass
+        html = f"""<!DOCTYPE html>
+<html><head><title>JBK Scanner - Login</title>
+<style>
+body {{ font-family: -apple-system, sans-serif; background: #0a0e1a; color: #f1f5f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }}
+.card {{ background: #1a1f35; border: 1px solid #2d3a52; border-radius: 16px; padding: 40px; max-width: 500px; width: 90%; text-align: center; }}
+h1 {{ background: linear-gradient(135deg, #3b82f6, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 28px; }}
+.btn {{ display: inline-block; padding: 14px 28px; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; border: none; margin: 10px 5px; text-decoration: none; }}
+.btn-primary {{ background: #3b82f6; color: white; }}
+.btn-primary:hover {{ background: #2563eb; }}
+.btn-success {{ background: #22c55e; color: white; }}
+.btn-success:hover {{ background: #16a34a; }}
+.input {{ width: 100%; padding: 14px; border: 1px solid #2d3a52; border-radius: 8px; background: #111827; color: #f1f5f9; font-size: 14px; margin: 10px 0; box-sizing: border-box; }}
+.input:focus {{ outline: none; border-color: #3b82f6; }}
+.status {{ padding: 12px; border-radius: 8px; margin: 15px 0; font-size: 14px; }}
+.status-ok {{ background: #052e16; border: 1px solid #22c55e; color: #22c55e; }}
+.status-err {{ background: #450a0a; border: 1px solid #ef4444; color: #ef4444; }}
+.step {{ text-align: left; margin: 15px 0; padding: 12px; background: #111827; border-radius: 8px; }}
+.step b {{ color: #3b82f6; }}
+</style></head><body>
+<div class="card">
+  <h1>🔍 JBK Scanner</h1>
+  <p style="color: #94a3b8; margin: 10px 0 25px;">Login to start scanning 208+ F&O stocks</p>
+  {'<div class="status status-ok">✅ Already logged in! <a href="/" style="color: #22c55e;">Go to Dashboard →</a></div>' if token_valid else ''}
+  <div class="step"><b>Step 1:</b> Click the button below to open Fyers login</div>
+  <a href="{login_url}" target="_blank" class="btn btn-primary">🔗 Login to Fyers</a>
+  <div class="step"><b>Step 2:</b> After login, you'll be redirected to a URL like:<br><code style="color:#60a5fa; word-break:break-all;">https://trade.fyers.in/...?auth_code=XXXX</code><br>Copy the <b>auth_code</b> value from that URL.</div>
+  <div class="step"><b>Step 3:</b> Paste the auth_code below and click Submit</div>
+  <form method="POST" action="/api/login/submit">
+    <input class="input" name="auth_code" placeholder="Paste auth_code here..." required />
+    <button type="submit" class="btn btn-success">✅ Submit & Login</button>
+  </form>
+</div></body></html>"""
+        self.send_response(200)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.end_headers()
+        self.wfile.write(html.encode())
+
+    def _serve_login_submit(self, params):
+        """Exchange auth_code for access_token."""
+        auth_code = params.get("auth_code", [""])[0]
+        if not auth_code:
+            self.send_response(400)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            self.wfile.write('<html><body style="background:#0a0e1a;color:#f1f5f9;font-family:sans-serif;text-align:center;padding:50px;"><h2>Error: No auth_code provided</h2><a href="/api/login" style="color:#3b82f6;">Back to login</a></body></html>'.encode())
+            return
+        try:
+            from auth.login import load_env, _resolve_credentials, _save_token, is_token_valid
+            from fyers_apiv3 import fyersModel
+            load_env()
+            client_id, secret_key, redirect_uri = _resolve_credentials()
+            # Exchange auth_code for access_token
+            session = fyersModel.SessionModel(
+                client_id=client_id, redirect_uri=redirect_uri,
+                response_type="code", state="fyers_login",
+                secret_key=secret_key, grant_type="authorization_code",
+            )
+            session.set_token(auth_code)
+            response = session.generate_token()
+            if "access_token" not in response:
+                raise Exception(f"Token generation failed: {response}")
+            access_token = response["access_token"]
+            _save_token(access_token, client_id)
+            # Verify it works
+            if is_token_valid(access_token, client_id):
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.end_headers()
+                self.wfile.write('<html><body style="background:#0a0e1a;color:#f1f5f9;font-family:sans-serif;text-align:center;padding:50px;"><h2 style="color:#22c55e;">Login Successful!</h2><p>Token saved. Redirecting to dashboard...</p><script>setTimeout(()=>window.location="/",2000);</script></body></html>'.encode())
+                # Trigger first scan
+                threading.Thread(target=_run_scan, args=("D",), daemon=True).start()
+            else:
+                raise Exception("Token was saved but validation failed")
+        except Exception as e:
+            self.send_response(400)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            msg = str(e).replace("<", "&lt;").replace(">", "&gt;")
+            error_page = (
+                '<html><body style="background:#0a0e1a;color:#f1f5f9;font-family:sans-serif;text-align:center;padding:50px;">'
+                '<h2 style="color:#ef4444;">Login Failed</h2>'
+                '<p>' + msg + '</p>'
+                '<a href="/api/login" style="color:#3b82f6;">Try again</a></body></html>'
+            )
+            self.wfile.write(error_page.encode())
+
+    def _serve_login_status(self):
+        """Check if logged in."""
+        result = {"logged_in": False}
+        try:
+            from auth.login import load_env, _resolve_credentials, _load_saved_token, is_token_valid
+            load_env()
+            client_id = _resolve_credentials()[0]
+            saved = _load_saved_token()
+            if saved and is_token_valid(saved["access_token"], saved.get("client_id", client_id)):
+                result["logged_in"] = True
+        except Exception:
+            pass
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+        self.wfile.write(json.dumps(result).encode())
+
+    def do_POST(self):
+        """Handle POST requests for watchlist and login."""
+        parsed = urlparse(self.path)
+        path = parsed.path
+        content_length = int(self.headers.get('Content-Length', 0))
+        body = self.rfile.read(content_length) if content_length > 0 else b'{}'
+        try:
+            data = json.loads(body) if body else {}
+        except json.JSONDecodeError:
+            # Try form data (URL-encoded)
+            from urllib.parse import parse_qs as _pq
+            data = _pq(body.decode('utf-8', errors='replace'))
+        params = {k: v[0] if isinstance(v, list) else v for k, v in data.items()}
+        if path == "/api/login/submit":
+            self._serve_login_submit(params)
+        elif path == "/api/watchlist/add":
+            self._add_to_watchlist(params)
+        elif path == "/api/watchlist/remove":
+            self._remove_from_watchlist(params)
+        else:
+            self.send_error(404)
+
+    def _has_valid_token(self):
+        """Check if we have a valid Fyers token."""
+        try:
+            from auth.login import load_env, _resolve_credentials, _load_saved_token, is_token_valid
+            load_env()
+            client_id = _resolve_credentials()[0]
+            saved = _load_saved_token()
+            return saved and is_token_valid(saved["access_token"], saved.get("client_id", client_id))
+        except Exception:
+            return False
 
     def _serve_dashboard(self):
         self._serve_static("index.html", "text/html")
@@ -989,26 +1160,6 @@ class DashboardHandler(SimpleHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Origin", "*")
         self.end_headers()
         self.wfile.write(json.dumps(result).encode())
-
-    def do_POST(self):
-        """Handle POST requests for watchlist add/remove."""
-        parsed = urlparse(self.path)
-        path = parsed.path
-        content_length = int(self.headers.get('Content-Length', 0))
-        body = self.rfile.read(content_length) if content_length > 0 else b'{}'
-        try:
-            data = json.loads(body) if body else {}
-        except json.JSONDecodeError:
-            data = {}
-
-        params = {k: v[0] if isinstance(v, list) else v for k, v in data.items()}
-
-        if path == "/api/watchlist/add":
-            self._add_to_watchlist(params)
-        elif path == "/api/watchlist/remove":
-            self._remove_from_watchlist(params)
-        else:
-            self.send_error(404)
 
     def _serve_watchlist(self):
         """Return the current watchlist."""

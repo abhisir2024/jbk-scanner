@@ -15,6 +15,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY . .
 
+# Create auth directory for token storage
+RUN mkdir -p /app/auth
+
 # Expose port (Render uses PORT env var)
 EXPOSE 5001
 
