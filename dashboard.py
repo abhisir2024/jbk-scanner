@@ -546,13 +546,13 @@ h1 {{ background: linear-gradient(135deg, #3b82f6, #06b6d4); -webkit-background-
   {'<div class="status status-ok">✅ Already logged in! <a href="/" style="color: #22c55e;">Go to Dashboard →</a></div>' if token_valid else ''}
   <div class="step"><b>Step 1:</b> Click the button below to open Fyers login</div>
   <a href="{login_url}" target="_blank" class="btn btn-primary">🔗 Login to Fyers</a>
-  <div class="step"><b>Step 2:</b> After login, you'll be redirected to a URL like:<br><code style="color:#60a5fa; word-break:break-all;">https://trade.fyers.in/...?auth_code=XXXX</code><br>Copy the <b>auth_code</b> value from that URL.</div>
-  <div class="step"><b>Step 3:</b> Paste the FULL redirect URL or just the auth_code below</div>
+  <div class="step"><b>Step 2:</b> After login, you'll land on:<br><code style="color:#60a5fa; word-break:break-all;">trade.fyers.in/api-login/redirect-uri/index.html?auth_code=XXXX</code></div>
+  <div class="step" style="background:#052e16;border:1px solid #22c55e;"><b style="color:#22c55e;">FASTEST WAY:</b> In the address bar, replace<br><code style="color:#ef4444;">trade.fyers.in/api-login/redirect-uri/index.html</code><br>with<br><code style="color:#22c55e;">jbk-scanner.onrender.com/api/callback</code><br>Then press Enter! (Do this within 60 seconds)</div>
+  <div class="step"><b>OR paste here:</b></div>
   <form method="POST" action="/api/login/submit">
     <input class="input" name="auth_code" placeholder="Paste full URL or auth_code here..." required autofocus />
     <button type="submit" class="btn btn-success">Submit & Login</button>
   </form>
-  <p style="color:#64748b;font-size:12px;margin-top:15px;">Tip: You can paste the entire redirect URL - the code extracts the auth_code automatically</p>
 </div></body></html>"""
         self.send_response(200)
         self.send_header("Content-Type", "text/html; charset=utf-8")
