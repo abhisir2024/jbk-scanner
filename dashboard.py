@@ -504,14 +504,8 @@ class DashboardHandler(SimpleHTTPRequestHandler):
         from auth.login import load_env, _resolve_credentials
         load_env()
         client_id, secret_key, _ = _resolve_credentials()
-        # Detect Render.com URL and use it as redirect_uri
-        host = os.environ.get("RENDER_EXTERNAL_URL", "")
-        if host:
-            # On Render: redirect back to our /api/callback
-            redirect_uri = host.rstrip("/") + "/api/callback"
-        else:
-            # Local: use Fyers standard redirect
-            redirect_uri = "https://trade.fyers.in/api-login/redirect-uri/index.html"
+        # Always use the Fyers standard redirect URI (must match Fyers app config)
+        redirect_uri = "https://trade.fyers.in/api-login/redirect-uri/index.html"
         login_url = (
             f"https://api-t1.fyers.in/api/v3/generate-authcode"
             f"?client_id={client_id}"
@@ -553,11 +547,12 @@ h1 {{ background: linear-gradient(135deg, #3b82f6, #06b6d4); -webkit-background-
   <div class="step"><b>Step 1:</b> Click the button below to open Fyers login</div>
   <a href="{login_url}" target="_blank" class="btn btn-primary">🔗 Login to Fyers</a>
   <div class="step"><b>Step 2:</b> After login, you'll be redirected to a URL like:<br><code style="color:#60a5fa; word-break:break-all;">https://trade.fyers.in/...?auth_code=XXXX</code><br>Copy the <b>auth_code</b> value from that URL.</div>
-  <div class="step"><b>Step 3:</b> Paste the auth_code below and click Submit</div>
+  <div class="step"><b>Step 3:</b> Paste the FULL redirect URL or just the auth_code below</div>
   <form method="POST" action="/api/login/submit">
-    <input class="input" name="auth_code" placeholder="Paste auth_code here..." required />
-    <button type="submit" class="btn btn-success">✅ Submit & Login</button>
+    <input class="input" name="auth_code" placeholder="Paste full URL or auth_code here..." required autofocus />
+    <button type="submit" class="btn btn-success">Submit & Login</button>
   </form>
+  <p style="color:#64748b;font-size:12px;margin-top:15px;">Tip: You can paste the entire redirect URL - the code extracts the auth_code automatically</p>
 </div></body></html>"""
         self.send_response(200)
         self.send_header("Content-Type", "text/html; charset=utf-8")
@@ -566,9 +561,15 @@ h1 {{ background: linear-gradient(135deg, #3b82f6, #06b6d4); -webkit-background-
 
     def _serve_login_submit(self, params):
         """Exchange auth_code for access_token."""
-        auth_code = params.get("auth_code", [""])[0]
-        # Allow user to also pass redirect_uri from the full URL they copied
-        redirect_override = params.get("redirect_uri", [""])[0]
+        raw_input = params.get("auth_code", [""])[0]
+        # Extract auth_code from full URL if needed
+        if "auth_code=" in raw_input:
+            from urllib.parse import urlparse as _urlparse, parse_qs as _pq
+            parsed = _urlparse(raw_input)
+            qs = _pq(parsed.query)
+            auth_code = qs.get("auth_code", [raw_input])[0]
+        else:
+            auth_code = raw_input.strip()
         if not auth_code:
             self.send_response(400)
             self.send_header("Content-Type", "text/html; charset=utf-8")
