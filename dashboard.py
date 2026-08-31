@@ -520,38 +520,38 @@ class DashboardHandler(SimpleHTTPRequestHandler):
             if saved and is_token_valid(saved["access_token"], saved.get("client_id", client_id)):
                 token_valid = True
         except Exception:
-            pass
-        html = f"""<!DOCTYPE html>
+            pass        html = f"""<!DOCTYPE html>
 <html><head><title>JBK Scanner - Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body {{ font-family: -apple-system, sans-serif; background: #0a0e1a; color: #f1f5f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }}
-.card {{ background: #1a1f35; border: 1px solid #2d3a52; border-radius: 16px; padding: 40px; max-width: 500px; width: 90%; text-align: center; }}
-h1 {{ background: linear-gradient(135deg, #3b82f6, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 28px; }}
-.btn {{ display: inline-block; padding: 14px 28px; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; border: none; margin: 10px 5px; text-decoration: none; }}
+body {{ font-family: -apple-system, sans-serif; background: #0a0e1a; color: #f1f5f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }}
+.card {{ background: #1a1f35; border: 1px solid #2d3a52; border-radius: 16px; padding: 40px; max-width: 480px; width: 100%; text-align: center; }}
+h1 {{ background: linear-gradient(135deg, #3b82f6, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 28px; margin-bottom: 5px; }}
+.btn {{ display: block; width: 100%; padding: 16px; border-radius: 10px; font-size: 17px; font-weight: 700; cursor: pointer; border: none; margin: 12px 0; text-decoration: none; text-align: center; box-sizing: border-box; }}
 .btn-primary {{ background: #3b82f6; color: white; }}
 .btn-primary:hover {{ background: #2563eb; }}
-.btn-success {{ background: #22c55e; color: white; }}
+.btn-success {{ background: #22c55e; color: white; font-size: 18px; }}
 .btn-success:hover {{ background: #16a34a; }}
-.input {{ width: 100%; padding: 14px; border: 1px solid #2d3a52; border-radius: 8px; background: #111827; color: #f1f5f9; font-size: 14px; margin: 10px 0; box-sizing: border-box; }}
+.input {{ width: 100%; padding: 14px; border: 2px solid #2d3a52; border-radius: 10px; background: #111827; color: #f1f5f9; font-size: 15px; margin: 8px 0; box-sizing: border-box; }}
 .input:focus {{ outline: none; border-color: #3b82f6; }}
-.status {{ padding: 12px; border-radius: 8px; margin: 15px 0; font-size: 14px; }}
-.status-ok {{ background: #052e16; border: 1px solid #22c55e; color: #22c55e; }}
-.status-err {{ background: #450a0a; border: 1px solid #ef4444; color: #ef4444; }}
-.step {{ text-align: left; margin: 15px 0; padding: 12px; background: #111827; border-radius: 8px; }}
+.step {{ text-align: left; margin: 12px 0; padding: 14px; background: #111827; border-radius: 10px; font-size: 14px; line-height: 1.6; }}
 .step b {{ color: #3b82f6; }}
+.step-num {{ display: inline-block; background: #3b82f6; color: white; width: 26px; height: 26px; border-radius: 50%; text-align: center; line-height: 26px; font-weight: 700; font-size: 13px; margin-right: 8px; }}
+.ok {{ background: #052e16; border: 1px solid #22c55e; color: #22c55e; padding: 12px; border-radius: 10px; margin-bottom: 15px; }}
+.ok a {{ color: #22c55e; }}
+code {{ background: #1e293b; padding: 2px 6px; border-radius: 4px; font-size: 13px; }}
 </style></head><body>
 <div class="card">
-  <h1>🔍 JBK Scanner</h1>
-  <p style="color: #94a3b8; margin: 10px 0 25px;">Login to start scanning 208+ F&O stocks</p>
-  {'<div class="status status-ok">✅ Already logged in! <a href="/" style="color: #22c55e;">Go to Dashboard →</a></div>' if token_valid else ''}
-  <div class="step"><b>Step 1:</b> Click the button below to open Fyers login</div>
-  <a href="{login_url}" target="_blank" class="btn btn-primary">🔗 Login to Fyers</a>
-  <div class="step"><b>Step 2:</b> After login, you'll land on:<br><code style="color:#60a5fa; word-break:break-all;">trade.fyers.in/api-login/redirect-uri/index.html?auth_code=XXXX</code></div>
-  <div class="step" style="background:#052e16;border:1px solid #22c55e;"><b style="color:#22c55e;">FASTEST WAY:</b> In the address bar, replace<br><code style="color:#ef4444;">trade.fyers.in/api-login/redirect-uri/index.html</code><br>with<br><code style="color:#22c55e;">jbk-scanner.onrender.com/api/callback</code><br>Then press Enter! (Do this within 60 seconds)</div>
-  <div class="step"><b>OR paste here:</b></div>
+  <h1>JBK Scanner</h1>
+  <p style="color: #94a3b8; margin: 0 0 20px;">Login with Fyers to start scanning</p>
+  {'<div class="ok">Already logged in! <a href="/">Go to Scanner</a></div>' if token_valid else ''}
+  <div class="step"><span class="step-num">1</span><b>Click to open Fyers login</b></div>
+  <a href="{login_url}" target="_blank" class="btn btn-primary">Open Fyers Login</a>
+  <div class="step"><span class="step-num">2</span><b>Login on Fyers</b> then copy the <code>auth_code</code> from the redirect URL</div>
+  <div class="step"><span class="step-num">3</span><b>Paste the full URL or auth_code below</b></div>
   <form method="POST" action="/api/login/submit">
-    <input class="input" name="auth_code" placeholder="Paste full URL or auth_code here..." required autofocus />
-    <button type="submit" class="btn btn-success">Submit & Login</button>
+    <input class="input" name="auth_code" placeholder="Paste auth_code or full URL here" required autofocus />
+    <button type="submit" class="btn btn-success">Login</button>
   </form>
 </div></body></html>"""
         self.send_response(200)
