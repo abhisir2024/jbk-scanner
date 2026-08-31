@@ -581,10 +581,8 @@ h1 {{ background: linear-gradient(135deg, #3b82f6, #06b6d4); -webkit-background-
             from fyers_apiv3 import fyersModel
             load_env()
             client_id, secret_key, redirect_uri = _resolve_credentials()
-            # Use the Fyers standard redirect URI (matches what Fyers redirected to)
+            # Always use the Fyers standard redirect URI
             FYERS_REDIRECT = "https://trade.fyers.in/api-login/redirect-uri/index.html"
-            if redirect_override:
-                redirect_uri = redirect_override
             # Exchange auth_code for access_token
             session = fyersModel.SessionModel(
                 client_id=client_id, redirect_uri=FYERS_REDIRECT,
