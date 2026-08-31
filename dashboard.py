@@ -545,12 +545,12 @@ code {{ background: #1e293b; padding: 2px 6px; border-radius: 4px; font-size: 13
   <h1>JBK Scanner</h1>
   <p style="color: #94a3b8; margin: 0 0 20px;">Login with Fyers to start scanning</p>
   {'<div class="ok">Already logged in! <a href="/">Go to Scanner</a></div>' if token_valid else ''}
-  <div class="step"><span class="step-num">1</span><b>Click to open Fyers login</b></div>
+  <div class="step"><span class="step-num">1</span><b>Open Fyers login</b> (new tab will open)</div>
   <a href="{login_url}" target="_blank" class="btn btn-primary">Open Fyers Login</a>
-  <div class="step"><span class="step-num">2</span><b>Login on Fyers</b> then copy the <code>auth_code</code> from the redirect URL</div>
-  <div class="step"><span class="step-num">3</span><b>Paste the full URL or auth_code below</b></div>
+  <div class="step"><span class="step-num">2</span><b>After login, you'll be redirected. In the address bar press:</b><br><br><code style="font-size:15px;color:#22c55e;">Ctrl+A</code> then <code style="font-size:15px;color:#22c55e;">Ctrl+C</code></div>
+  <div class="step"><span class="step-num">3</span><b>Come back here, press:</b><br><br><code style="font-size:15px;color:#3b82f6;">Ctrl+V</code> then click <b>Login</b></div>
   <form method="POST" action="/api/login/submit">
-    <input class="input" name="auth_code" placeholder="Paste auth_code or full URL here" required autofocus />
+    <input class="input" name="auth_code" placeholder="Paste here (Ctrl+V)" required autofocus />
     <button type="submit" class="btn btn-success">Login</button>
   </form>
 </div></body></html>"""
